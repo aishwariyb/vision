@@ -34,11 +34,31 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Boogaloo" !important;
 	font-weight: normal !important;
 	color: #666;
 	margin: 0;
 	padding: 0;
+}
+
+.heading-collapsible{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.body-collapsible p{
+    margin: 0 auto;
+    
+}
+
+.heading-carousel{
+    font-family: "Berlin Sans FB","Goudy Stout Regular";
+}
+
+.avatar view-team mask body-carousel{
+    font-family: "Copperplate Gothic",Consolas;
+    line-height: 1.5;
+    padding: auto;
 }
 
 .title {
@@ -1078,7 +1098,7 @@ a.buy:hover {
 }
 
 #footer-menu-logo img {
-	margin-top: 5px;
+	margin-top: 10px;
 }
 
 #footer-menu-links {
@@ -1549,13 +1569,5 @@ form#newsletter input[type=submit] {
 		min-height: 64px;
 	}
 	
-	.navbar, .navbar-inner, .nav {
-		min-height: 0px;
-		width:100%;
-	}
-	
-	#footer-menu-links {
-		float:right;
-	}
 }
 	
