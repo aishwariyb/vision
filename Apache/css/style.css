@@ -44,6 +44,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
     font-weight: bold;
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .body-collapsible p{
@@ -53,6 +54,37 @@ h1, h2, h3, h4, h5, h6 {
 
 .heading-carousel{
     font-family: "Berlin Sans FB","Goudy Stout Regular";
+}
+#past-event{
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+}
+
+.body-carousel {
+    font-size: 14px;
+    margin:auto;
+    font-family: "Copperplate Gothic",Consolas;
+    line-height: 1.5;
+    padding: 0;
+}
+
+.body-carousel-pe {
+    font-size: 14px;
+    margin:0;
+    font-family: "Copperplate Gothic",Consolas;
+    line-height: 1.5;
+    padding: inherit;
+    text-align: center;
+    width: 300px;
+    height: 200px;
 }
 
 .avatar view-team mask body-carousel{
@@ -1578,4 +1610,4 @@ form#newsletter input[type=submit] {
  		float:right;
  	}
 }	
-	
+	
