@@ -1,50 +1,118 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-	<!-- start: Meta -->
-	<meta charset="utf-8">
-	<title>Events</title> 
-	<meta name="description" content="GotYa Free Bootstrap Theme"/>
-	<meta name="keywords" content="Template, Theme, web, html5, css3, Bootstrap" />
-	<meta name="author" content="?ukasz Holeczek from creativeLabs"/>
-	<!-- end: Meta -->
-	
-	<!-- start: Mobile Specific -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- end: Mobile Specific -->
-	
-	<!-- start: Facebook Open Graph -->
-	<meta property="og:title" content=""/>
-	<meta property="og:description" content=""/>
-	<meta property="og:type" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:image" content=""/>
-	<!-- end: Facebook Open Graph -->
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 
-    <!-- start: CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
-	<!-- end: CSS -->
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-</head>
-<body>
-	
-	<!--start: Header -->
-	<header style="height:70px">
+        <!-- start: CSS -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap-responsive.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+        <!-- end: CSS -->
+        
+        <title>Events</title>
+        
+        <!-- start: Facebook Open Graph -->
+        <meta property="og:title" content=""/>
+        <meta property="og:description" content=""/>
+        <meta property="og:type" content=""/>
+        <meta property="og:url" content=""/>
+        <meta property="og:image" content=""/>
+        <!-- end: Facebook Open Graph -->
+        
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		
-		<!--start: Container -->
-		<div class="container">
+		<style type="text/css">
+		/* Style the buttons that are used to open and close the accordion panel */
+		button.accordionV {
+			background-color: #fff;
+			border-bottom: 1px solid #ddd;
+			color: #444;
+			cursor: pointer;
+			padding: 18px;
+            font-size: 18px;
+			width: 100%;
+			text-align: center;
+			outline: none;
+			transition: 0.4s;
+		}
+
+		/* Add a background color to the button when you move the mouse over it (hover) */
+		button.accordionV:hover {
+			background-color: #ddd;
+		}
+
+		/* Style the accordion panel. Note: hidden by default */
+		div.panel {
+			padding: 0px;
+			display: block;
+			max-height: 0px;
+			overflow: hidden;
+			transition: max-height 0.2s ease-out;
+		}
+		</style>
+	
+		<!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+        <!--Other element insitialisations-->
+        <script type="text/javascript" language="javascript">
+            $( document ).ready(function(){
+
+                $('.carousel').carousel(); //carousel init
+				var acc = document.getElementsByClassName("accordionV");
+				function toggleAccordion(acc,option) {
+					
+					var panel = acc.nextElementSibling;
+					if (option == "close"){
+					  panel.style.maxHeight = null;
+					  panel.style.padding = "0px";
+					  acc.classList.remove("active");
+					} else {
+					  panel.style.maxHeight = panel.scrollHeight-70 + 'px';
+					  panel.style.padding = "2rem";
+					  acc.classList.add("active");
+					} 
+				}
+				
+				var i;
+
+				for (i = 0; i < acc.length; i++) {
+				  acc[i].onclick = function(){
+					var j;
+					
+					var panel = this.nextElementSibling;
+					var whatToDoBro = "open";
+					if(panel.style.maxHeight)
+						whatToDoBro = "close"
+					
+					for(j = 0;j < acc.length; ++j)
+						toggleAccordion(acc[j],"close");
+					
+					toggleAccordion(this,whatToDoBro);
+					
+					
+				  };
+				}
+            });
+		</script>
+	
+    </head>
+
+    <body>
+        
+        <header style="height:70px">
+        <!--start: Container -->
+		<div class="container">   
 			
 			<!--start: Row -->
 			<div class="row">
@@ -98,333 +166,290 @@
 			<!--end: Row -->
 			
 		</div>
-		<!--end: Container-->			
-			
-	</header>
-	<!--end: Header-->
-	<!--start: Events Code-->
-	<h1>Events Cards</h1>
-	<!--end: Events Code-->
-		<div id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="card">
-    <div class="card-header" role="tab" id="headingOne">
-      <h5 class="mb-0">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Workshops
-        </a>
-      </h5>
-    
+		<!--end: Container-->	
+        </header>
+        
+        <!-- starts: Collapsible -->         
+            
+            <!-- NOESIS : STARTS -->
+           
+            <button class="accordionV heading-collapsible">Noesis</button>
 
-    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-      <div class="card-block">
-          <h1>Technosearch</h1>
-        <div id="wrapper">
-				
-		<!--start: Container -->
-    	<div class="container">
-	
-      		<!-- start: Row -->
-      		<div class="row">
-	
-        		<div class="span4">
-          			<div class="avatar view-team">
-				        <img src="img/code14.jpg" alt="team member">
-							<div class="mask">
-                                <h2>Code Kreigers 1.0</h2>
-                                <p>
-                                    Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.    
-                                </p>
-                                
-                            </div>
-                    </div>
-        		</div>
-
-        		<div class="span4">
-          			<div class="avatar view-team">
-				        <img src="img/code15.jpg" alt="team member">
-							<div class="mask">
-                                <h2>Code Kreigers 2.0</h2>
-                                <p>
-                                    Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.   
-                                </p>
-                                
-                            </div>
-                    </div>
-        		</div>
+                <div class="panel">
                 
-                <div class="span4">
-          			<div class="avatar view-team">
-				        <img src="img/code%20k.jpg" alt="team member">
-							<div class="mask">
-                                <h2>Code Kreigers 3.0</h2>
-                                <p>
-                                    Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.   
-                                </p>
-                                
+                    <!-- Noesis Description -->
+                    <div class="body-collapsible">
+                        <p>
+                            NOESIS is the signature event of Vision. It was started in year 2011 and still continues to be the biggest technical event of the institute after Technosearch, the annual technical festival of the college. It is a two day mega technical event conducted in mid September every year. In the past few years NOESIS received a great response. In year 2k16, it was conducted on 17th and 18th September. Students from various colleges enthusiastically participated in great number. There were more than 1000 participations. During NOESIS usually branch specific technical workshops are organised so as to acquaint students with the recent advancements in their branches giving them an edge over with hands on projects.
+                        </p>
+                    </div>
+
+                    <div class="carousel">
+                        <!--<a class="carousel-item" href="#one!"><img src="http://lorempixel.com/800/400/food/1"></a>
+                        <a class="carousel-item" href="#two!"><img src="http://lorempixel.com/800/400/food/2"></a>
+                        <a class="carousel-item" href="#three!"><img src="http://lorempixel.com/800/400/food/3"></a>
+                        <a class="carousel-item" href="#four!"><img src="http://lorempixel.com/800/400/food/4"></a>-->
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/Noesis/python.png" alt="team member">
+                                <div class="mask">
+                                    <h2 class="heading-carousel">Byte The Code</h2>
+                                    <div class="body-carousel">
+                                    <p>
+                                        Byte the code is a workshop on python. In this workshop we aim to introduce students to the main structure and working of Python. This year it witnessed more than 400 participations. The highlight of the event was a project on web scrapping. To wrap things up there was a quiz which tested coding skills and intellect of the students, and the winners were awarded. The enthusiasm of students was overwhelming.     
+                                    </p>
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/Noesis/futurena.png" alt="team member">
+                                <div class="mask">
+                                    <h2 class="heading-carousel">Futurena</h2>
+                                    <div class="body-carousel">
+                                    <p>
+                                        NOESIS is the signature event of Vision. It is a two day mega technical event conducted in mid September every year. Have you ever wondered how a small digital watch on your wrist works?? Or ever pondered to enter in the world of technology and go beyond theory? So here comes Futurena, branch specific technical workshop organized in Noesis so as to acquaint students with the recent advancements in electronics circuits  giving them an edge over with hands on projects in the workshop itself. 
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/Noesis/cad.png" alt="team member">
+                                <div class="mask">
+                                    <h2 class="heading-carousel">Auto-Cad</h2>
+                                    <div class="body-carousel">
+                                    <p>
+                                        Were you ever good at drawing diagrams in the School? Ever thought of how the buildings or bridges are "Drawn"?Have a small glimpse of AutoCAD,which is a computer-aided drafting software program used to create blueprints for buildings, bridges, and computer chips, among other things.
+
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/Noesis/aakriti.png" alt="team member">
+                                <div class="mask">
+                                    <h2 class="heading-carousel">Aakriti</h2>
+                                    <div class="body-carousel">
+                                    <p>
+                                        AAKRITI, a workshop organised to shape and mould the foundations of newly generated buds of CIVIL ENGINEERING. Its main focus was on creating an interactive session to enlighten Civil Engineering students about their branch and open up the new doors of excellence.
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/Noesis/aspentech.png" alt="team member">
+                                <div class="mask">
+                                    <h2 class="heading-carousel">Aspen-Tech</h2>
+                                    <div class="body-carousel">
+                                    <p>
+                                        One of the workshops in Noesis, ASPEN-TECH is being organized every year. It’s a chemical engineering software but anyone who is interested to learn, can attend the event. The event is totally student interactive.               
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        </div>
+                    
+                </div>
+            <!-- NOESIS : ENDS -->
+
+            <!-- TECHNO : STARTS -->
+            <button class="accordionV heading-collapsible">TechnoSearch</button>
+            <div class="panel">
+                    <!-- Techno Description -->
+                    <div class="body-collapsible">
+                        <p>
+                            Technosearch is the annual technical festival of NIT-BHOPAL which is held during the odd semester every year. The festival provides an opportunity to the many hundreds of aspiring young engineers to embrace success.VISION organized various events on discrete fields be it  electronics,electrical,coding,robotics, civil related events or even fun events. To name a few we had electrical and electronic based events like Circuitrun,Electrobuzz and Electrique ; Civil based event , Cantilever ; Coding events like Code Kriegers .We had a huge participation from colleges all over Bhopal.
+
+                        </p>
                     </div>
-        		</div>
-                
-      		</div></div>
+
+                    <div class="carousel">
+
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/techno/code%20k.jpg" alt="team member">
+                                <div class="mask">
+                                    <h2 class="heading-carousel">Code Kreigers</h2>
+                                    <div class="body-carousel">
+                                    <p> 
+                                        Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.  
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/techno/ROBO%20FIFA.jpg" alt="team member">
+                                <div class="mask">
+                                    <h2 class="heading-carousel">Robo Fifa</h2>
+                                    <div class="body-carousel">
+                                    <p>
+                                        You have played a lot Of FIFA now on your laptops. Now get ready geeks, VISION brings you its biggest platform for FIFA fans. This is what you have to do... Design your own manual bots, Team up or play single, and crush your rivals with your amazing strategies. Time for video games is over. It’s time to get down on the field, show your strategic gameplay, tech-mind and team game to the world.
+
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/techno/ELECTROBUZZ.jpg" alt="team member">
+                                <div class="mask">
+                                    <h2 class="heading-carousel">Electrobuzz</h2>
+                                    <div class="body-carousel">
+                                    <p>
+                                        All that time when you have been watching those interesting TV series and movies, your parents must have told you to stop killing time. Now is your turn, gear up for the next version of ELECTROBUZZ with your Line followers. A flawless design will surely surpass the others. Complete the twisted path in time while playing our version of PICTIONARY. A combo of your tech creativity and knowledge of those so called ‘time wasting ‘ movies will take you to the finale where you will face those very best among all. 
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/techno/circuit%20run.jpg" alt="team member">
+                                <div class="mask">
+                                    <h2 class="heading-carousel">Circuit - Run</h2>
+                                    <div class="body-carousel">
+                                    <p>
+                                        Bring out the Sherlock within you to decipher the brainstorming clues and also scratch your heads while we riddle you in the very first round. So brace your wits and buckle up, Knock down the questions and get down to the real hunt.                
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/techno/TECH-E.jpg" alt="team member">
+                                <div class="mask">
+                                    <h2 class="heading-carousel">Tech-Enigma</h2>
+                                    <div class="body-carousel">
+                                    <p>
+                                        A fun -cum- technical event. Students are required to participate in a team of two. It consists of three rounds namely, BIZ round, Questionnaire, Brain Teaser. Make your way through the fun and witty questions of these rounds and get ready for the BIG PICTURE-‘The Brain Teaser’. It will be the ultimate test of your team work and circuit debugging skills                
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
             
-    </div>
-  </div>
-        </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="headingTwo">
-      <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Tehno Search
-        </a>
-      </h5>
-    </div>
-      
-        </div>
-      </div>
-      
-        <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-      <div class="card-block">
-        <h1>Technosearch</h1>
+            <!-- TEHCHNO : ENDS -->
             
-			<!-- start: Row -->
-			<div class="row">
-				
-				<!-- start: Icon Boxes -->
-				<div class="icons-box-vert-container">
+            <!-- WORKSHOP: BEGINS -->
+            <button class="accordionV heading-collapsible">Workshops</button>
+            <div class="panel">
+                    <!-- WOrkshop Description -->
+                    <div class="body-collapsible">
+                        <p>
+                            Vision had a flourishing adventure in the previous sessions organizing workshops with a wide range of topics starting from a basic WLT session to a whole new  level of an Inter-college  Arduino  workshop , involving students from all over Bhopal. Vision helped various participants to build their own bots, modify them and prepared to a level for competing at National Level techfest. Vision also provided insight in coding world through iniatiative such as Exploring C and Web Development using HTML &amp; CSS.
+                        </p>
+                        <br>
+                    </div>
 
-					<!-- start: Icon Box Start -->
-                    <div class="span4">
-                        <div class="avatar view-team">
-                            <img src="img/code%20k.jpg" alt="team member">
-                                <div class="mask">
-                                    <h2>Code Kreigers 3.0</h2>
-                                    <p>
-                                        Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.   
-                                    </p>
-                                </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-					<!-- end: Icon Box-->
+                    <div class="carousel">
 
-					<!-- start: Icon Box Start -->
-					<div class="span4">
-                        <div class="avatar view-team">
-                            <img src="img/code%20k.jpg" alt="team member">
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/wlt.jpg" alt="White Line Tracer Workshop">
                                 <div class="mask">
-                                    <h2>Code Kreigers 3.0</h2>
+                                    <h2 class="heading-carousel">White Line Tracer Workshop</h2>
+                                    <div class="body-carousel">
                                     <p>
-                                        Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.   
+                                        One of the main workshops organized by VISION every year comprising of basic circuits on breadboard, sensors ,introduction to IC’s , etc. to hone interest towards Embedded Systems. Using these components we prepare the students to form an “Automatic White Line Tracer“ robot , which would further help them to compete in the competitions nationwide!.  
                                     </p>
+                                    </div>
                                 </div>
-                            <div class="clear"></div>
+                            </div>
                         </div>
-                    </div>
-					<!-- end: Icon Box -->
 
-					<!-- start: Icon Box Start -->
-					<div class="span4">
-                        <div class="avatar view-team">
-                            <img src="img/code%20k.jpg" alt="team member">
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/C%20workshop.jpg" alt="team member">
                                 <div class="mask">
-                                    <h2>Code Kreigers 3.0</h2>
+                                    <h2 class="heading-carousel">C Workshop</h2>
+                                    <div class="body-carousel">
                                     <p>
-                                        Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.   
-                                    </p>
-                                </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-					<!-- end: Icon Box -->
+                                        C Workshops are organized annually at the beginning of the session by the Computer Science team of VISION to guide the newcomers in the field of computer science. It’s a three day ride where the team begins teaching the language from the most basic level .Students from every branch attended the workshop in order to get well acquainted with the basics of the language and move ahead in the world  of programming. Students attended the workshop with great enthusiasm. VISION also received a huge response from students outside MANIT.
 
-					<!-- start: Icon Box Start -->
-					<div class="span4">
-                        <div class="avatar view-team">
-                            <img src="img/code%20k.jpg" alt="team member">
-                                <div class="mask">
-                                    <h2>Code Kreigers 3.0</h2>
-                                    <p>
-                                        Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.   
-                                    </p>
-                                </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-					<!-- end: Icon Box -->
-                    
-                    <div class="span4">
-                        <div class="avatar view-team">
-                            <img src="img/code%20k.jpg" alt="team member">
-                                <div class="mask">
-                                    <h2>Code Kreigers 3.0</h2>
-                                    <p>
-                                        Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.   
-                                    </p>
-                                </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                    
-                    
-				</div>
-				<!-- end: Icon Boxes -->
-				<div class="clear"></div>
-			</div>
-			<!-- end: Row -->
-			</div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" role="tab" id="headingThree">
-      <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Noesis
-        </a>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
-      <div class="card-block">
-          <h1>Noesis</h1>
-          <!-- start: Row -->
-			<div class="row">
-				
-				<!-- start: Icon Boxes -->
-				<div class="icons-box-vert-container">
 
-					<!-- start: Icon Box Start -->
-                    <div class="span4">
-                        <div class="avatar view-team">
-                            <img src="img/code%20k.jpg" alt="team member">
-                                <div class="mask">
-                                    <h2>Code Kreigers 3.0</h2>
-                                    <p>
-                                        Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.   
                                     </p>
+                                    </div>
                                 </div>
-                            <div class="clear"></div>
+                            </div>
                         </div>
-                    </div>
-					<!-- end: Icon Box-->
 
-					<!-- start: Icon Box Start -->
-					<div class="span4">
-                        <div class="avatar view-team">
-                            <img src="img/code%20k.jpg" alt="team member">
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/manual.jpg" alt="team member">
                                 <div class="mask">
-                                    <h2>Code Kreigers 3.0</h2>
+                                    <h2 class="heading-carousel">Manual Bot Workshop</h2>
+                                    <div class="body-carousel">
                                     <p>
-                                        Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.   
+                                        Students from all branches participated for this workshop involving building of a manual bot controlled by a remote controller. Furthermore we had another session covering  theory and hands on of a “Wireless Remote Controlled” robot which introduced everyone with the concept of wireless communication. We had a huge participation of around 400 students .
                                     </p>
+                                    </div>
                                 </div>
-                            <div class="clear"></div>
+                            </div>
                         </div>
-                    </div>
-					<!-- end: Icon Box -->
+                        
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/arduino.jpg" alt="team member">
+                                <div class="mask">
+                                    <h2 class="heading-carousel">Arduino Workshop</h2>
+                                    <div class="body-carousel">
+                                    <p>
+                                        This workshop was the best one of each session. Workshop on microcontroller ‘Arduino’ consists of participants from all colleges of Bhopal viz. LNCT, OCT, RITS to name a few. It was a platform for everyone to prepare them for participating in IIT Roorkee techfest Cognizance.Around 600 participations were noted with 450 from our college and 150 from other colleges in 2016. 
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-					<!-- start: Icon Box Start -->
-					<div class="span4">
-                        <div class="avatar view-team">
-                            <img src="img/code%20k.jpg" alt="team member">
+                        <div class="carousel-item" style="width:400px">
+                            <div class="avatar view-team">
+                                <img src="eImg/webDeve.jpg" alt="team member">
                                 <div class="mask">
-                                    <h2>Code Kreigers 3.0</h2>
+                                    <h2 class="heading-carousel">Web-Development Workshop</h2>
+                                    <div class="body-carousel">
                                     <p>
-                                        Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.   
+                                        Web development workshops are organized annually by the computer science and engineering team of VISION for the students inside and outside MANIT. These workshops are meant to guide the students in order to move ahead in the world of web development. These include sessions of   HTML  , CSS , Java Script and PHP for two consecutive days . VISION each year receives huge from students of various institutes.                  
                                     </p>
+                                    </div>
                                 </div>
-                            <div class="clear"></div>
+                            </div>
                         </div>
+                        
                     </div>
-					<!-- end: Icon Box -->
-
-					<!-- start: Icon Box Start -->
-					<div class="span4">
-                        <div class="avatar view-team">
-                            <img src="img/code%20k.jpg" alt="team member">
-                                <div class="mask">
-                                    <h2>Code Kreigers 3.0</h2>
-                                    <p>
-                                        Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.   
-                                    </p>
-                                </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-					<!-- end: Icon Box -->
-                    
-                    <div class="span4">
-                        <div class="avatar view-team">
-                            <img src="img/code%20k.jpg" alt="team member">
-                                <div class="mask">
-                                    <h2>Code Kreigers 3.0</h2>
-                                    <p>
-                                        Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.   
-                                    </p>
-                                </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="span4">
-                        <div class="avatar view-team">
-                            <img src="img/code%20k.jpg" alt="team member">
-                                <div class="mask">
-                                    <h2>Code Kreigers 3.0</h2>
-                                    <p>
-                                        Code Kreigers was started in year 2014. Code kreigers 3.0 was a massive success with more than 200 participations. It was a technical and fun event with 3 offline and 1 online round. The winners of online round were given direct entry to the second round of offline event. First round was a treasure hunt. For the first time in the history of Central India an app based treasure hunt was organised. Second round was a debugging round. Third round was coding round. Coding is not only about making complex code rather it's an art. Students enjoyed the exposure to the journey of coding world.   
-                                    </p>
-                                </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                    
-				</div>
-				<!-- end: Icon Boxes -->
-				<div class="clear"></div>
-			</div>
-			<!-- end: Row -->
-			
-      </div>
-    </div>
-  </div>
-</div>	
-	<!--start: Wrapper-->
-	
-			<!-- end: Row -->
-      		
-			
-		<!--
-			<!-- start Clients List -->	
-			<!--<div class="clients-carousel">
-		<!--
-				<ul class="slides clients">
-					<li><img src="img/code_icon.png" alt=""/></li>
-					<li><img src="img/c_icon.png" alt=""/></li>	
-					<li><img src="img/code_icon.png" alt=""/></li>
-					<li><img src="img/c_icon.png" alt=""/></li>
-					<li><img src="img/code_icon.png" alt=""/></li>
-					<li><img src="img/c_icon.png" alt=""/></li>
-					<li><img src="img/code_icon.png" alt=""/></li>
-					<li><img src="img/c_icon.png" alt=""/></li>
-					<li><img src="img/code_icon.png" alt=""/></li>
-					<li><img src="img/c_icon.png" alt=""/></li>		
-				</ul>
-                
-			</div>
-			<!-- end Clients List -->
-		
-			
-            
-			
-            
-			
-		</div>
-		<!--end: Container-->
-	
-	</div>
-	<!-- end: Wrapper  -->			
-
-    <!-- start: Footer Menu -->
-	<div id="footer-menu" class="">
+                </div>
+           
+            <!-- WORKSHOP : ENDS -->
+        <a href="pastEvents.html" style="text-decoration:none; color:#444;"><button id="past-event" class="heading-collapsible">Past Events</button></a>
+        
+        
+        
+        <!-- start: Footer Menu -->
+	<div id="footer-menu">
 
 		<!-- start: Container -->
 		<div class="container">
@@ -483,20 +508,5 @@
 	</div>	
 	<!-- end: Footer Menu -->
 
-<!-- start: Java Script -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="js/jquery-1.8.2.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/flexslider.js"></script>
-<!--<script src="js/carousel.js"></script>-->
-<script src="js/jquery.cslider.js"></script>
-<script src="js/slider.js"></script>
-<script defer="defer" src="js/custom.js"></script>
-<script>
-$(document).ready(function(){
-      $('.carousel').carousel();
-});</script><script>
-<!-- end: Java Script -->
-
-</body>
+    </body>
 </html>
