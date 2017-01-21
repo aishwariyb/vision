@@ -23,12 +23,14 @@
 	<!-- end: Facebook Open Graph -->
 
     <!-- start: CSS -->
-    
+    <style>
+	.nav-tabs.nav-justified{width:100%;border-bottom:0}.nav-tabs.nav-justified>li{float:none}.nav-tabs.nav-justified>li>a{margin-bottom:5px;text-align:center}.nav-tabs.nav-justified>.dropdown .dropdown-menu{top:auto;left:auto}@media (min-width:768px){.nav-tabs.nav-justified>li{display:table-cell;width:1%}.nav-tabs.nav-justified>li>a{margin-bottom:0}}.nav-tabs.nav-justified>li>a{margin-right:0;border-radius:4px}.nav-tabs.nav-justified>.active>a,.nav-tabs.nav-justified>.active>a:focus,.nav-tabs.nav-justified>.active>a:hover{border:1px solid #ddd}@media (min-width:768px){.nav-tabs.nav-justified>li>a{border-bottom:1px solid #ddd;border-radius:4px 4px 0 0}.nav-tabs.nav-justified>.active>a,.nav-tabs.nav-justified>.active>a:focus,.nav-tabs.nav-justified>.active>a:hover{border-bottom-color:#fff}}.nav-pills>li{float:left}.nav-pills>li>a{border-radius:4px}.nav-pills>li+li{margin-left:2px}.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover{color:#fff;background-color:#337ab7}.nav-stacked>li{float:none}.nav-stacked>li+li{margin-top:2px;margin-left:0}.nav-justified{width:100%}.nav-justified>li{float:none}.nav-justified>li>a{margin-bottom:5px;text-align:center}.nav-justified>.dropdown .dropdown-menu{top:auto;left:auto}@media (min-width:768px){.nav-justified>li{display:table-cell;width:1%}.nav-justified>li>a{margin-bottom:0}}
+	</style>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
-    <link href="gs/css/tooplate_style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="gs/css/slimbox2.css" type="text/css" media="screen" /> 
+    
+    
     
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
@@ -107,299 +109,557 @@
 	</header>
 	<!--end: Header-->
 <div class="bs-example bs-example-tabs " data-example-id="togglable-tabs" > 
-    <ul class="nav nav-tabs " id="myTabs" style="float: none;" role="tablist"> 
+    <ul class="nav nav-tabs nav-justified" id="myTabs" style="float: none;" role="tablist"> 
         <li role="presentation" class="active">
-            <a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Workshops</a>
+            <a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true" style="font-size:25px;font-family:Economica;font-variant:small-caps">
+			Workshops
+			</a>
         </li> 
         <li role="presentation" class="">
-            <a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Noesis</a></li>
+            <a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false" style="font-size:25px;font-family:Economica;font-variant:small-caps">Noesis</a></li>
         <li role="presentation" class=""> 
-            <a href="#Techno" role="tab" id="Techno-tab" data-toggle="tab" aria-controls="Techno" aria-expanded="false">Technosearch </a> 
+            <a href="#Techno" role="tab" id="Techno-tab" data-toggle="tab" aria-controls="Techno" aria-expanded="false" style="font-size:25px;font-family:Economica;font-variant:small-caps">Technosearch </a> 
             </li> 
     </ul> 
     <div class="tab-content" id="myTabContent" stlye="float:left;"> 
         <div class="tab-pane fade active in" role="tabpanel" id="home" aria-labelledby="home-tab"> 
-    
-            <div id="tooplate_content">
-                <ul class="kwicks">
-        
-            <li id="home" style="background: url(gs/images/1.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<img src="http://lorempixel.com/186/116/nature/1" width="100%" alt="">
-                </div>
-            </li>
-        
-            <li id="about" style="background: url(gs/images/2.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<h2>About HTML CSS</h2>
-					<img src="gs/images/tooplate_image_02.jpg" alt="Image 02" class="image_fr" />
-		            <p><em>Duis bibendum hendrerit turpis a aliquet. Duis commodo scelerisque nisl. Donec tincidunt vehicula velit, nibh pellentesque id.</em></p>
-        		    <p>Mauris luctus dapibus nibh eu aliquet. Aliquam vitae ligula eros, <a href="#">vitae ultrices libero</a>. Mauris tincidunt consectetur sodales. Pellentesque consequat, ligula non placerat posuere, nisi erat ullamcorper metus, sed pharetra purus dolor non ipsum. Quisque augue odio, posuere a lacinia ac, imperdiet porttitor justo. Morbi suscipit elit eu neque <a href="#">congue eget</a> egestas mauris sagittis.</p>
-		            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque sit amet erat turpis, ac tempus magna. Integer elit dui, dignissim quis adipiscing pretium, accumsan et eros. <a href="#">Donec nunc nisl</a>, fermentum vel auctor ac, posuere vel sem. Nulla sagittis, nunc sed imperdiet euismod, neque arcu mollis neque, eget dictum orci felis quis tellus. Nullam consequat accumsan lacus, volutpat pellentesque velit venenatis at. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a> and <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>.</p>
-                </div>
-            </li>
-        
-            <li id="social"style="background: url(gs/images/3.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<h2>Social Networking</h2>
-                    <p><em>Sed varius scelerisque turpis, a pellentesque nisi ullamcorper vitae. Sed interdum ante ac ipsum feugiat nec ullamcorper justo dictum.</em></p>
-                    <ul class="social_links">
-                    	<li><a href="#" class="facebook">Facebook</a></li>
-                        <li><a href="#" class="flickr">Flickr</a></li>
-                        <li><a href="#" class="linkedin">Linkedin</a></li>
-                        <li><a href="#" class="twitter">Twitter</a></li>
-                        <li><a href="#" class="yahoo">Yahoo</a></li>
-                        <li><a href="#" class="youtube">Youtube</a></li>
-                    </ul>
+				<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/jssor.slider-22.1.6.mini.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
 
-                </div>
-            </li>
-        
-            <li id="portfolio"style="background: url(gs/images/4.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<h2>Portfolio</h2>
-                    <ul id="gallery">
-                        <li><a href="gs/images/portfolio/01-l.jpg" rel="lightbox[portfolio]" title="Integer sed enim at tortor aliquam sollicitudin."><img src="gs/images/portfolio/01.jpg" alt="Image 01" /></a></li>
-                        <li><a href="gs/images/portfolio/02-l.jpg" rel="lightbox[portfolio]" title="Aenean tincidunt pellentesque rhoncus."><img src="gs/images/portfolio/02.jpg" alt="Image 02" /></a></li>
-                        <li><a href="gs/images/portfolio/03-l.jpg" rel="lightbox[portfolio]" title="Vestibulum sagittis odio sit amet felis bibendum quis."><img src="gs/images/portfolio/03.jpg" alt="Image 03" /></a></li>
-                        <li><a href="gs/images/portfolio/04-l.jpg" class="no_margin_right" rel="lightbox[portfolio]" title="Fusce quis erat in dui tristique bibendum."><img src="gs/images/portfolio/04.jpg" alt="Image 04" /></a></li>
-                        <li><a href="gs/images/portfolio/05-l.jpg" rel="lightbox[portfolio]" title="Donec elementum convallis tempor."><img src="gs/images/portfolio/05.jpg" alt="Image 05" /></a></li>
-                        <li><a href="gs/images/portfolio/06-l.jpg" rel="lightbox[portfolio]" title="Aenean porta malesuada metus id commodo."><img src="gs/images/portfolio/06.jpg" alt="Image 06" /></a></li>
-                        <li><a href="gs/images/portfolio/05-l.jpg" rel="lightbox[portfolio]" title="Proin quis mauris urna, eget mattis nibh."><img src="gs/images/portfolio/05.jpg" alt="Image 05" /></a></li>
-                        <li><a href="gs/images/portfolio/06-l.jpg" class="no_margin_right" rel="lightbox[portfolio]" title="Maecenas a arcu eu nulla tempor vitae tempus nisi."><img src="gs/images/portfolio/06.jpg" alt="Image 06" /></a></li>
-                    </ul>
-                </div>
-            </li>
-            
-            <li id="contact" style="background: url(gs/images/5.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<h2>Contact Information</h2>
-        			<p>Nullam a tortor est, congue fermentum nisi. Maecenas nulla nulla, lobortis eu volutpat euismod, scelerisque ut dui. Integer luctus tellus ac mi malesuada dignissim.</p>
-                    <h4>Send a message</h4>
-                    <div id="contact_form">
-                        <form method="post" name="contact" action="#"> 
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:1200,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
 
-                            <label for="author">Name:</label> <input type="text" id="author" name="author" class="required input_field" />
-                            <div class="cleaner_h10"></div>
-                                                        
-                            <label for="email">Email:</label> <input type="text" class="validate-email required input_field" name="email" id="email" />
-                            <div class="cleaner_h10"></div>
-                                
-                            <label for="text">Message:</label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
-                            <div class="cleaner h10"></div>				
-                                                    
-                            <input type="submit" value="Send" id="submit" name="submit" class="submit_btn float_l" />
-                            <input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" />
-                            
- 						</form>
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Cols: 10,
+                $SpacingX: 8,
+                $SpacingY: 8,
+                $Align: 360
+              }
+            };
 
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1200);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*responsive code end*/
+        });
+    </script>
+    <style>
+        /* jssor slider arrow navigator skin 05 css */
+        /*
+        .jssora05l                  (normal)
+        .jssora05r                  (normal)
+        .jssora05l:hover            (normal mouseover)
+        .jssora05r:hover            (normal mouseover)
+        .jssora05l.jssora05ldn      (mousedown)
+        .jssora05r.jssora05rdn      (mousedown)
+        .jssora05l.jssora05lds      (disabled)
+        .jssora05r.jssora05rds      (disabled)
+        */
+        .jssora05l, .jssora05r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            background: url('img/a17.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora05l { background-position: -10px -40px; }
+        .jssora05r { background-position: -70px -40px; }
+        .jssora05l:hover { background-position: -130px -40px; }
+        .jssora05r:hover { background-position: -190px -40px; }
+        .jssora05l.jssora05ldn { background-position: -250px -40px; }
+        .jssora05r.jssora05rdn { background-position: -310px -40px; }
+        .jssora05l.jssora05lds { background-position: -10px -40px; opacity: .3; pointer-events: none; }
+        .jssora05r.jssora05rds { background-position: -70px -40px; opacity: .3; pointer-events: none; }
+        /* jssor slider thumbnail navigator skin 01 css *//*.jssort01 .p            (normal).jssort01 .p:hover      (normal mouseover).jssort01 .p.pav        (active).jssort01 .p.pdn        (mousedown)*/.jssort01 .p {    position: absolute;    top: 0;    left: 0;    width: 72px;    height: 72px;}.jssort01 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort01 .w {    position: absolute;    top: 0px;    left: 0px;    width: 100%;    height: 100%;}.jssort01 .c {    position: absolute;    top: 0px;    left: 0px;    width: 68px;    height: 68px;    border: #000 2px solid;    box-sizing: content-box;    background: url('img/t01.png') -800px -800px no-repeat;    _background: none;}.jssort01 .pav .c {    top: 2px;    _top: 0px;    left: 2px;    _left: 0px;    width: 68px;    height: 68px;    border: #000 0px solid;    _border: #fff 2px solid;    background-position: 50% 50%;}.jssort01 .p:hover .c {    top: 0px;    left: 0px;    width: 70px;    height: 70px;    border: #fff 1px solid;    background-position: 50% 50%;}.jssort01 .p.pdn .c {    background-position: 50% 50%;    width: 68px;    height: 68px;    border: #000 2px solid;}* html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c {    /* ie quirks mode adjust */    width /**/: 72px;    height /**/: 72px;}
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1200px;height:600px;overflow:hidden;visibility:hidden;background-color:#24262e;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1200px;height:600px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/Sliderimg/01.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-01.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/02.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-02.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/03.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-03.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/04.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-04.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/05.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-05.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/06.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-06.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/07.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-07.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/08.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-08.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/09.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-09.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/10.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-10.jpg" />
+            </div>
+            <a data-u="any" href="http://www.jssor.com" style="display:none">Image Gallery</a>
+            <div>
+                <img data-u="image" src="img/Sliderimg/11.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-11.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/12.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-12.jpg" />
+            </div>
+        </div>
+        <!-- Thumbnail Navigator -->
+        <div data-u="thumbnavigator" class="jssort01" style="position:absolute;left:0px;bottom:0px;width:100%;height:100px;" data-autocenter="1">
+            <!-- Thumbnail Item Skin Begin -->
+            <div data-u="slides" style="cursor: default;">
+                <div data-u="prototype" class="p">
+                    <div class="w">
+                        <div data-u="thumbnailtemplate" class="t"></div>
                     </div>
-                    
+                    <div class="c"></div>
                 </div>
-            </li>
-             
-        
-        </ul>
-        
-	</div>
-
-    </div> 
+            </div>
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora05l" style="top:158px;left:8px;width:40px;height:40px;"></span>
+        <span data-u="arrowright" class="jssora05r" style="top:158px;right:8px;width:40px;height:40px;"></span>
+    </div>
+    <!-- #endregion Jssor Slider End -->
+		</div> 
         <div class="tab-pane fade" role="tabpanel" id="profile" aria-labelledby="profile-tab">
-            
-    <div id="tooplate_content">
-        <ul class="kwicks">
-        
-            <li id="home" style="background: url(gs/images/1.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<h2>Free Template, Metallic Slider</h2>
-                    <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit semper commodo. Nunc pretium, nibh in dapibus tristique, felis lectus cursus arcu, quis rutrum odio odio eu sem. Aliquam metus magna, eleifend in lacinia sed, dictum sed lorem. </em></p>
-                	<img src="gs/images/tooplate_image_01.jpg" alt="Image 01" class="image_fl" />
-                    <div class="col_half float_r">
-                        <p>Metallic Slider is free website template for everyone. You may edit and apply this template for any purpose. Proin turpis nibh, vestibulum non dignissim a, blandit at nulla. Curabitur vestibulum mattis sapien, id mollis arcu cursus vel. </p>
-                        <h3>Our Services</h3>
-                        <ul class="tooplate_list">
-                            <li>Fusce risus tortor</li>
-                            <li>Maecenas ac odio</li>
-                            <li>Proin facilisis ulla</li>
-                            <li>Sed vel justo quis</li>
-                            <li>Ut tristique sagittis</li>
-                        </ul>
-					</div>
-                </div>
-            </li>
-        
-            <li id="about" style="background: url(gs/images/2.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<h2>About HTML CSS</h2>
-					<img src="gs/images/tooplate_image_02.jpg" alt="Image 02" class="image_fr" />
-		            <p><em>Duis bibendum hendrerit turpis a aliquet. Duis commodo scelerisque nisl. Donec tincidunt vehicula velit, nibh pellentesque id.</em></p>
-        		    <p>Mauris luctus dapibus nibh eu aliquet. Aliquam vitae ligula eros, <a href="#">vitae ultrices libero</a>. Mauris tincidunt consectetur sodales. Pellentesque consequat, ligula non placerat posuere, nisi erat ullamcorper metus, sed pharetra purus dolor non ipsum. Quisque augue odio, posuere a lacinia ac, imperdiet porttitor justo. Morbi suscipit elit eu neque <a href="#">congue eget</a> egestas mauris sagittis.</p>
-		            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque sit amet erat turpis, ac tempus magna. Integer elit dui, dignissim quis adipiscing pretium, accumsan et eros. <a href="#">Donec nunc nisl</a>, fermentum vel auctor ac, posuere vel sem. Nulla sagittis, nunc sed imperdiet euismod, neque arcu mollis neque, eget dictum orci felis quis tellus. Nullam consequat accumsan lacus, volutpat pellentesque velit venenatis at. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a> and <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>.</p>
-                </div>
-            </li>
-        
-            <li id="social"style="background: url(gs/images/3.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<h2>Social Networking</h2>
-                    <p><em>Sed varius scelerisque turpis, a pellentesque nisi ullamcorper vitae. Sed interdum ante ac ipsum feugiat nec ullamcorper justo dictum.</em></p>
-                    <ul class="social_links">
-                    	<li><a href="#" class="facebook">Facebook</a></li>
-                        <li><a href="#" class="flickr">Flickr</a></li>
-                        <li><a href="#" class="linkedin">Linkedin</a></li>
-                        <li><a href="#" class="twitter">Twitter</a></li>
-                        <li><a href="#" class="yahoo">Yahoo</a></li>
-                        <li><a href="#" class="youtube">Youtube</a></li>
-                    </ul>
+        <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/jssor.slider-22.1.6.mini.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
 
-                </div>
-            </li>
-        
-            <li id="portfolio"style="background: url(gs/images/4.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<h2>Portfolio</h2>
-                    <ul id="gallery">
-                        <li><a href="gs/images/portfolio/01-l.jpg" rel="lightbox[portfolio]" title="Integer sed enim at tortor aliquam sollicitudin."><img src="gs/images/portfolio/01.jpg" alt="Image 01" /></a></li>
-                        <li><a href="gs/images/portfolio/02-l.jpg" rel="lightbox[portfolio]" title="Aenean tincidunt pellentesque rhoncus."><img src="gs/images/portfolio/02.jpg" alt="Image 02" /></a></li>
-                        <li><a href="gs/images/portfolio/03-l.jpg" rel="lightbox[portfolio]" title="Vestibulum sagittis odio sit amet felis bibendum quis."><img src="gs/images/portfolio/03.jpg" alt="Image 03" /></a></li>
-                        <li><a href="gs/images/portfolio/04-l.jpg" class="no_margin_right" rel="lightbox[portfolio]" title="Fusce quis erat in dui tristique bibendum."><img src="gs/images/portfolio/04.jpg" alt="Image 04" /></a></li>
-                        <li><a href="gs/images/portfolio/05-l.jpg" rel="lightbox[portfolio]" title="Donec elementum convallis tempor."><img src="gs/images/portfolio/05.jpg" alt="Image 05" /></a></li>
-                        <li><a href="gs/images/portfolio/06-l.jpg" rel="lightbox[portfolio]" title="Aenean porta malesuada metus id commodo."><img src="gs/images/portfolio/06.jpg" alt="Image 06" /></a></li>
-                        <li><a href="gs/images/portfolio/05-l.jpg" rel="lightbox[portfolio]" title="Proin quis mauris urna, eget mattis nibh."><img src="gs/images/portfolio/05.jpg" alt="Image 05" /></a></li>
-                        <li><a href="gs/images/portfolio/06-l.jpg" class="no_margin_right" rel="lightbox[portfolio]" title="Maecenas a arcu eu nulla tempor vitae tempus nisi."><img src="gs/images/portfolio/06.jpg" alt="Image 06" /></a></li>
-                    </ul>
-                </div>
-            </li>
-            
-            <li id="contact" style="background: url(gs/images/5.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<h2>Contact Information</h2>
-        			<p>Nullam a tortor est, congue fermentum nisi. Maecenas nulla nulla, lobortis eu volutpat euismod, scelerisque ut dui. Integer luctus tellus ac mi malesuada dignissim.</p>
-                    <h4>Send a message</h4>
-                    <div id="contact_form">
-                        <form method="post" name="contact" action="#"> 
+            var jssor_2_SlideshowTransitions = [
+              {$Duration:1200,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
 
-                            <label for="author">Name:</label> <input type="text" id="author" name="author" class="required input_field" />
-                            <div class="cleaner_h10"></div>
-                                                        
-                            <label for="email">Email:</label> <input type="text" class="validate-email required input_field" name="email" id="email" />
-                            <div class="cleaner_h10"></div>
-                                
-                            <label for="text">Message:</label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
-                            <div class="cleaner h10"></div>				
-                                                    
-                            <input type="submit" value="Send" id="submit" name="submit" class="submit_btn float_l" />
-                            <input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" />
-                            
- 						</form>
+            var jssor_2_options = {
+              $AutoPlay: true,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_2_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Cols: 10,
+                $SpacingX: 8,
+                $SpacingY: 8,
+                $Align: 360
+              }
+            };
 
+            var jssor_2_slider = new $JssorSlider$("jssor_2", jssor_2_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_2_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1200);
+                    jssor_2_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*responsive code end*/
+        });
+    </script>
+    <style>
+        /* jssor slider arrow navigator skin 05 css */
+        /*
+        .jssora05l                  (normal)
+        .jssora05r                  (normal)
+        .jssora05l:hover            (normal mouseover)
+        .jssora05r:hover            (normal mouseover)
+        .jssora05l.jssora05ldn      (mousedown)
+        .jssora05r.jssora05rdn      (mousedown)
+        .jssora05l.jssora05lds      (disabled)
+        .jssora05r.jssora05rds      (disabled)
+        */
+        .jssora05l, .jssora05r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            background: url('img/a17.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora05l { background-position: -10px -40px; }
+        .jssora05r { background-position: -70px -40px; }
+        .jssora05l:hover { background-position: -130px -40px; }
+        .jssora05r:hover { background-position: -190px -40px; }
+        .jssora05l.jssora05ldn { background-position: -250px -40px; }
+        .jssora05r.jssora05rdn { background-position: -310px -40px; }
+        .jssora05l.jssora05lds { background-position: -10px -40px; opacity: .3; pointer-events: none; }
+        .jssora05r.jssora05rds { background-position: -70px -40px; opacity: .3; pointer-events: none; }
+        /* jssor slider thumbnail navigator skin 01 css *//*.jssort02 .p            (normal).jssort02 .p:hover      (normal mouseover).jssort02 .p.pav        (active).jssort02 .p.pdn        (mousedown)*/.jssort02 .p {    position: absolute;    top: 0;    left: 0;    width: 72px;    height: 72px;}.jssort02 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort02 .w {    position: absolute;    top: 0px;    left: 0px;    width: 100%;    height: 100%;}.jssort02 .c {    position: absolute;    top: 0px;    left: 0px;    width: 68px;    height: 68px;    border: #000 2px solid;    box-sizing: content-box;    background: url('img/t01.png') -800px -800px no-repeat;    _background: none;}.jssort02 .pav .c {    top: 2px;    _top: 0px;    left: 2px;    _left: 0px;    width: 68px;    height: 68px;    border: #000 0px solid;    _border: #fff 2px solid;    background-position: 50% 50%;}.jssort02 .p:hover .c {    top: 0px;    left: 0px;    width: 70px;    height: 70px;    border: #fff 1px solid;    background-position: 50% 50%;}.jssort02 .p.pdn .c {    background-position: 50% 50%;    width: 68px;    height: 68px;    border: #000 2px solid;}* html .jssort02 .c, * html .jssort02 .pdn .c, * html .jssort02 .pav .c {    /* ie quirks mode adjust */    width /**/: 72px;    height /**/: 72px;}
+    </style>
+    <div id="jssor_2" style="position:relative;margin:0 auto;top:0px;left:0px;width:800px;height:456px;overflow:hidden;visibility:hidden;background-color:#24262e;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:800px;height:356px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/Sliderimg/01.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-01.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/02.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-02.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/03.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-03.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/04.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-04.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/05.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-05.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/06.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-06.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/07.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-07.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/08.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-08.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/09.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-09.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/10.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-10.jpg" />
+            </div>
+            <a data-u="any" href="http://www.jssor.com" style="display:none">Image Gallery</a>
+            <div>
+                <img data-u="image" src="img/Sliderimg/11.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-11.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/12.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-12.jpg" />
+            </div>
+        </div>
+        <!-- Thumbnail Navigator -->
+        <div data-u="thumbnavigator" class="jssort02" style="position:absolute;left:0px;bottom:0px;width:800px;height:100px;" data-autocenter="1">
+            <!-- Thumbnail Item Skin Begin -->
+            <div data-u="slides" style="cursor: default;">
+                <div data-u="prototype" class="p">
+                    <div class="w">
+                        <div data-u="thumbnailtemplate" class="t"></div>
                     </div>
-                    
+                    <div class="c"></div>
                 </div>
-            </li>
-             
-        
-        </ul>
-        
-	</div>
-    </div> 
+            </div>
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora05l" style="top:158px;left:8px;width:40px;height:40px;"></span>
+        <span data-u="arrowright" class="jssora05r" style="top:158px;right:8px;width:40px;height:40px;"></span>
+    </div>
+    <!-- #endregion Jssor Slider End -->    
+		</div> 
     
     <div class="tab-pane fade" role="tabpanel" id="Techno" aria-labelledby="Techno-tab"> 
-            <div id="tooplate_content">
-                <ul class="kwicks">
-        
-            <li id="home" style="background: url(gs/images/1.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<h2>Free Template, Metallic Slider</h2>
-                    <p><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit semper commodo. Nunc pretium, nibh in dapibus tristique, felis lectus cursus arcu, quis rutrum odio odio eu sem. Aliquam metus magna, eleifend in lacinia sed, dictum sed lorem. </em></p>
-                	<img src="gs/images/tooplate_image_01.jpg" alt="Image 01" class="image_fl" />
-                    <div class="col_half float_r">
-                        <p>Metallic Slider is free website template for everyone. You may edit and apply this template for any purpose. Proin turpis nibh, vestibulum non dignissim a, blandit at nulla. Curabitur vestibulum mattis sapien, id mollis arcu cursus vel. </p>
-                        <h3>Our Services</h3>
-                        <ul class="tooplate_list">
-                            <li>Fusce risus tortor</li>
-                            <li>Maecenas ac odio</li>
-                            <li>Proin facilisis ulla</li>
-                            <li>Sed vel justo quis</li>
-                            <li>Ut tristique sagittis</li>
-                        </ul>
-					</div>
-                </div>
-            </li>
-        
-            <li id="about" style="background: url(gs/images/2.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<h2>About HTML CSS</h2>
-					<img src="gs/images/tooplate_image_02.jpg" alt="Image 02" class="image_fr" />
-		            <p><em>Duis bibendum hendrerit turpis a aliquet. Duis commodo scelerisque nisl. Donec tincidunt vehicula velit, nibh pellentesque id.</em></p>
-        		    <p>Mauris luctus dapibus nibh eu aliquet. Aliquam vitae ligula eros, <a href="#">vitae ultrices libero</a>. Mauris tincidunt consectetur sodales. Pellentesque consequat, ligula non placerat posuere, nisi erat ullamcorper metus, sed pharetra purus dolor non ipsum. Quisque augue odio, posuere a lacinia ac, imperdiet porttitor justo. Morbi suscipit elit eu neque <a href="#">congue eget</a> egestas mauris sagittis.</p>
-		            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque sit amet erat turpis, ac tempus magna. Integer elit dui, dignissim quis adipiscing pretium, accumsan et eros. <a href="#">Donec nunc nisl</a>, fermentum vel auctor ac, posuere vel sem. Nulla sagittis, nunc sed imperdiet euismod, neque arcu mollis neque, eget dictum orci felis quis tellus. Nullam consequat accumsan lacus, volutpat pellentesque velit venenatis at. Validate <a href="http://validator.w3.org/check?uri=referer" rel="nofollow"><strong>XHTML</strong></a> and <a href="http://jigsaw.w3.org/css-validator/check/referer" rel="nofollow"><strong>CSS</strong></a>.</p>
-                </div>
-            </li>
-        
-            <li id="social"style="background: url(gs/images/3.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<h2>Social Networking</h2>
-                    <p><em>Sed varius scelerisque turpis, a pellentesque nisi ullamcorper vitae. Sed interdum ante ac ipsum feugiat nec ullamcorper justo dictum.</em></p>
-                    <ul class="social_links">
-                    	<li><a href="#" class="facebook">Facebook</a></li>
-                        <li><a href="#" class="flickr">Flickr</a></li>
-                        <li><a href="#" class="linkedin">Linkedin</a></li>
-                        <li><a href="#" class="twitter">Twitter</a></li>
-                        <li><a href="#" class="yahoo">Yahoo</a></li>
-                        <li><a href="#" class="youtube">Youtube</a></li>
-                    </ul>
+            <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/jssor.slider-22.1.6.mini.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
 
-                </div>
-            </li>
-        
-            <li id="portfolio"style="background: url(gs/images/4.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<h2>Portfolio</h2>
-                    <ul id="gallery">
-                        <li><a href="gs/images/portfolio/01-l.jpg" rel="lightbox[portfolio]" title="Integer sed enim at tortor aliquam sollicitudin."><img src="gs/images/portfolio/01.jpg" alt="Image 01" /></a></li>
-                        <li><a href="gs/images/portfolio/02-l.jpg" rel="lightbox[portfolio]" title="Aenean tincidunt pellentesque rhoncus."><img src="gs/images/portfolio/02.jpg" alt="Image 02" /></a></li>
-                        <li><a href="gs/images/portfolio/03-l.jpg" rel="lightbox[portfolio]" title="Vestibulum sagittis odio sit amet felis bibendum quis."><img src="gs/images/portfolio/03.jpg" alt="Image 03" /></a></li>
-                        <li><a href="gs/images/portfolio/04-l.jpg" class="no_margin_right" rel="lightbox[portfolio]" title="Fusce quis erat in dui tristique bibendum."><img src="gs/images/portfolio/04.jpg" alt="Image 04" /></a></li>
-                        <li><a href="gs/images/portfolio/05-l.jpg" rel="lightbox[portfolio]" title="Donec elementum convallis tempor."><img src="gs/images/portfolio/05.jpg" alt="Image 05" /></a></li>
-                        <li><a href="gs/images/portfolio/06-l.jpg" rel="lightbox[portfolio]" title="Aenean porta malesuada metus id commodo."><img src="gs/images/portfolio/06.jpg" alt="Image 06" /></a></li>
-                        <li><a href="gs/images/portfolio/05-l.jpg" rel="lightbox[portfolio]" title="Proin quis mauris urna, eget mattis nibh."><img src="gs/images/portfolio/05.jpg" alt="Image 05" /></a></li>
-                        <li><a href="gs/images/portfolio/06-l.jpg" class="no_margin_right" rel="lightbox[portfolio]" title="Maecenas a arcu eu nulla tempor vitae tempus nisi."><img src="gs/images/portfolio/06.jpg" alt="Image 06" /></a></li>
-                    </ul>
-                </div>
-            </li>
-            
-            <li id="contact" style="background: url(gs/images/5.jpg) no-repeat left"><span class="header"></span><span class="slideno"></span>
-            	<div class="inner">
-                	<h2>Contact Information</h2>
-        			<p>Nullam a tortor est, congue fermentum nisi. Maecenas nulla nulla, lobortis eu volutpat euismod, scelerisque ut dui. Integer luctus tellus ac mi malesuada dignissim.</p>
-                    <h4>Send a message</h4>
-                    <div id="contact_form">
-                        <form method="post" name="contact" action="#"> 
+            var jssor_3_SlideshowTransitions = [
+              {$Duration:1200,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:1200,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
 
-                            <label for="author">Name:</label> <input type="text" id="author" name="author" class="required input_field" />
-                            <div class="cleaner_h10"></div>
-                                                        
-                            <label for="email">Email:</label> <input type="text" class="validate-email required input_field" name="email" id="email" />
-                            <div class="cleaner_h10"></div>
-                                
-                            <label for="text">Message:</label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
-                            <div class="cleaner h10"></div>				
-                                                    
-                            <input type="submit" value="Send" id="submit" name="submit" class="submit_btn float_l" />
-                            <input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" />
-                            
- 						</form>
+            var jssor_3_options = {
+              $AutoPlay: true,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_3_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Cols: 10,
+                $SpacingX: 8,
+                $SpacingY: 8,
+                $Align: 360
+              }
+            };
 
-                    </div>
-                    
-                </div>
-            </li>
-             
-        
-        </ul>
-        
-	</div> </div>
+            var jssor_3_slider = new $JssorSlider$("jssor_3", jssor_3_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_3_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1200);
+                    jssor_3_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*responsive code end*/
+        });
+    </script>
+    <style>
+        /* jssor slider arrow navigator skin 05 css */
+        /*
+        .jssora05l                  (normal)
+        .jssora05r                  (normal)
+        .jssora05l:hover            (normal mouseover)
+        .jssora05r:hover            (normal mouseover)
+        .jssora05l.jssora05ldn      (mousedown)
+        .jssora05r.jssora05rdn      (mousedown)
+        .jssora05l.jssora05lds      (disabled)
+        .jssora05r.jssora05rds      (disabled)
+        */
+        .jssora05l, .jssora05r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            background: url('img/a17.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora05l { background-position: -10px -40px; }
+        .jssora05r { background-position: -70px -40px; }
+        .jssora05l:hover { background-position: -130px -40px; }
+        .jssora05r:hover { background-position: -190px -40px; }
+        .jssora05l.jssora05ldn { background-position: -250px -40px; }
+        .jssora05r.jssora05rdn { background-position: -310px -40px; }
+        .jssora05l.jssora05lds { background-position: -10px -40px; opacity: .3; pointer-events: none; }
+        .jssora05r.jssora05rds { background-position: -70px -40px; opacity: .3; pointer-events: none; }
+        /* jssor slider thumbnail navigator skin 01 css *//*.jssort03 .p            (normal).jssort03 .p:hover      (normal mouseover).jssort03 .p.pav        (active).jssort03 .p.pdn        (mousedown)*/.jssort03 .p {    position: absolute;    top: 0;    left: 0;    width: 72px;    height: 72px;}.jssort03 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort03 .w {    position: absolute;    top: 0px;    left: 0px;    width: 100%;    height: 100%;}.jssort03 .c {    position: absolute;    top: 0px;    left: 0px;    width: 68px;    height: 68px;    border: #000 2px solid;    box-sizing: content-box;    background: url('img/t01.png') -800px -800px no-repeat;    _background: none;}.jssort03 .pav .c {    top: 2px;    _top: 0px;    left: 2px;    _left: 0px;    width: 68px;    height: 68px;    border: #000 0px solid;    _border: #fff 2px solid;    background-position: 50% 50%;}.jssort03 .p:hover .c {    top: 0px;    left: 0px;    width: 70px;    height: 70px;    border: #fff 1px solid;    background-position: 50% 50%;}.jssort03 .p.pdn .c {    background-position: 50% 50%;    width: 68px;    height: 68px;    border: #000 2px solid;}* html .jssort03 .c, * html .jssort03 .pdn .c, * html .jssort03 .pav .c {    /* ie quirks mode adjust */    width /**/: 72px;    height /**/: 72px;}
+    </style>
+    <div id="jssor_3" style="position:relative;margin:0 auto;top:0px;left:0px;width:800px;height:456px;overflow:hidden;visibility:hidden;background-color:#24262e;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:800px;height:356px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/Sliderimg/01.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-01.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/02.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-02.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/03.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-03.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/04.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-04.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/05.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-05.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/06.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-06.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/07.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-07.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/08.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-08.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/09.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-09.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/10.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-10.jpg" />
+            </div>
+            <a data-u="any" href="http://www.jssor.com" style="display:none">Image Gallery</a>
+            <div>
+                <img data-u="image" src="img/Sliderimg/11.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-11.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="img/Sliderimg/12.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/thumb-12.jpg" />
+            </div>
+        </div>
+        <!-- Thumbnail Navigator -->
+        <div data-u="thumbnavigator" class="jssort03" style="position:absolute;left:0px;bottom:0px;width:800px;height:100px;" data-autocenter="1">
+            <!-- Thumbnail Item Skin Begin -->
+            <div data-u="slides" style="cursor: default;">
+                <div data-u="prototype" class="p">
+                    <div class="w">
+                        <div data-u="thumbnailtemplate" class="t"></div>
+                    </div>
+                    <div class="c"></div>
+                </div>
+            </div>
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora05l" style="top:158px;left:8px;width:40px;height:40px;"></span>
+        <span data-u="arrowright" class="jssora05r" style="top:158px;right:8px;width:40px;height:40px;"></span>
+    </div>
+    <!-- #endregion Jssor Slider End -->
+		</div>
     
          <!-- END of content -->
         </li>
@@ -407,147 +667,6 @@
     
 	<!--end: Gallery Code-->
 			
-	<!--start: Wrapper-->
-	<div id="wrapper">
-				
-		<!--start: Container -->
-    	<div class="container">
-	
-      		
-      		<!-- start: Row -->
-      		<div class="row">
-	
-        		<div class="span4">
-          			<div class="icons-box">
-						<i class="ico-ok circle big"></i>
-						<div class="title"><h3>Easy to use</h3></div>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
-						<div class="clear"></div>
-					</div>
-        		</div>
-
-        		<div class="span4">
-          			<div class="icons-box">
-						<i class="ico-ipad circle big"></i>
-						<div class="title"><h3>Responsive</h3></div>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
-						<div class="clear"></div>
-					</div>
-        		</div>
-
-        		<div class="span4">
-          			<div class="icons-box">
-						<i class="ico-heart circle big"></i>
-						<div class="title"><h3>User friendly</h3></div>
-						<p>
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-						</p>
-						<div class="clear"></div>
-					</div>
-        		</div>
-
-      		</div>
-			<!-- end: Row -->
-      		
-			<hr>
-		
-			<!-- start Clients List -->	
-						<div class="clients-carousel">
-		
-				<ul class="slides clients">
-					<li><img src="img/logos/1.png" alt=""/></li>
-					<li><img src="img/logos/2.png" alt=""/></li>	
-					<li><img src="img/logos/3.png" alt=""/></li>
-					<li><img src="img/logos/4.png" alt=""/></li>
-					<li><img src="img/logos/5.png" alt=""/></li>
-					<li><img src="img/logos/6.png" alt=""/></li>
-					<li><img src="img/logos/7.png" alt=""/></li>
-					<li><img src="img/logos/8.png" alt=""/></li>
-					<li><img src="img/logos/9.png" alt=""/></li>
-					<li><img src="img/logos/10.png" alt=""/></li>		
-				</ul>
-		
-			</div>
-            <!-- end Clients List -->
-		
-			<hr>
-			
-			<!-- start: Row -->
-			<div class="row">
-				
-				<!-- start: Icon Boxes -->
-				<div class="icons-box-vert-container">
-
-					<!-- start: Icon Box Start -->
-					<div class="span6">
-						<div class="icons-box-vert">
-							<i class="ico-ok ico-color circle-color big"></i>
-							<div class="icons-box-vert-info">
-								<h3>Easy to use</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-							</div>
-							<div class="clear"></div>
-						</div>
-					</div>
-					<!-- end: Icon Box-->
-
-					<!-- start: Icon Box Start -->
-					<div class="span6">
-						<div class="icons-box-vert">
-							<i class="ico-cup  ico-white circle-color-full big-color"></i>
-							<div class="icons-box-vert-info">
-								<h3>Best choice</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-							</div>
-							<div class="clear"></div>
-						</div>
-					</div>
-					<!-- end: Icon Box -->
-
-					<!-- start: Icon Box Start -->
-					<div class="span6">
-						<div class="icons-box-vert">
-							<i class="ico-ipad ico-color circle-color big"></i>
-							<div class="icons-box-vert-info">
-								<h3>Fully Responsive</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-							</div>
-							<div class="clear"></div>
-						</div>
-					</div>
-					<!-- end: Icon Box -->
-
-					<!-- start: Icon Box Start -->
-					<div class="span6">
-						<div class="icons-box-vert">
-							<i class="ico-thumbs-up  ico-white circle-color-full big-color"></i>
-							<div class="icons-box-vert-info">
-								<h3>Social Network</h3>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-							</div>
-							<div class="clear"></div>
-						</div>
-					</div>
-					<!-- end: Icon Box -->
-
-				</div>
-				<!-- end: Icon Boxes -->
-				<div class="clear"></div>
-			</div>
-			<!-- end: Row -->
-			
-			<hr>
-			
-		</div>
-		<!--end: Container-->
-	
-	</div>
-	<!-- end: Wrapper  -->			
-
     <!-- start: Footer Menu -->
 	<div id="footer-menu" class="">
 
@@ -627,15 +746,6 @@
 <script src="gs/js/jquery.easing.1.3.js" type="text/javascript"></script>
 <script src="gs/js/jquery.kwicks-1.5.1.pack.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-	$().ready(function() {  
-		$('.kwicks').kwicks({  
-			max : 696,  
-			spacing : 0,  
-			sticky: true,
-		});  
-	}); 
-</script>
 
 <script type="text/javascript" src="gs/js/jquery-1-4-2.min.js"></script> 
 <script type="text/JavaScript" src="gs/js/slimbox2.js"></script> 
