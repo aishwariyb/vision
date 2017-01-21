@@ -1568,6 +1568,10 @@ body {
 	padding-right:0px;
 }
 
+#googlemaps{
+	margin-left:40px;
+}
+
 /* Tablet Portrait (devices and browsers)
 ====================================================================== */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -1618,6 +1622,10 @@ body {
 	.baap {
 		padding-left:20px;
 		padding-right:20px;
+	}
+	#googlemaps{
+		margin-left:0px;
+		width:100%;
 	}
 }	
 	
