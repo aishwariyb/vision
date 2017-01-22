@@ -16,7 +16,7 @@
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
         <!-- end: CSS -->
         
-        <title>Events</title>
+        <title>Events</title><link rel="icon" type="image/png" href="img/favicon.png">
         
         <!-- start: Facebook Open Graph -->
         <meta property="og:title" content=""/>
@@ -57,6 +57,26 @@
 			overflow: hidden;
 			transition: max-height 0.2s ease-out;
 		}
+            #noesis{}
+            div.panel.active{
+                max-height: 420px;
+                padding: 2rem;
+        
+            }/*
+            @media only screen and(min-width:960px)
+            
+            {
+                div.panel.active{
+                
+                }
+            }*/
+            @media screen and (max-width: 500px)
+            
+            {
+                div.panel.active{
+                max-height: 550px;
+                }
+            }
 		</style>
 	
 		<!--Import jQuery before materialize.js-->
@@ -67,7 +87,7 @@
         <!--Other element insitialisations-->
         <script type="text/javascript" language="javascript">
             $( document ).ready(function(){
-
+                var ini=0;
                 $('.carousel').carousel(); //carousel init
 				var acc = document.getElementsByClassName("accordionV");
 				function toggleAccordion(acc,option) {
@@ -76,28 +96,33 @@
 					if (option == "close"){
 					  panel.style.maxHeight = null;
 					  panel.style.padding = "0px";
-					  acc.classList.remove("active");
+					  panel.classList.remove("active");
 					} else {
 					  panel.style.maxHeight = panel.scrollHeight-70 + 'px';
 					  panel.style.padding = "2rem";
-					  acc.classList.add("active");
+					  panel.classList.add("active");
 					} 
 				}
 				
-				var i;
-
+				var i=0;
+                var whatToDoBro; 
+                 
+                      whatToDoBro = "open";
+					
 				for (i = 0; i < acc.length; i++) {
 				  acc[i].onclick = function(){
-					var j;
-					
+					var ID= this.id
+                    var j;
+                      ini++;
 					var panel = this.nextElementSibling;
-					var whatToDoBro = "open";
+                      whatToDoBro="open";
 					if(panel.style.maxHeight)
-						whatToDoBro = "close"
+						whatToDoBro = "close";
 					
 					for(j = 0;j < acc.length; ++j)
 						toggleAccordion(acc[j],"close");
-					
+					if(ini==1 && ID == "noesis")
+                        whatToDoBro="close";
 					toggleAccordion(this,whatToDoBro);
 					
 					
@@ -173,9 +198,9 @@
             
             <!-- NOESIS : STARTS -->
            
-            <button class="accordionV heading-collapsible">Noesis</button>
+            <button class="accordionV heading-collapsible" id="noesis">Noesis</button>
 
-                <div class="panel">
+                <div class="panel active" >
                 
                     <!-- Noesis Description -->
                     <div class="body-collapsible">
@@ -449,63 +474,6 @@
         
         
         <!-- start: Footer Menu -->
-	<div id="footer-menu">
-
-		<!-- start: Container -->
-		<div class="container">
-			
-			<!-- start: Row -->
-			<div class="row">
-
-				<!-- start: Footer Menu Logo -->
-				<div class="span2">
-					<div id="footer-menu-logo">
-						<a href="index.html"><img src="img/logo.png" alt="logo" width="102" height="30" /></a>
-					</div>
-				</div>
-				<!-- end: Footer Menu Logo -->
-
-				<!-- start: Footer Menu Links-->
-				<div class="span9">
-					
-					<div id="footer-menu-links">
-
-						<ul id="footer-nav">
-
-							<li><a href="index.html">Home</a></li>
-
-							<li><a href="About.html">About</a></li>
-
-							<li><a href="Gallery.html">Gallery</a></li>
-
-							<li><a href="Events.html">Events</a></li>
-							
-							<li><a href="Contact.html">Contact</a></li>
-
-						</ul>
-
-					</div>
-					
-				</div>
-				<!-- end: Footer Menu Links-->
-
-				<!-- start: Footer Menu Back To Top -->
-				<div class="span1">
-						
-					<div id="footer-menu-back-to-top">
-						<a href="#"></a>
-					</div>
-				
-				</div>
-				<!-- end: Footer Menu Back To Top -->
-			
-			</div>
-			<!-- end: Row -->
-			
-		</div>
-		<!-- end: Container  -->	
-
-	</div>	
 	<!-- end: Footer Menu -->
 
     </body>
