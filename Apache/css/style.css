@@ -1560,6 +1560,9 @@ form#newsletter input[type=submit] {
 	.flexslider.home {
 		min-height: 300px;
 	}
+    .panel{
+        max-height: 450px
+    }
 
 }
 
@@ -1599,7 +1602,7 @@ body {
 	header {
 		min-height: 64px;
 	}
-	
+
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
@@ -1627,5 +1630,8 @@ body {
 		margin-left:0px;
 		width:100%;
 	}
+    .panel{
+        max-height:550px
+    }
 }	
-	
+	
