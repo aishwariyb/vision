@@ -28,7 +28,7 @@ body {
     background-size:cover;
 
 	font-family: 'Droid Sans';
-	font-size: 12px;
+	font-size: 14px;
 	color: #666;
 
 }
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .body-collapsible p{
-    margin: 0 auto;
+    margin: 25px 36px;
     
 }
 
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .body-carousel-pe {
     font-size: 14px;
-    margin:0;
+    margin:auto;
     font-family: "Copperplate Gothic",Consolas;
     line-height: 1.5;
     padding: inherit;
