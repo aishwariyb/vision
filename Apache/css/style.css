@@ -83,8 +83,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
     padding: inherit;
     text-align: center;
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
 }
 
 .avatar view-team mask body-carousel{
@@ -139,7 +139,7 @@ header {
 }
 
 .logo img {
-	margin-top:8px;
+	
 }
 
 #social-links {
@@ -1078,10 +1078,21 @@ a.buy:hover {
 	position: relative;
 	z-index: 1;
 	height: 400px;
-	width: 100%;
-	top: -20px;
+	
 }
 
+@media screen and (max-width: 480px)
+{
+    #googlemaps{
+        width:100%
+    }
+}
+@media screen and (min-width: 900px)
+{
+    #googlemaps{
+        width:75%
+    }
+}
 #small-map-container {
 	-webkit-border-radius: 50em;
 	-moz-border-radius: 50em;

@@ -687,6 +687,14 @@
 	background: #48c4d2 url(../img/icons/social_big/twitter_white.png) no-repeat;
 }
 
+.social-insta{
+background: #f6f6f6 url(../img/icons/social_big/insta_grey.png) no-repeat;
+   
+}
+.social-insta-hover{
+background: #8a3ab9 url(../img/icons/social_big/insta_white.png) no-repeat;
+   
+}
 .social-vimeo { 
 	background: #f6f6f6 url(../img/icons/social_big/vimeo_grey.png) no-repeat;
 }

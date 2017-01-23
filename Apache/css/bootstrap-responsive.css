@@ -800,14 +800,15 @@
     margin-left: 0;
   }
   .container {
-    width: auto;
+    width: auto !important;
   }
   .row-fluid {
     width: 100%;
   }
-  .row,
+  .row, 
   .thumbnails {
-    margin-left: 0;
+    margin-left: 0 !important;
+      margin-right: 0 !important;
   }
   .thumbnails > li {
     float: none;
