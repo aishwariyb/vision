@@ -178,7 +178,7 @@
 							<input type="email" name="_replyto" placeholder="Your Email" class="form-control">
 							<textarea class="form-control" name="message" placeholder="Message" style="resize:vertical;"></textarea>
 							<br>
-							<input type="submit" class="btn btn-info" value="Send Query">
+							<input type="submit" class="btn btn-info" style="padding:15px;height:20px !important;" value="Send Query">
 							<input type="hidden" name="_next" value="https://visionmanit.in/Home.php" />
 						</form>
 					</div>
