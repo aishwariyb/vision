@@ -220,7 +220,7 @@ background: #ABABAB;
 		</div>
 		<div class="inbar">
 			<ul >
-				<li> <p>Eureka!!</p></li>
+                <li> <p><a href="Eureka/">Eureka!!</a></p></li>
 				<li><p> Arduino Workshop</p></li>
 				<li> <p> Web Development Workshop</p></li>
 				<li><p>PLC Workshop</p></li>

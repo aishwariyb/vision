@@ -112,7 +112,7 @@
 			<div class="row">
 				<div id="googlemaps" class="google-map google-map-full col-md-8" style="height:650px;float:left"></div>
 					<!--<div id="googlemaps-container-bottom"></div>-->
-					<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvNN3sj9CrtNsU7N5-6wfVRfrl7DMdds0"></script>
 					<script src="js/jquery.gmap.min.js"></script>
 					<script type="text/javascript">
 					$('#googlemaps').gMap({
@@ -172,14 +172,14 @@
 					<!-- start: Contact Form -->
 					<div id="contact-form">
 
-						<form action="https://formspree.io/codekriegers14@gmail.com"
+						<form action="https://formspree.io/vision.nitbhopal@gmail.com"
 							  method="POST" style="text-align:center;">
 							<input type="text" name="name" placeholder="Name" class="form-control">
 							<input type="email" name="_replyto" placeholder="Your Email" class="form-control">
-							<textarea class="form-control" placeholder="Message" style="resize:vertical;"></textarea>
+							<textarea class="form-control" name="message" placeholder="Message" style="resize:vertical;"></textarea>
 							<br>
-							<input type="submit" class="btn btn-info" value="Send Query">
-							<input type="hidden" name="_next" value="Home.php" />
+							<input type="submit" class="btn btn-info" style="padding:15px;height:20px !important;" value="Send Query">
+							<input type="hidden" name="_next" value="https://visionmanit.in/Home.php" />
 						</form>
 					</div>
 					<!-- end: Contact Form -->
