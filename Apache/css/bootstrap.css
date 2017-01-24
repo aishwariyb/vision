@@ -3024,7 +3024,9 @@ button.close {
 }
 
 .btn {
+    box-sizing: content-box !important;
   display: inline-block;
+  height: 13px !important; 
   *display: inline;
   padding: 4px 14px;
   margin-bottom: 0;
@@ -3046,7 +3048,7 @@ button.close {
   background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
   background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
   background-repeat: repeat-x;
-  border: 1px solid #bbbbbb;
+  border: 1px solid #bbbbbb !important;
   *border: 0;
       
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
@@ -3167,6 +3169,7 @@ button.close {
 .btn-block + .btn-block {
   margin-top: 5px;
 }
+
 
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
