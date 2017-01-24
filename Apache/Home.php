@@ -130,11 +130,11 @@ background: #ABABAB;
 			          		</a>
 			          		<div class="nav-collapse collapse">
 			            		<ul class="nav">
-			              			<li class="active"><a href="index.html">Home</a></li>
-			              			<li><a href="About.html">About</a></li>
-									<li><a href="Gallery.html">Gallery</a></li>
-									<li><a href="Events.html">Events</a></li>
-			              			<li><a href="Contact.html">Contact Us</a></li>
+			              			<li class="active"><a href="Home.php">Home</a></li>
+			              			<li><a href="About.php">About</a></li>
+									<li><a href="Gallery.php">Gallery</a></li>
+									<li><a href="Events.php">Events</a></li>
+			              			<li><a href="Contact.php">Contact Us</a></li>
                                     
 			         
 			            		</ul>
@@ -162,31 +162,31 @@ background: #ABABAB;
 				<div class="da-slide">
 					<h2>Noesis 2K16</h2>
 					<p>Annual Mega Fest of Vision. This year it had more than 1400 participants from several colleges across the city.</p>
-					<a href="Events.html" class="da-link">Read more</a>
+					<a href="Events.php" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/NOesis.png" alt="image01" /></div>
 				</div>
 				<div class="da-slide">
 					<h2>White Line Tracer Workshop</h2>
 					<p>Annual Workshop conducted by Vision. </p>
-					<a href="Events.html" class="da-link">Read more</a>
+					<a href="Events.php" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/WLT.png" alt="image02" /></div>
 				</div>
 				<div class="da-slide">
 					<h2>Robo Fifa</h2>
 					<p>Annual Event conducted in Technosearch.</p>
-					<a href="Events.html" class="da-link">Read more</a>
+					<a href="Events.php" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/RoboFifa.png" alt="image03" /></div>
 				</div>
 				<div class="da-slide">
 					<h2>Circuit Run</h2>
 					<p>Annual Event conducted in Technosearch.</p>
-					<a href="Events.html" class="da-link">Read more</a>
+					<a href="Events.php" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/circuit_run.png" alt="image04" /></div>
 				</div>
 				<div class="da-slide">
 					<h2>Code Kriegers</h2>
 					<p>Annual Event conducted in Technosearch.</p>
-					<a href="Events.html" class="da-link">Read more</a>
+					<a href="Events.php" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/CK.png" alt="image05" /></div>
 				</div>
 				<nav class="da-arrows">

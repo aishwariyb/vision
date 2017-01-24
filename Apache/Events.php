@@ -135,7 +135,7 @@
 				<!--start: Logo -->
 				<div class="logo span3">
 						
-					<a class="brand" href="index.html"><img src="img/logo.png" style="width: 170px;height: 70px; margin-top:3px"></a>
+					<a class="brand" href="Home.php"><img src="img/logo.png" style="width: 170px;height: 70px; margin-top:3px"></a>
 						
 				</div>
 				<!--end: Logo -->
@@ -152,11 +152,11 @@
 			          		</a>
 			          		<div class="nav-collapse collapse">
 			            		<ul class="nav">
-			              			<li><a href="index.html">Home</a></li>
-			              			<li><a href="About.html">About</a></li>
-									<li><a href="Gallery.html">Gallery</a></li>
-									<li class="active"><a href="Events.html">Events</a></li>
-			              			<li><a href="Contact.html">Contact Us</a></li>
+			              			<li><a href="Home.php">Home</a></li>
+			              			<li><a href="About.php">About</a></li>
+									<li><a href="Gallery.php">Gallery</a></li>
+									<li class="active"><a href="Events.php">Events</a></li>
+			              			<li><a href="Contact.php">Contact Us</a></li>
 			              			<!--<li class="dropdown">
 			                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
 			                			<ul class="dropdown-menu">
@@ -461,7 +461,7 @@
                 </div>
            
             <!-- WORKSHOP : ENDS -->
-        <a href="pastEvents.html" style="text-decoration:none; color:#444;"><button id="past-event" class="heading-collapsible">Past Events</button></a>
+        <a href="pastEvents.php" style="text-decoration:none; color:#444;"><button id="past-event" class="heading-collapsible">Past Events</button></a>
         
         
         
