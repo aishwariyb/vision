@@ -232,13 +232,13 @@ background: #ABABAB;
     <div class="avatar view-team">
         
         <img src="img/upcoming_events/eureka.jpg" alt="eureka">
-        <div class="mask" style="width:100%;height:100%">
+        <a href="Eureka/index.html"><div class="mask" style="width:100%;height:100%">
         <div class="body-carousel-pe">
             <h2>Eureka</h2>
             <p>2K17</p>
             
             </div>
-        </div>
+            </div></a>
     </div>
                     </div>
 			<div class="span6" style="float:right">
