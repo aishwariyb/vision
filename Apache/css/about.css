@@ -93,7 +93,7 @@ div.imag5{
 }
 div.imag6{
     -webkit-filter: grayscale(1);
-    content:url("http://lorempixel.com/186/116/nature/6")
+    content:url(carousel/4_Priyanto_Deb_EE.jpg)
 }
 div.imag7{
     -webkit-filter: grayscale(1);
@@ -114,40 +114,49 @@ div.imag10{
 div.imag1:hover{
     
 	-webkit-filter: grayscale(0);
-  transform: scale(1.2,1.2);
+  transform: scale(1,1);
 }
 div.imag2:hover{
 	-webkit-filter: grayscale(0);
-  transform: scale(1.2,1.2);
+  transform: scale(1,1);
 }
 div.imag3:hover{
 	-webkit-filter: grayscale(0);
-  transform: scale(1.2,1.2);
+  transform: scale(1,1);
 }
 div.imag4:hover{
 	-webkit-filter: grayscale(0);
-  transform: scale(1.2,1.2);
+  transform: scale(1,1);
 }
 div.imag5:hover{
 	-webkit-filter: grayscale(0);
-  transform: scale(1.2,1.2);
+  transform: scale(1,1);
 }
 div.imag6:hover{
 	-webkit-filter: grayscale(0);
-  transform: scale(1.2,1.2);
+  transform: scale(1,1);
 }
 div.imag7:hover{
 	-webkit-filter: grayscale(0);
-  transform: scale(1.2,1.2);
+  transform: scale(1,1);
 }
 div.imag8:hover{
 	-webkit-filter: grayscale(0);
-  transform: scale(1.2,1.2);
+  transform: scale(1,1);
 }
 div.imag9:hover{
 	-webkit-filter: grayscale(0);
-  transform: scale(1.2,1.2);
+  transform: scale(1,1);
 }
 div.imag10{
     content:url("http://lorempixel.com/186/116/nature/10")
+}
+
+/* CLASSES FOR DISPLAYING NAME */
+div.display-name{
+    display: none;
+}
+
+div.display-name:hover{
+    display: block;
 }
