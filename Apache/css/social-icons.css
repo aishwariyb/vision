@@ -51,6 +51,7 @@
 }
 
 .amazon {background: url(../img/icons/social/amazon.png) no-repeat;}
+.instagram {background: url(../img/icons/social/insta2.png) no-repeat;}
 .behance {background: url(../img/icons/social/behance.png) no-repeat;}
 .blogger {background: url(../img/icons/social/blogger.png) no-repeat;}
 .deviantart{background: url(../img/icons/social/deviantart.png) no-repeat;}
@@ -133,8 +134,14 @@
 .social-bookmarks li.aim a:hover {
 	background-color: #e95a00;
 }
+.social-bookmarks li.instagram a {
+	background: url(../img/icons/social2/insta.png) no-repeat 0 0;
+}
+.social-bookmarks li.instagram a:hover {
+	background-color: #e95a00;
+}
 .social-bookmarks li.apple a {
-	background: url(../img/icons/social2/apple.png) no-repeat 0 0;
+	background: url(../img/icons/social2/insta.png) no-repeat 0 0;
 }
 .social-bookmarks li.apple a:hover {
 	background-color: #606060;

@@ -1646,4 +1646,12 @@ body {
         max-height:550px
     }
 }	
+.footer-bottom{
+    color: #FFF;
+    
+    bottom:0;
+    left:0;
+    right:0;
+    
+}
 	
