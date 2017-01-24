@@ -55,14 +55,11 @@ h1{
 	border: solid 5px blue;
 }
 #carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
-#carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(288px);}
-#carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(288px);}
-#carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(288px);}
-#carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(288px);}
-#carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(288px);}
-#carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(288px);}
-#carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
-#carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
+#carousel figure:nth-child(2) { transform: rotateY(60deg) translateZ(288px);}
+#carousel figure:nth-child(3) { transform: rotateY(120deg) translateZ(288px);}
+#carousel figure:nth-child(4) { transform: rotateY(180deg) translateZ(288px);}
+#carousel figure:nth-child(5) { transform: rotateY(240deg) translateZ(288px);}
+#carousel figure:nth-child(6) { transform: rotateY(300deg) translateZ(288px);}
 
 
 @keyframes rotation{
@@ -92,7 +89,7 @@ div.imag4{
 }
 div.imag5{
     -webkit-filter: grayscale(1);
-    content:url("http://lorempixel.com/186/116/nature/5")
+    content:url(carousel/4_Aishwariy_Baheti_CSE.jpg)
 }
 div.imag6{
     -webkit-filter: grayscale(1);
