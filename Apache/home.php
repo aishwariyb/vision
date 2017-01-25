@@ -154,7 +154,7 @@ background: #ABABAB;
         
     </header>
 	<!--end: Header-->
-	<div class="baap">
+	<div class="baap" style="margin-bottom:100px">
 		<!-- start: Slider -->
 		<div class="slider-wrapper">
 

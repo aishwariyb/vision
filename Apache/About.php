@@ -175,7 +175,7 @@
     <br><br><br><br><br><br><br>
     </div>
     <!-- starts : collapsible -->
-    <div style="margin-bottom:-20px;">
+    <div style="margin-bottom:100px;">
     <ul class="collapsible" data-collapsible="accordion">
         <li>
             

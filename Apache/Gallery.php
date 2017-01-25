@@ -109,7 +109,7 @@
 	</header>
 	<!--end: Header-->
 	
-	
+	<div style="margin-bottom:100px">
 	<div class="bs-example bs-example-tabs " data-example-id="togglable-tabs" > 
     <ul class="nav nav-tabs nav-justified" id="myTabs" style="float: none;" role="tablist"> 
         <li role="presentation" class="active">
@@ -838,7 +838,7 @@
 		</div> 
     
          <!-- END of content -->
-        
+
     <!-- END of content -->
     
 	<!--end: Gallery Code-->
@@ -847,7 +847,7 @@
     </div>
     </div>
 	
-	
+	</div>
 	
 	<!-- start: Footer Menu -->
 	<div class="footer-bottom" style="text-align:center;padding-bottom: 3rem;padding-top: 24px;padding-bottom: 10px;font-size: 16px ;font-family: raleway-medium,sans-serif;background: #14181E;">
@@ -876,5 +876,6 @@
 
     
 <!-- end: Java Script -->
+
 </body>
 </html>

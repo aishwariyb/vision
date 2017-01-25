@@ -28,7 +28,14 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
+<style>
+    .collapsible{
+        margin-top: 0px !important;
+    }
+    *{
+        box-sizing:content-box;
+    }
+    </style>
 </head>
 <body>
 	
@@ -102,8 +109,8 @@
 	</header>
 	<!--end: Header-->
         		
-    <br>
-    <div style="margin-bottom:-20px">
+    
+    <div style="margin-bottom:100px">
     <!-- starts: Collapsible -->         
     <ul class="collapsible" data-collapsible="accordion">
         <li>
@@ -304,7 +311,7 @@
                 <br>
                 <div class="container">
                     <div class="row ">
-                        <div  style="width:650px;margin-left:auto;margin-right:auto;">
+                        <div  style="margin-left:auto;margin-right:auto;">
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2011/12.jpg" alt="Swarm Robotics Workshop">
