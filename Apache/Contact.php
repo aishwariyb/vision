@@ -104,7 +104,7 @@
 			
 	</header>
 	<!--end: Header-->
-	<div class="baap">
+	<div class="baap" style="margin-bottom:100px">
 	<!-- start: Map -->
 		<!-- starts: Google Maps -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -188,7 +188,7 @@
 				<!-- end: Contact Form -->
 
 				<!-- start: Social Sites -->
-				<div class="span3">
+				<div class="span3" >
 					<div class="title" style="text-align:center;"><h3>Follow US!</h3></div>
 					<ul class="social-bookmarks">
 						<li class="facebook"><a href="https://www.facebook.com/visionmanit/?fref=ts">facebook</a></li>
@@ -214,9 +214,8 @@
 	<!-- start: Footer Menu -->
 	<div class="footer-bottom" style="text-align:center;padding-bottom: 3rem;padding-top: 24px;padding-bottom: 10px;font-size: 16px ;font-family: raleway-medium,sans-serif;background: #14181E;">
     <div class="row" >
-        <div > <span>© Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
-        <div id="go-top" style="display: block;"><a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a></div>
-      </div>
+         <span>© Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
+        
     </div>
     <!-- end: Footer Menu -->
 
