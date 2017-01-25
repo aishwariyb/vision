@@ -17,7 +17,7 @@
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
         <!-- end: CSS -->
         
-        <title>Events</title><link rel="icon" type="image/png" href="img/favicon.png">
+        <title>Events</title><link rel="icon" type="image/png" href="http://visionmanit.in/img/favicon.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<style type="text/css">
 		/* Style the buttons that are used to open and close the accordion panel */
