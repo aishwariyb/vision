@@ -1,12 +1,12 @@
 <?php
-class User {
-	private $dbHost     = "localhost";
+class FbUser {
+    private $dbHost     = "localhost";
     private $dbUsername = "root";
     private $dbPassword = "";
     private $dbName     = "codexworld";
-    private $userTbl    = 'users';
-	
-	function __construct(){
+    private $userTbl    = 'f_users';
+    
+    function __construct(){
         if(!isset($this->db)){
             // Connect to the database
             $conn = new mysqli($this->dbHost, $this->dbUsername, $this->dbPassword, $this->dbName);
@@ -17,15 +17,15 @@ class User {
             }
         }
     }
-	
-	function checkUser($userData = array()){
+    
+    function checkUser($userData = array()){
         if(!empty($userData)){
             //Check whether user data already exists in database
             $prevQuery = "SELECT * FROM ".$this->userTbl." WHERE oauth_provider = '".$userData['oauth_provider']."' AND oauth_uid = '".$userData['oauth_uid']."'";
             $prevResult = $this->db->query($prevQuery);
             if($prevResult->num_rows > 0){
-               // Update user data if already exists
-                $query = "UPDATE ".$this->userTbl." SET first_name = '".$userData['first_name']."', last_name = '".$userData['last_name']."', email = '".$userData['email']."',modified = '".date("Y-m-d H:i:s")."' WHERE oauth_provider = '".$userData['oauth_provider']."' AND oauth_uid = '".$userData['oauth_uid']."'";
+                //Update user data if already exists
+                $query = "UPDATE ".$this->userTbl." SET first_name = '".$userData['first_name']."', last_name = '".$userData['last_name']."', email = '".$userData['email']."', modified = '".date("Y-m-d H:i:s")."' WHERE oauth_provider = '".$userData['oauth_provider']."' AND oauth_uid = '".$userData['oauth_uid']."'";
                 $update = $this->db->query($query);
             }else{
                 //Insert user data
@@ -33,7 +33,7 @@ class User {
                 $insert = $this->db->query($query);
             }
             
-            // Get user data from the database
+            //Get user data from the database
             $result = $this->db->query($prevQuery);
             $userData = $result->fetch_assoc();
         }
