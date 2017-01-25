@@ -1,3 +1,16 @@
+<!--For storing email and sending subscription mail-->
+<?php
+if(isset($_POST['newsletter_submit'])){
+	include "database.php";
+	$sql="insert into newsletter(n_email) values ('".$_POST['newsletter_input']."')";
+	$result=$db->query($sql);
+	if($result){
+		include "mail_newsletter.php";
+	}
+}
+?>
+<!--Ends-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -308,13 +321,15 @@ background: #ABABAB;
 					<!-- end: Follow Us -->
 				
 					<!-- start: Newsletter -->
-					<form id="newsletter">
+				<!-- start: Newsletter -->
+					<form id="newsletter" method="POST">
 						<h3>Newsletter</h3>
 						<p>Please leave us your email</p>
 						<label for="newsletter_input">@:</label>
-						<input type="text" id="newsletter_input">
-						<input type="submit" id="newsletter_submit" value="submit">
+						<input type="text" id="newsletter_input" name="newsletter_input" required>
+						<input type="submit" id="newsletter_submit" name="newsletter_submit" value="submit">
 					</form>
+					<!-- end: Newsletter -->
 					<!-- end: Newsletter -->
                     </div>			
 							

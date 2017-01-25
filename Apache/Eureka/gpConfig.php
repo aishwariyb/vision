@@ -9,7 +9,7 @@ include_once 'src/contrib/Google_Oauth2Service.php';
  */
 $clientId = '79110953412-6enfjmidrim95grrjeqlbuut8coj7eok.apps.googleusercontent.com'; //Google client ID
 $clientSecret = 'usbP5Vc7DMvdHdJpKLatqbVf'; //Google client secret
-$redirectURL = 'http://localhost/Apache/'; //Callback URL
+$redirectURL = 'http://localhost/v/Apache/login.php'; //Callback URL
 
 //Call Google API
 $gClient = new Google_Client();
