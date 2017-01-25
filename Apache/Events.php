@@ -50,7 +50,7 @@
             #noesis{}
             div.panel.active{
                 max-height: 480px;
-                padding: 2rem;
+                padding: 5px;
         
             }/*
             @media only screen and(min-width:960px)
@@ -89,7 +89,7 @@
 					  panel.classList.remove("active");
 					} else {
 					  panel.style.maxHeight = panel.scrollHeight-70 + 'px';
-					  panel.style.padding = "2rem";
+					  panel.style.padding = "5px";
 					  panel.classList.add("active");
 					} 
 				}
@@ -185,9 +185,9 @@
         </header>
         
         <!-- starts: Collapsible -->         
-            
+        
             <!-- NOESIS : STARTS -->
-           
+           <div style="margin-bottom:100px">
             <button class="accordionV heading-collapsible" id="noesis">Noesis</button>
 
                 <div class="panel active" >
@@ -462,7 +462,7 @@
            
             <!-- WORKSHOP : ENDS -->
         <a href="pastEvents.php" style="text-decoration:none; color:#444;"><button id="past-event" class="heading-collapsible">Past Events</button></a>
-        
+        </div>
         
         
         <!-- start: Footer Menu -->

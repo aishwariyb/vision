@@ -1637,6 +1637,7 @@ body {
 	.baap {
 		padding-left:20px;
 		padding-right:20px;
+        margin-bottom: 80px;
 	}
 	#googlemaps{
 		margin-left:0px;
@@ -1648,10 +1649,11 @@ body {
 }	
 .footer-bottom{
     color: #FFF;
-    
+    position: fixed;
     bottom:0;
     left:0;
     right:0;
+    z-index:10;
     
 }
 	
