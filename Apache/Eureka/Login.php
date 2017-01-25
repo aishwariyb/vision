@@ -103,8 +103,8 @@ if ($gClient->getAccessToken()) {
 
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>Login</title><link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="icon" type="image/png" href="img/favicon.png">
+	<title>Login</title><link rel="icon" type="image/png" href="http://visionmanit.in/img/favicon.png">
+    <link rel="icon" type="image/png" href="http://visionmanit.in/img/favicon.png">
 	<meta name="description" content="GotYa Free Bootstrap Theme"/>
 	<meta name="keywords" content="Template, Theme, web, html5, css3, Bootstrap" />
 	<meta name="author" content="Łukasz Holeczek from creativeLabs"/>

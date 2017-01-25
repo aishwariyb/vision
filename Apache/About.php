@@ -3,7 +3,7 @@
 <head>
 
 	
-	<title>About Us</title><link rel="icon" type="image/png" href="img/favicon.png">
+	<title>About Us</title><link rel="icon" type="image/png" href="http://visionmanit.in/img/favicon.png">
     
 	
 	<!-- start: Mobile Specific -->
@@ -46,7 +46,7 @@
             $('.carousel').carousel(); //carousel init
 
         });
-
+</script>
     <!--Collapsible Script-->
     <script>
         $(document).ready(function(){

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	
-	<title>Vision</title><link rel="icon" type="image/png" href="img/favicon.png">
+	<title>Vision</title><link rel="icon" type="image/png" href="http://visionmanit.in/img/favicon.png">
 	
 	
 	<!-- start: Mobile Specific -->
@@ -130,11 +130,11 @@ background: #ABABAB;
 			          		</a>
 			          		<div class="nav-collapse collapse">
 			            		<ul class="nav">
-			              			<li class="active"><a href="index.html">Home</a></li>
-			              			<li><a href="About.html">About</a></li>
-									<li><a href="Gallery.html">Gallery</a></li>
-									<li><a href="Events.html">Events</a></li>
-			              			<li><a href="Contact.html">Contact Us</a></li>
+			              			<li class="active"><a href="Home.php">Home</a></li>
+			              			<li><a href="About.php">About</a></li>
+									<li><a href="Gallery.php">Gallery</a></li>
+									<li><a href="Events.php">Events</a></li>
+			              			<li><a href="Contact.php">Contact Us</a></li>
                                     
 			         
 			            		</ul>
@@ -162,31 +162,31 @@ background: #ABABAB;
 				<div class="da-slide">
 					<h2>Noesis 2K16</h2>
 					<p>Annual Mega Fest of Vision. This year it had more than 1400 participants from several colleges across the city.</p>
-					<a href="Events.html" class="da-link">Read more</a>
+					<a href="Events.php" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/NOesis.png" alt="image01" /></div>
 				</div>
 				<div class="da-slide">
-					<h2>White Line Tracer Workshop</h2>
+					<h2>White Line Tracer <br> Workshop</h2>
 					<p>Annual Workshop conducted by Vision. </p>
-					<a href="Events.html" class="da-link">Read more</a>
+					<a href="Events.php" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/WLT.png" alt="image02" /></div>
 				</div>
 				<div class="da-slide">
 					<h2>Robo Fifa</h2>
 					<p>Annual Event conducted in Technosearch.</p>
-					<a href="Events.html" class="da-link">Read more</a>
+					<a href="Events.php" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/RoboFifa.png" alt="image03" /></div>
 				</div>
 				<div class="da-slide">
 					<h2>Circuit Run</h2>
 					<p>Annual Event conducted in Technosearch.</p>
-					<a href="Events.html" class="da-link">Read more</a>
+					<a href="Events.php" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/circuit_run.png" alt="image04" /></div>
 				</div>
 				<div class="da-slide">
 					<h2>Code Kriegers</h2>
 					<p>Annual Event conducted in Technosearch.</p>
-					<a href="Events.html" class="da-link">Read more</a>
+					<a href="Events.php" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/CK.png" alt="image05" /></div>
 				</div>
 				<nav class="da-arrows">
@@ -220,7 +220,7 @@ background: #ABABAB;
 		</div>
 		<div class="inbar">
 			<ul >
-				<li> <p>Eureka!!</p></li>
+                <li> <p><a href="Eureka/">Eureka!!</a></p></li>
 				<li><p> Arduino Workshop</p></li>
 				<li> <p> Web Development Workshop</p></li>
 				<li><p>PLC Workshop</p></li>
@@ -232,13 +232,14 @@ background: #ABABAB;
     <div class="avatar view-team">
         
         <img src="img/upcoming_events/eureka.jpg" alt="eureka">
-        <a href="Eureka/index.html"><div class="mask" style="width:100%;height:100%">
+        <a href="Eureka/"><div class="mask" style="width:100%;height:100%">
         <div class="body-carousel-pe">
             <h2>Eureka</h2>
             <p>2K17</p>
             
             </div>
-            </div></a>
+        </div>
+            </a>
     </div>
                     </div>
 			<div class="span6" style="float:right">
@@ -250,10 +251,10 @@ background: #ABABAB;
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-twitter">
-											<a href="http://twitter.com"></a>
+											<a href="https://twitter.com/VisionNITB"></a>
 										</div>
 										<div class="social-info-back social-twitter-hover">
-											<a href="http://twitter.com"></a>
+											<a href="https://twitter.com/VisionNITB"></a>
 										</div>	
 									</div>
 								</div>
@@ -264,10 +265,10 @@ background: #ABABAB;
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-insta">
-											<a href="http://instagram.com"></a>
+											<a href="https://www.instagram.com/visionmanit/"></a>
 										</div>
 										<div class="social-info-back social-insta-hover">
-											<a href="http://instagram.com"></a>
+											<a href="https://www.instagram.com/visionmanit/"></a>
 										</div>	
 									</div>
 								</div>
@@ -279,10 +280,10 @@ background: #ABABAB;
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-facebook">
-											<a href="http://facebook.com"></a>
+											<a href="https://www.facebook.com/visionmanit/?fref=ts"></a>
 										</div>
 										<div class="social-info-back social-facebook-hover">
-											<a href="http://facebook.com"></a>
+											<a href="https://www.facebook.com/visionmanit/?fref=ts"></a>
 										</div>
 									</div>
 								</div>
@@ -293,10 +294,10 @@ background: #ABABAB;
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-youtube">
-											<a href="http://youtube.com"></a>
+											<a href="https://www.youtube.com/channel/UCM1dBAT20ulLHkofolWr3uA"></a>
 										</div>
 										<div class="social-info-back social-youtube-hover">
-											<a href="http://youtube.com"></a>
+											<a href="https://www.youtube.com/channel/UCM1dBAT20ulLHkofolWr3uA"></a>
 										</div>	
 									</div>
 								</div>
@@ -318,7 +319,7 @@ background: #ABABAB;
                     </div>			
 							
 								
-            </div>		
+            	
 								
 								
 				
@@ -333,12 +334,17 @@ background: #ABABAB;
 				
 				
 				
-			
+    </div>
 			<!--end: Container-->
 		
 		</div>
 		<!-- end: Wrapper  -->			
-	
+	<div class="footer-bottom" style="text-align:center;padding-bottom: 3rem;padding-top: 24px;padding-bottom: 10px;font-size: 16px ;font-family: raleway-medium,sans-serif;background: #14181E;">
+    <div class="row" >
+        <div > <span>© Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
+        <div id="go-top" style="display: block;"><a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a></div>
+      </div>
+    </div>
 <!-- start: Java Script -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery-1.8.2.js"></script>

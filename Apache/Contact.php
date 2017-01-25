@@ -4,7 +4,7 @@
 
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>Contact Us</title><link rel="icon" type="image/png" href="img/favicon.png"> 
+	<title>Contact Us</title><link rel="icon" type="image/png" href="http://visionmanit.in/img/favicon.png"> 
 	<meta name="description" content="GotYa Free Bootstrap Theme"/>
 	<meta name="keywords" content="Template, Theme, web, html5, css3, Bootstrap" />
 	<meta name="author" content="?ukasz Holeczek from creativeLabs"/>
