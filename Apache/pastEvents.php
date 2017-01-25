@@ -4,7 +4,7 @@
 
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>Past Events</title><link rel="icon" type="image/png" href="img/Favicon.png">
+	<title>Past Events</title><link rel="icon" type="image/png" href="http://visionmanit.in/img/favicon.png">
 	<!-- end: Meta -->
 	
 	<!-- start: Mobile Specific -->
