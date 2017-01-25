@@ -578,17 +578,6 @@
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
-                                    <img class="img-circle img-responsive" src="Member%20Photos/male.png" alt="Mohit Gole" height="150" width="150">
-                                </div>
-                                <div class="team-desc">
-                                    <h4>Mohit Gole</h4>
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="span2">
-                            <div class="team-members">
-                                <div class="team-avatar">
                                     <img class="img-circle img-responsive" src="Member%20Photos/3_Anubhi_Vijayvergia_CSE.jpg" alt="Anubhi Vijayvargiya" height="150" width="150">
                                 </div>
                                 <div class="team-desc">
@@ -597,6 +586,18 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/male.png" alt="Mohit Gole" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Mohit Gole</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -1137,6 +1138,249 @@
                                 <div class="team-desc">
                                     <h4>Rishiraj Rajput</h4>
 
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <!-- end: Row -->
+                </div> 
+                <!--end: Container-->
+                
+            </div>
+
+        </li>
+        
+        <li>
+            
+            <div class="collapsible-header heading-collapsible" style="font-size:20px;">Web Developing Team</div>
+            <div class="collapsible-body">
+                
+                <div class="container">
+                    <br>
+                    
+                    <div class="row"><div style="margin-left:auto;margin-right:auto;">
+
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/4_Aishwariy_Baheti_CSE1.jpg" alt="Aishwariy Baheti" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Aishwariy Baheti</h4>
+                                    <h4>Final Year</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/4_Aditya_Gaur_CSE.jpg" alt="Aditya Gaur" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Aditya Gaur</h4>
+                                    <h4>Final Year</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/4_NARESH_KUMAR_CSE.jpg" alt="Naresh Kumar" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Naresh Kumar</h4>
+                                    <h4>Final Year</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/4_DIKSHA_SHRIVASTAVA_CSE.jpg" alt="Diksha Srivastava" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Diksha Srivastava</h4>
+                                    <h4>Final Year</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/4_Divya_cse.jpg" alt="Divya Mittal" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Divya Mittal</h4>
+                                    <h4>Final Year</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                    <hr style="width:300px; margin :20px auto;">  
+                    
+                    <div class="row"><div style=" margin-left:auto;margin-right:auto;">
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/3_Ayush_Rathi_CSE.jpeg" alt="Ayush Rathi" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Ayush Rathi</h4>
+                                    <h4>Third Year</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/3_Anubhi_Vijayvergia_CSE.jpg" alt="Anubhi Vijayvargiya" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Anubhi Vijayvergia</h4>
+                                    <h4>Third Year</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/male.png" alt="Mohit Gole" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Mohit Gole</h4>
+                                    <h4>Third Year</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/male.png" alt="Vivek Verma" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Vivek Verma</h4>
+                                    <h4>Third Year</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/male.png" alt="Avanish Ingle" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Avanish Ingle</h4>
+                                    <h4>Third Year</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        </div>
+                    </div>
+                    
+                    <hr style="width:300px; margin :20px auto;">  
+
+                    <div class="row"><div style=" margin-left:auto;margin-right:auto;">
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/2_ANUJ_GUPTA_CSE.JPG" alt="Anuj A Gupta" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Anuj A Gupta</h4>
+                                    <h4>Second Year</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/2_Kashish_Joshi_CSE.jpg" alt="Kashish Joshi" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Kashish Joshi</h4>
+                                    <h4>Second Year</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/2_hemachandra_cse.jpg" alt="Hema Chandra" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Hema Chandra</h4>
+                                    <h4>Second Year</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/IMG_0657%20(2).jpg" alt="Kratika Pandey" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Kratika Pandey</h4>
+                                    <h4>Second Year</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/2_Sheetal_Nayak_CSE.JPG" alt="Sheetal Nayak" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Sheetal Nayak</h4>
+                                    <h4>Second Year</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/2_VARNIKA_CHATURVEDI_CSE.jpg" alt="Varnika Chaturvedi" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Varnika Chaturvedi</h4>
+                                    <h4>Second Year</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/2_ARUN_TEJA_CSE.jpg" alt="Arun Teja" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Arun Teja</h4>
+                                    <h4>Second Year</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/2_SHIV_KUMAR_CSE.jpg" alt="Shiv Kumar" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Shiv Kumar</h4>
+                                    <h4>Second Year</h4>
                                 </div>
                             </div>
                         </div>
