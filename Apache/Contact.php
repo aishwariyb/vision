@@ -214,8 +214,8 @@
 	<!-- start: Footer Menu -->
 	<div class="footer-bottom" style="text-align:center;padding-bottom: 3rem;padding-top: 24px;padding-bottom: 10px;font-size: 16px ;font-family: raleway-medium,sans-serif;background: #14181E;">
     <div class="row" >
-         <span>© Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
-        
+
+        <div > <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
     </div>
     <!-- end: Footer Menu -->
 
