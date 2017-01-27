@@ -428,7 +428,7 @@
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
-                                    <img class="img-circle img-responsive" src="Member%20Photos/male.png" alt="Avanish Ingle" height="150" width="150">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/3_avanish_ingle_cse.jpg" alt="Avanish Ingle" height="150" width="150">
                                 </div>
                                 <div class="team-desc">
                                     <h4>Web Developer</h4>
@@ -1272,7 +1272,7 @@
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
-                                    <img class="img-circle img-responsive" src="Member%20Photos/male.png" alt="Avanish Ingle" height="150" width="150">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/3_avanish_ingle_cse.jpg" alt="Avanish Ingle" height="150" width="150">
                                 </div>
                                 <div class="team-desc">
                                     <h4>Avanish Ingle</h4>

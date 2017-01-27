@@ -172,6 +172,12 @@ background: #ABABAB;
 		<div class="slider-wrapper">
 
 			<div id="da-slider" class="da-slider">
+                <div class="da-slide">
+					<h2>Eureka&#33;</h2>
+					<p>A tribute to the crazy ones.....</p>
+					<a href="Eureka/" class="da-link">Read more</a>
+					<div class="da-img"><img src="img/parallax-slider/eureka1.png" alt="eureka logo" /></div>
+				</div>
 				<div class="da-slide">
 					<h2>Noesis 2K16</h2>
 					<p>Annual Mega Fest of Vision. This year it had more than 1400 participants from several colleges across the city.</p>
