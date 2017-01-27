@@ -19,7 +19,7 @@ if(isset($login1) ){
 }
 if(isset($register1)){
 	if($password===$confirm){
-		// $sql = insert_into_table('p_user',array('name','email','pass'),array($username,$email,$password));
+		$sql = insert_into_table('p_user',array('name','email','pass'),array($username,$email,$password));
 		$hash = md5(rand(1000,5000));
 		$email = trim($email);
 		$password = trim($password);
@@ -41,70 +41,19 @@ if(isset($register1)){
 ?>
 <?php
 //Include GP config file && User class
-include_once 'gpConfig.php';
-include_once 'User.php';
-
-if(isset($_GET['code'])){
-	$gClient->authenticate($_GET['code']);
-	$_SESSION['token'] = $gClient->getAccessToken();
-	header('Location: ' . filter_var($redirectURL, FILTER_SANITIZE_URL));
-}
-
-if (isset($_SESSION['token'])) {
-	$gClient->setAccessToken($_SESSION['token']);
-}
-
-if ($gClient->getAccessToken()) {
-	//Get user profile data from google
-	$gpUserProfile = $google_oauthV2->userinfo->get();
-	
-	//Initialize User class
-	$user = new User();
-	
-	//Insert or update user data to the database
-    $gpUserData = array(
-        'oauth_provider'=> 'google',
-        'oauth_uid'     => $gpUserProfile['id'],
-        'first_name'    => $gpUserProfile['given_name'],
-        'last_name'     => $gpUserProfile['family_name'],
-        'email'         => $gpUserProfile['email'],
-        'gender'        => $gpUserProfile['gender'],
-        'locale'        => $gpUserProfile['locale'],
-        'picture'       => $gpUserProfile['picture'],
-        'link'          => $gpUserProfile['link']
-    );
-    $userData = $user->checkUser($gpUserData);
-	
-	//Storing user data into session
-	$_SESSION['userData'] = $userData;
-	
-	//Render facebook profile data
-    if(!empty($userData)){
-        $output = '<h1>Google+ Profile Details </h1>';
-        $output .= '<img src="'.$userData['picture'].'" width="300" height="220">';
-        $output .= '<br/>Google ID : ' . $userData['oauth_uid'];
-        $output .= '<br/>Name : ' . $userData['first_name'].' '.$userData['last_name'];
-        $output .= '<br/>Email : ' . $userData['email'];
-        $output .= '<br/>Gender : ' . $userData['gender'];
-        $output .= '<br/>Locale : ' . $userData['locale'];
-        $output .= '<br/>Logged in with : Google';
-        $output .= '<br/><a href="'.$userData['link'].'" target="_blank">Click to Visit Google+ Page</a>';
-        $output .= '<br/>Logout from <a href="logout.php">Google</a>'; 
-    }else{
-        $output = '<h3 style="color:red">Some problem occurred, please try again.</h3>';
-    }
-} else {
-	$authUrl = $gClient->createAuthUrl();
-	$output = '<a href="'.filter_var($authUrl, FILTER_SANITIZE_URL).'"><img src="images/glogin.png" alt=""/></a>';
-}
+include "google.php";
+?>
+<?php
+//Include FB config file && User class
+include "fb.php";
 ?>
 
 <head>
 
 	<!-- start: Meta -->
 	<meta charset="utf-8">
-	<title>Login</title><link rel="icon" type="image/png" href="http://visionmanit.in/img/favicon.png">
-    <link rel="icon" type="image/png" href="http://visionmanit.in/img/favicon.png">
+	<title>Login</title><link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="icon" type="image/png" href="img/favicon.png">
 	<meta name="description" content="GotYa Free Bootstrap Theme"/>
 	<meta name="keywords" content="Template, Theme, web, html5, css3, Bootstrap" />
 	<meta name="author" content="Łukasz Holeczek from creativeLabs"/>
@@ -268,7 +217,7 @@ body{
 		
 		<!--start: Wrapper-->
 		<div id="wrapper" style="margin-top:1%;margin-left:1%">
-			<a href="index.php" class="btn btn-danger "><span class="glyphicon glyphicon-hand-left"></span> Back To Home</a>
+			<!--<a href="index.php" class="btn btn-danger "><span class="glyphicon glyphicon-hand-left"></span> Back To Home</a>-->
 			
 			
 			
@@ -318,7 +267,7 @@ body{
 											</div>
 										</div>
 									</div>
-									<div><?php echo $output;?></div>
+									<div class="row" style="margin-left:3%;margin-right:3%;"><div class="pull-left"><?php echo $output;?></div><div class="pull-right"><?php echo $fboutput?></div></div>
 								</form>
 								<form id="register-form" action="Login.php" method="post" role="form" style="display: none;">
 									<div class="form-group">
