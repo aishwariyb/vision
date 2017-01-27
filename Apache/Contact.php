@@ -36,6 +36,22 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <style>
+        .follow-us{
+            position: relative;
+            left:2%;
+        }
+        
+        @media screen and (max-width:480px){
+            .follow-us{
+                
+                position: relative;
+                left:25%;
+            }
+        }
+        
+    </style>
 
 </head>
 <body>
@@ -190,6 +206,8 @@
 				<!-- start: Social Sites -->
 				<div class="span3" >
 					<div class="title" style="text-align:center;"><h3>Follow US!</h3></div>
+                </div>
+                <div class="span3 follow-us" >
 					<ul class="social-bookmarks">
 						<li class="facebook"><a href="https://www.facebook.com/visionmanit/?fref=ts">facebook</a></li>
 						<li class="twitter"><a href="https://twitter.com/VisionNITB">twitter</a></li>
