@@ -110,7 +110,7 @@
 	<!--end: Header-->
         		
     
-    <div style="margin-bottom:100px">
+    <div style="margin-bottom:160px">
     <!-- starts: Collapsible -->         
     <ul class="collapsible" data-collapsible="accordion">
         <li>
@@ -347,8 +347,9 @@
     <!-- start: Footer Menu -->
 	<div class="footer-bottom" style="text-align:center;padding-bottom: 3rem;padding-top: 24px;padding-bottom: 10px;font-size: 16px ;font-family: raleway-medium,sans-serif;background: #14181E;">
     <div class="row" >
-        <div > <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
-        <div id="go-top" style="display: block;"><a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a></div>
+        <div class="span3"><span>Sponsored by</span><br><img src="img/drrmztech.png"></div>
+        <div class="copyright"> <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
+        
       </div>
     </div>
 	<!-- end: Footer Menu -->
