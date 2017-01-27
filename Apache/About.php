@@ -30,6 +30,15 @@
 
         <!--Import materialize.css-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    
+        <style>
+            .team-members .team-desc h5 {
+                font-size: 12px;
+                font-weight: 600;
+                margin: 0 0 10px;
+                color: #fff;
+            }
+        </style>
 
 
 </head>
@@ -400,8 +409,6 @@
             
             <div class="collapsible-body">
                 <div class="container">
-            
-                    <div class="heading-collapsible" style="font-size:18px; padding:15px;">Computer Science &amp; Engineering</div>
 
                     <div class="row"><div style=" margin-left:auto;margin-right:auto;">
                         <div class="span2">
@@ -412,7 +419,8 @@
                                 <div class="team-desc">
                                     <h4>CSE Branch Coordinator</h4>
                                     <h4>Vansh Kukreja</h4>
-
+                                    <h5>CSE</h5>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -425,27 +433,21 @@
                                 <div class="team-desc">
                                     <h4>Web Developer</h4>
                                     <h4>Avanish Ingle</h4>
+                                    <h5>CSE</h5>
 
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    </div>
                     
-                    
-
-                    <div class="heading-collapsible" style="font-size:18px; padding:15px;">Electrical Engineering </div>
-                    <!-- start: Row -->                    
-                    <div class="row"><div style="margin-left:auto;margin-right:auto;">
-                       <div class="span2">
-                           <div class="team-members">
+                        <div class="span2">
+                            <div class="team-members">
                                <div class="team-avatar">
                                     <img class="img-circle img-responsive" src="Member%20Photos/3_VEDANT_SINGH_EE.jpg" alt="Vedant Singh" height="150" width="150">
                                 </div>
                                 <div class="team-desc">
                                     <h4>Co-coordinator</h4>
                                     <h4>Vedant Singh</h4>
-
+                                    <h5>EE</h5>
                                 </div>
                            </div>
                        </div>
@@ -457,7 +459,7 @@
                                 <div class="team-desc">
                                     <h4>Asst. Technical Head</h4>
                                     <h4>Apoorv Lokhande</h4>
-
+                                    <h5>EE</h5>
                                 </div>
                             </div>
                         </div>
@@ -470,7 +472,7 @@
                                 <div class="team-desc">
                                     <h4 style="padding-right:20px">Asst. Robovision Head</h4>
                                     <h4>Abhishek Ranjan</h4>
-
+                                    <h5>EE</h5>
                                 </div>
                             </div>
                         </div>
@@ -482,17 +484,11 @@
                                 <div class="team-desc">
                                     <h4>Asst. Management Head</h4>
                                     <h4>Abhishek Parashar</h4>
-
+                                    <h5>EE</h5>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    </div>
-
-
-                    <div class="heading-collapsible" style="font-size:18px; padding:15px;">Electronics &amp; Communication Engineering </div>
-
-                    <div class="row"><div style="width:100% margin:0 auto">    
+                       
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -501,7 +497,7 @@
                                 <div class="team-desc">
                                     <h4>ECE Branch Coordinator</h4>
                                     <h4>Abhijeet Gupta</h4>
-
+                                    <h5>ECE</h5>
                                 </div>
                             </div>
                         </div>
