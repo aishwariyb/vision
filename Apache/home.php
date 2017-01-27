@@ -43,7 +43,7 @@ if(isset($_POST['newsletter_submit'])){
  
 
 .holder {
-	width: 300px;
+	width: 332px;
 	margin: 20px;
 	float: left;
 	overflow: hidden;
@@ -332,7 +332,7 @@ background: #ABABAB;
 						<h3>Newsletter</h3>
 						<p>Please leave us your email</p>
 						<label for="newsletter_input">@:</label>
-						<input type="text" id="newsletter_input" name="newsletter_input" required>
+						<input type="text" id="newsletter_input" name="newsletter_input" required style="height:37px;">
 						<input type="submit" id="newsletter_submit" name="newsletter_submit" value="submit">
 					</form>
 					<!-- end: Newsletter -->
