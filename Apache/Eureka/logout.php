@@ -1,4 +1,5 @@
 <?php
+session_start();
 //Include GP config file
 include_once 'gpConfig.php';
 //Unset token and user data from session
@@ -12,5 +13,5 @@ $gClient->revokeToken();
 session_destroy();
 
 //Redirect to homepage
-header("Location:login.php");
+header("Location:Login.php");
 ?>

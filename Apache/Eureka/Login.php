@@ -1,7 +1,7 @@
 <?php 
 session_start();
 extract($_POST);
-if(isset($_SESSION['email'])){
+if(isset($_SESSION['email']) || isset($_SESSION['userData']) || isset($_SESSION['fbuserData'])) {
 	header('Location: index.php');
 }
 else{
@@ -10,7 +10,7 @@ if(isset($login1) ){
 	$result = $db->query("SELECT * from v_user where email='$email' and pass='$password' and active = 1");
 	if($db->affected_rows){
 		$_SESSION['email'] = $email;
-		header("Location: index.php");
+		header("Location: comingsoon.php");
 	}else{
 		unset($_SESSION['email']);
 		echo '<script>alert("Invalid Email or password.")</script>';
@@ -19,7 +19,7 @@ if(isset($login1) ){
 }
 if(isset($register1)){
 	if($password===$confirm){
-		$sql = insert_into_table('p_user',array('name','email','pass'),array($username,$email,$password));
+		// $sql = insert_into_table('v_user',array('name','email','pass'),array($username,$email,$password));
 		$hash = md5(rand(1000,5000));
 		$email = trim($email);
 		$password = trim($password);
@@ -47,11 +47,10 @@ include "google.php";
 //Include FB config file && User class
 include "fb.php";
 ?>
-
-<head>
+<head><meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
 
 	<!-- start: Meta -->
-	<meta charset="utf-8">
+	
 	<title>Login</title><link rel="icon" type="image/png" href="img/favicon.png">
     <link rel="icon" type="image/png" href="img/favicon.png">
 	<meta name="description" content="GotYa Free Bootstrap Theme"/>
@@ -70,6 +69,21 @@ include "fb.php";
 	<meta property="og:url" content=""/>
 	<meta property="og:image" content=""/>
 	<!-- end: Facebook Open Graph -->
+<script>
+ function check_pass() {
+ 	if(document.getElementById('password1').value === "" || document.getElementById('confirm-password').value === "")
+ 	{
+ 	document.getElementById('message').innerHTML = " ";	
+ 	}
+
+    else if(document.getElementById('password1').value === document.getElementById('confirm-password').value) {
+   
+        document.getElementById('message').innerHTML = "<b style='color:green'>Passwords Match</b>";
+    } else {
+        document.getElementById('message').innerHTML = "<b style='color:red'>Passwords Don't Match</b>";
+    }
+}   
+</script>
 
     <!-- start: CSS -->
    
@@ -198,6 +212,7 @@ body{
 <body>
 	
 	<div class="baap">
+	
 		<!-- start: Page Title -->
 		<div id="page-title">
 	<!--
@@ -212,11 +227,13 @@ body{
 				<!-- end: Container  -->
 				
 		<!--</div> -->
+		
 		</div>
 		<!-- end: Page Title -->
 		
 		<!--start: Wrapper-->
 		<div id="wrapper" style="margin-top:1%;margin-left:1%">
+		
 			<!--<a href="index.php" class="btn btn-danger "><span class="glyphicon glyphicon-hand-left"></span> Back To Home</a>-->
 			
 			
@@ -224,7 +241,7 @@ body{
 					
 			<!--start: Container -->
 			<div class="container" style="margin-top:10%">
-				
+				<h1 style="font-variant:small-caps;text-align:center;">Eureka!!</h1>
 				<div class="col-md-6 col-md-offset-3">
 				<div class="panel panel-login">
 					<div class="panel-heading">
@@ -277,10 +294,13 @@ body{
 										<input pattern="[a-zA-Z.0-9]+[@][a-zA-Z]+[.][a-zA-Z]+" type="text" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" required>
 									</div>
 									<div class="form-group">
-										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password" required>
+										<input type="password" name="password" id="password1" tabindex="2" class="form-control" placeholder="Password" required oninput='check_pass();'/>
 									</div>
 									<div class="form-group">
-										<input type="password" name="confirm" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password" required>
+										<input type="password" name="confirm" id="confirm-password" tabindex="2" class="form-control" placeholder="Confirm Password" required oninput='check_pass();'/>
+									</div>
+									<div>
+									<span id="message"></span>
 									</div>
 									<div class="form-group">
 										<div class="row">
@@ -330,6 +350,8 @@ body{
 <script src="Login Form.js"></script>
 <!-- end: Java Script -->
 </body>
+
+
 
 <?php
 }

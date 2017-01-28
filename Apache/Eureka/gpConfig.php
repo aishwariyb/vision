@@ -7,9 +7,9 @@ include_once 'src/contrib/Google_Oauth2Service.php';
 /*
  * Configuration and setup Google API
  */
-$clientId = '79110953412-6enfjmidrim95grrjeqlbuut8coj7eok.apps.googleusercontent.com'; //Google client ID
-$clientSecret = 'usbP5Vc7DMvdHdJpKLatqbVf'; //Google client secret
-$redirectURL = 'http://localhost/v/Apache/login.php'; //Callback URL
+$clientId = '214138419107-nc5bsvnb7kospp6urg56bc17mh22olkj.apps.googleusercontent.com'; //Google client ID
+$clientSecret = 'TVjRmesBlfAyeO6cqyoTpTH8'; //Google client secret
+$redirectURL = 'http://visionmanit.in/Eureka/eureka.php'; //Callback URL
 
 //Call Google API
 $gClient = new Google_Client();

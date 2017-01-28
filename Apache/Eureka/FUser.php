@@ -1,10 +1,10 @@
 <?php
 class FbUser {
     private $dbHost     = "localhost";
-    private $dbUsername = "root";
-    private $dbPassword = "";
-    private $dbName     = "codexworld";
-    private $userTbl    = 'f_users';
+    private $dbUsername = "rootvision";
+    private $dbPassword = "rootvision";
+    private $dbName     = "visiondatabase";
+    private $fuserTbl    = 'f_users';
     
     function __construct(){
         if(!isset($this->db)){
@@ -18,28 +18,28 @@ class FbUser {
         }
     }
     
-    function checkUser($userData = array()){
-        if(!empty($userData)){
+    function checkUser($fbuserData = array()){
+        if(!empty($fbuserData)){
             //Check whether user data already exists in database
-            $prevQuery = "SELECT * FROM ".$this->userTbl." WHERE oauth_provider = '".$userData['oauth_provider']."' AND oauth_uid = '".$userData['oauth_uid']."'";
+            $prevQuery = "SELECT * FROM ".$this->fuserTbl." WHERE oauth_provider = '".$fbuserData['oauth_provider']."' AND oauth_uid = '".$fbuserData['oauth_uid']."'";
             $prevResult = $this->db->query($prevQuery);
             if($prevResult->num_rows > 0){
                 //Update user data if already exists
-                $query = "UPDATE ".$this->userTbl." SET first_name = '".$userData['first_name']."', last_name = '".$userData['last_name']."', email = '".$userData['email']."', modified = '".date("Y-m-d H:i:s")."' WHERE oauth_provider = '".$userData['oauth_provider']."' AND oauth_uid = '".$userData['oauth_uid']."'";
+                $query = "UPDATE ".$this->fuserTbl." SET first_name = '".$fbuserData['first_name']."', last_name = '".$fbuserData['last_name']."', email = '".$fbuserData['email']."' WHERE oauth_provider = '".$fbuserData['oauth_provider']."' AND oauth_uid = '".$fbuserData['oauth_uid']."'";
                 $update = $this->db->query($query);
             }else{
                 //Insert user data
-                $query = "INSERT INTO ".$this->userTbl." SET oauth_provider = '".$userData['oauth_provider']."', oauth_uid = '".$userData['oauth_uid']."', first_name = '".$userData['first_name']."', last_name = '".$userData['last_name']."', email = '".$userData['email']."', created = '".date("Y-m-d H:i:s")."', modified = '".date("Y-m-d H:i:s")."'";
+                $query = "INSERT INTO ".$this->fuserTbl." SET oauth_provider = '".$fbuserData['oauth_provider']."', oauth_uid = '".$fbuserData['oauth_uid']."', first_name = '".$fbuserData['first_name']."', last_name = '".$fbuserData['last_name']."', email = '".$fbuserData['email']."'";
                 $insert = $this->db->query($query);
             }
             
             //Get user data from the database
             $result = $this->db->query($prevQuery);
-            $userData = $result->fetch_assoc();
+            $fbuserData = $result->fetch_assoc();
         }
         
         //Return user data
-        return $userData;
+        return $fbuserData;
     }
 }
 ?>

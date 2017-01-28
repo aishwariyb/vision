@@ -28,7 +28,7 @@ include "header.php";
 <?php
 include "database.php";
 if(isset($_POST['fbutton'])){
-	$sql="select * from p_user where email='".$_POST['femail']."'";
+	$sql="select * from v_user where email='".$_POST['femail']."'";
 	$result=$db->query($sql);
 	if(!$result->num_rows){
 		echo "<script>alert('Please register your email first');</script>";
@@ -38,24 +38,21 @@ if(isset($_POST['fbutton'])){
 require 'PHPMailer/PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
-
 $mail->isSMTP();                            // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';             // Specify main and backup SMTP servers
-$mail->SMTPAuth = true;                     // Enable SMTP authentication
-$mail->Username = 'projectmanitteam@gmail.com';          // SMTP username
-$mail->Password = 'project123'; // SMTP password
-$mail->SMTPSecure = 'tls';                  // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 587;                          // TCP port to connect to
-
-$mail->setFrom('projectmanitteam@gmail.com', 'Online Exam Quiz');
-$mail->addReplyTo('projectmanitteam@gmail.com', 'Online Exam Quiz');
-$mail->addAddress($_POST['femail']);   // Add a recipient
+$mail->Host = 'sg2plcpnl0086.prod.sin2.secureserver.net';
+$mail->Port = 587;
+$mail->SMTPAuth = false;
+$mail->Username = 'vision.nitbhopal@gmail.com';          // SMTP username
+$mail->Password = 'palindrome1771'; // SMTP password
+$mail->SMTPSecure = false;                  // Enable TLS encryption, `ssl` also accepted
+$mail->setFrom('vision.nitbhopal@gmail.com', 'Vision NIT Bhopal');
+$mail->addReplyTo('vision.nitbhopal@gmail.com', 'Vision NIT Bhopal');$mail->addAddress($_POST['femail']);   // Add a recipient
 // $mail->addCC('cc@example.com');
 // $mail->addBCC('bcc@example.com');
 
 $mail->isHTML(true);  // Set email format to HTML
 
-$bodyContent = '<h1>Online Exam Quiz</h1>';
+$bodyContent = '<h1>Vision NIT Bhopal</h1>';
 $bodyContent .= '<p>
 Login Credentials are given Below: 
 </p>
