@@ -110,7 +110,7 @@
 	<!--end: Header-->
         		
     
-    <div style="margin-bottom:100px">
+    <div style="margin-bottom:160px">
     <!-- starts: Collapsible -->         
     <ul class="collapsible" data-collapsible="accordion">
         <li>
@@ -124,7 +124,7 @@
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2015/circuit%20run.jpg" alt="Circuit Run">
-                                <div class="mask" style="margin: 25px 41px;">
+                                <div class="mask" style="width:100%;">
                                     <div class="body-carousel-pe">
                                     <h2>Circuit Run</h2>
                                     <p>2K15</p>
@@ -136,7 +136,7 @@
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2015/electrique.jpg" alt="Electrique">
-                                <div class="mask" style="margin: 25px 45px;">
+                                <div class="mask" style="width:100%;">
                                     <div class="body-carousel-pe">
                                     <h2>Electrique</h2>
                                     <p>2K15</p>
@@ -148,7 +148,7 @@
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2015/electrobuzz.jpg" alt="Electrobuzz">
-                                <div class="mask" style="margin: 25px 36px;">
+                                <div class="mask" style="width:100%;">
                                     <div class="body-carousel-pe">
                                     <h2>Electrobuzz</h2>
                                     <p>2K15</p>
@@ -171,7 +171,7 @@
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2014/Arduino.jpg" alt="Arduino">
-                                <div class="mask" style="margin: 25px 36px;">
+                                <div class="mask" style="width:100%;">
                                     <div class="body-carousel-pe">
                                     <h2>Arduino Workshop</h2>
                                     <p>2K14</p>
@@ -183,7 +183,7 @@
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2014/Exploring%20C.jpg" alt="Exploring C">
-                                <div class="mask" style="margin: 25px 36px;">
+                                <div class="mask" style="width:100%;">
                                     <div class="body-carousel-pe">
                                     <h2>Exploring C</h2>
                                     <p>2K14</p>
@@ -195,7 +195,7 @@
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2014/unvield.jpg" alt="Unvield">
-                                <div class="mask" style="margin: 25px 45px;">
+                                <div class="mask" style="width:100%;">
                                     <div class="body-carousel-pe">
                                     <h2>Unvield</h2>
                                     <p>2K14</p>
@@ -219,7 +219,7 @@
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2013/2013.jpg" alt="Technix">
-                                <div class="mask" style="margin: 25px 45px;">
+                                <div class="mask" style="width:100%;">
                                     <div class="body-carousel-pe">
                                     <h2>Technix</h2>
                                     <p>2K13</p>
@@ -231,7 +231,7 @@
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2013/noesis.jpg" alt="Treasure Hunt (Noesis)">
-                                <div class="mask" style="margin: 25px 50px;">
+                                <div class="mask" style="width:100%;">
                                     <div class="body-carousel-pe">
                                     <h2>Noesis</h2>
                                     <p>2K13</p>
@@ -243,7 +243,7 @@
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2013/robofifa.jpg" alt="RoboFifa">
-                                <div class="mask" style="margin: 25px 36px;">
+                                <div class="mask" style="width:100%;">
                                     <div class="body-carousel-pe">
                                     <h2>Robo-Fifa</h2>
                                     <p>2K13</p>
@@ -266,7 +266,7 @@
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2012/concubes.jpg" alt="Concubes">
-                                <div class="mask" style="margin: 25px 36px;">
+                                <div class="mask" style="width:100%;">
                                     <div class="body-carousel-pe">
                                     <h2>Concubes</h2>
                                     <p>2K12</p>
@@ -278,7 +278,7 @@
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2012/know_your_bikes.jpg" alt="Know Your Bikes">
-                                <div class="mask" style="margin: 25px 36px;">
+                                <div class="mask" style="width:100%;">
                                     <div class="body-carousel-pe">
                                     <h2>Know Your Bikes</h2>
                                     <p>2K12</p>
@@ -290,7 +290,7 @@
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2012/power%20unwired.jpg" alt="Power Unwired">
-                                <div class="mask" style="margin: 25px 36px;">
+                                <div class="mask" style="width:100%;">
                                     <div class="body-carousel-pe">
                                     <h2>Power Unwired</h2>
                                     <p>2K12</p>
@@ -315,7 +315,7 @@
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2011/12.jpg" alt="Swarm Robotics Workshop">
-                                <div class="mask" style="margin: 25px 36px;">
+                                <div class="mask" style="width:100%;">
                                     <div class="body-carousel-pe">
                                     <h2>Swarm Robotics Workshop</h2>
                                     <p>2K11</p>
@@ -327,7 +327,7 @@
                         <div class="span4">
                             <div class="avatar view-team">
                                 <img src="eImg/2011/solar%20futuristic.jpg" alt="Solar Futuristic">
-                                <div class="mask" style="margin: 25px 36px;">
+                                <div class="mask" style="width:100%;">
                                     <div class="body-carousel-pe">
                                     <h2>Solar Futuristic</h2>
                                     <p>2K11</p>
@@ -347,8 +347,9 @@
     <!-- start: Footer Menu -->
 	<div class="footer-bottom" style="text-align:center;padding-bottom: 3rem;padding-top: 24px;padding-bottom: 10px;font-size: 16px ;font-family: raleway-medium,sans-serif;background: #14181E;">
     <div class="row" >
-        <div > <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
-        <div id="go-top" style="display: block;"><a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a></div>
+        <div class="span3"><span>Sponsored by</span><br><img src="img/drrmztech.png"></div>
+        <div class="copyright"> <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
+        
       </div>
     </div>
 	<!-- end: Footer Menu -->

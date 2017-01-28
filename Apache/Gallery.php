@@ -768,54 +768,51 @@
         </div>
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1200px;height:600px;overflow:hidden;">
             <div>
-                <img data-u="image" src="img/Sliderimg/TechnoSearch/01.jpg" />
-                <img data-u="thumb" src="img/Sliderimg/TechnoSearch/thumb-01.jpg" />
+                <img data-u="image" src="img/Sliderimg/Celebrations/01.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/Celebrations/thumb-01.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/Sliderimg/TechnoSearch/02.jpg" />
-                <img data-u="thumb" src="img/Sliderimg/TechnoSearch/thumb-02.jpg" />
+                <img data-u="image" src="img/Sliderimg/Celebrations/02.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/Celebrations/thumb-02.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/Sliderimg/TechnoSearch/03.jpg" />
-                <img data-u="thumb" src="img/Sliderimg/TechnoSearch/thumb-03.jpg" />
+                <img data-u="image" src="img/Sliderimg/Celebrations/03.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/Celebrations/thumb-03.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/Sliderimg/TechnoSearch/04.jpg" />
-                <img data-u="thumb" src="img/Sliderimg/TechnoSearch/thumb-04.jpg" />
+                <img data-u="image" src="img/Sliderimg/Celebrations/04.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/Celebrations/thumb-04.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/Sliderimg/TechnoSearch/05.jpg" />
-                <img data-u="thumb" src="img/Sliderimg/TechnoSearch/thumb-05.jpg" />
+                <img data-u="image" src="img/Sliderimg/Celebrations/05.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/Celebrations/thumb-05.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/Sliderimg/TechnoSearch/06.jpg" />
-                <img data-u="thumb" src="img/Sliderimg/TechnoSearch/thumb-06.jpg" />
+                <img data-u="image" src="img/Sliderimg/Celebrations/06.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/Celebrations/thumb-06.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/Sliderimg/TechnoSearch/07.jpg" />
-                <img data-u="thumb" src="img/Sliderimg/TechnoSearch/thumb-07.jpg" />
+                <img data-u="image" src="img/Sliderimg/Celebrations/07.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/Celebrations/thumb-07.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/Sliderimg/TechnoSearch/08.jpg" />
-                <img data-u="thumb" src="img/Sliderimg/TechnoSearch/thumb-08.jpg" />
+                <img data-u="image" src="img/Sliderimg/Celebrations/08.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/Celebrations/thumb-08.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/Sliderimg/TechnoSearch/09.jpg" />
-                <img data-u="thumb" src="img/Sliderimg/TechnoSearch/thumb-09.jpg" />
+                <img data-u="image" src="img/Sliderimg/Celebrations/09.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/Celebrations/thumb-09.jpg" />
             </div>
             <div>
-                <img data-u="image" src="img/Sliderimg/TechnoSearch/10.jpg" />
-                <img data-u="thumb" src="img/Sliderimg/TechnoSearch/thumb-10.jpg" />
+                <img data-u="image" src="img/Sliderimg/Celebrations/10.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/Celebrations/thumb-10.jpg" />
             </div>
             <a data-u="any" href="http://www.jssor.com" style="display:none">Image Gallery</a>
             <div>
-                <img data-u="image" src="img/Sliderimg/TechnoSearch/11.jpg" />
-                <img data-u="thumb" src="img/Sliderimg/TechnoSearch/thumb-11.jpg" />
+                <img data-u="image" src="img/Sliderimg/Celebrations/11.jpg" />
+                <img data-u="thumb" src="img/Sliderimg/Celebrations/thumb-11.jpg" />
             </div>
-            <div>
-                <img data-u="image" src="img/Sliderimg/TechnoSearch/12.jpg" />
-                <img data-u="thumb" src="img/Sliderimg/TechnoSearch/thumb-12.jpg" />
-            </div>
+            
         </div>
         <!-- Thumbnail Navigator -->
         <div data-u="thumbnavigator" class="jssort01" style="position:absolute;left:0px;bottom:0px;width:100%;height:100px;" data-autocenter="1">
@@ -852,8 +849,9 @@
 	<!-- start: Footer Menu -->
 	<div class="footer-bottom" style="text-align:center;padding-bottom: 3rem;padding-top: 24px;padding-bottom: 10px;font-size: 16px ;font-family: raleway-medium,sans-serif;background: #14181E;">
     <div class="row" >
-        <div > <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
-        <div id="go-top" style="display: block;"><a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a></div>
+        <div class="span3"><span>Sponsored by</span><br><img src="img/drrmztech.png"></div>
+        <div class="copyright"> <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
+        
       </div>
     </div>
 	<!-- end: Footer Menu -->

@@ -36,6 +36,20 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    
+    <style>
+        .follow-us{
+            margin-left: 25px!important;
+        }
+        
+        @media screen and (max-width:480px){
+            .follow-us{
+                
+                margin-left: 100px!important;
+            }
+        }
+        
+    </style>
 
 </head>
 <body>
@@ -104,7 +118,7 @@
 			
 	</header>
 	<!--end: Header-->
-	<div class="baap" style="margin-bottom:100px">
+	<div class="baap" style="margin-bottom:160px">
 	<!-- start: Map -->
 		<!-- starts: Google Maps -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -190,7 +204,8 @@
 				<!-- start: Social Sites -->
 				<div class="span3" >
 					<div class="title" style="text-align:center;"><h3>Follow US!</h3></div>
-					<ul class="social-bookmarks">
+                    
+					<ul class="social-bookmarks follow-us">
 						<li class="facebook"><a href="https://www.facebook.com/visionmanit/?fref=ts">facebook</a></li>
 						<li class="twitter"><a href="https://twitter.com/VisionNITB">twitter</a></li>
 						<li class="youtube"><a href="https://www.youtube.com/channel/UCM1dBAT20ulLHkofolWr3uA">youtube</a></li>
@@ -215,7 +230,8 @@
 	<div class="footer-bottom" style="text-align:center;padding-bottom: 3rem;padding-top: 24px;padding-bottom: 10px;font-size: 16px ;font-family: raleway-medium,sans-serif;background: #14181E;">
     <div class="row" >
 
-        <div > <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
+        <div class="span3"><span>Sponsored by</span><br><img src="img/drrmztech.png"></div>
+        <div class="copyright"> <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
     </div>
     <!-- end: Footer Menu -->
 
