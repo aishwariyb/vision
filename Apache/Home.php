@@ -1,8 +1,28 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!--For storing email and sending subscription mail-->
+<?php
+if(isset($_POST['newsletter_submit'])){
+	include "database.php";
+	$sql="insert into newsletter(n_email) values ('".$_POST['newsletter_input']."')";
+	$result=$db->query($sql);
+	if($result){
+		include "mail_newsletter.php";
+	}
+	else
+	{
+	echo '<script>';
+	echo 'alert("Mail ID Already exists in our data base! Thanks!!")';
+	echo '</script>';
+	}
+}
+?>
+<!--Ends-->
 	
-	<title>Vision</title><link rel="icon" type="image/png" href="img/favicon.png">
+	<title>Vision</title><link rel="icon" type="image/png" href="http://visionmanit.in/img/favicon.png">
 	
 	
 	<!-- start: Mobile Specific -->
@@ -154,7 +174,7 @@ background: #ABABAB;
         
     </header>
 	<!--end: Header-->
-	<div class="baap">
+	<div class="baap" style="margin-bottom:100px">
 		<!-- start: Slider -->
 		<div class="slider-wrapper">
 
@@ -166,7 +186,7 @@ background: #ABABAB;
 					<div class="da-img"><img src="img/parallax-slider/NOesis.png" alt="image01" /></div>
 				</div>
 				<div class="da-slide">
-					<h2>White Line Tracer Workshop</h2>
+					<h2>White Line Tracer <br> Workshop</h2>
 					<p>Annual Workshop conducted by Vision. </p>
 					<a href="Events.php" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/WLT.png" alt="image02" /></div>
@@ -232,13 +252,14 @@ background: #ABABAB;
     <div class="avatar view-team">
         
         <img src="img/upcoming_events/eureka.jpg" alt="eureka">
-        <div class="mask" style="width:100%;height:100%">
+        <a href="Eureka/"><div class="mask" style="width:100%;height:100%">
         <div class="body-carousel-pe">
             <h2>Eureka</h2>
             <p>2K17</p>
             
             </div>
         </div>
+            </a>
     </div>
                     </div>
 			<div class="span6" style="float:right">
@@ -307,13 +328,15 @@ background: #ABABAB;
 					<!-- end: Follow Us -->
 				
 					<!-- start: Newsletter -->
-					<form id="newsletter">
+				<!-- start: Newsletter -->
+					<form id="newsletter" method="POST">
 						<h3>Newsletter</h3>
 						<p>Please leave us your email</p>
 						<label for="newsletter_input">@:</label>
-						<input type="text" id="newsletter_input">
-						<input type="submit" id="newsletter_submit" value="submit">
+						<input type="text" id="newsletter_input" name="newsletter_input" required>
+						<input type="submit" id="newsletter_submit" name="newsletter_submit" value="submit">
 					</form>
+					<!-- end: Newsletter -->
 					<!-- end: Newsletter -->
                     </div>			
 							
@@ -340,7 +363,7 @@ background: #ABABAB;
 		<!-- end: Wrapper  -->			
 	<div class="footer-bottom" style="text-align:center;padding-bottom: 3rem;padding-top: 24px;padding-bottom: 10px;font-size: 16px ;font-family: raleway-medium,sans-serif;background: #14181E;">
     <div class="row" >
-        <div > <span>© Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
+        <div > <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
         <div id="go-top" style="display: block;"><a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a></div>
       </div>
     </div>

@@ -1,0 +1,149 @@
+[26-Jan-2017 01:17:45 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/Login.php on line 8
+[26-Jan-2017 01:17:45 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/Login.php on line 8
+[26-Jan-2017 02:10:03 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/Login.php on line 8
+[26-Jan-2017 02:10:03 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/Login.php on line 8
+[26-Jan-2017 02:11:33 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/Login.php on line 8
+[26-Jan-2017 02:11:33 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/Login.php on line 8
+[26-Jan-2017 09:38:28 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vision17/public_html/Eureka/database.php on line 2
+[26-Jan-2017 20:48:51 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vision17/public_html/Eureka/database.php on line 2
+[26-Jan-2017 20:55:52 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vision17/public_html/Eureka/database.php on line 2
+[26-Jan-2017 20:56:56 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vision17/public_html/Eureka/database.php on line 2
+[26-Jan-2017 20:57:41 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/forgotPassword.php on line 10
+[26-Jan-2017 20:57:41 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/forgotPassword.php on line 10
+[26-Jan-2017 20:57:41 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vision17/public_html/Eureka/database.php on line 2
+[26-Jan-2017 20:57:45 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vision17/public_html/Eureka/database.php on line 2
+[26-Jan-2017 20:58:13 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vision17/public_html/Eureka/database.php on line 2
+[26-Jan-2017 20:58:13 UTC] PHP Fatal error:  Call to undefined function insert_into_table() in /home/vision17/public_html/Eureka/Login.php on line 22
+[26-Jan-2017 20:58:22 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vision17/public_html/Eureka/database.php on line 2
+[26-Jan-2017 21:12:44 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'visionroot'@'localhost' (using password: YES) in /home/vision17/public_html/Eureka/database.php on line 2
+[26-Jan-2017 21:20:16 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'visionroot'@'localhost' (using password: YES) in /home/vision17/public_html/Eureka/database.php on line 2
+[27-Jan-2017 05:26:16 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:26:21 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:26:23 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:26:26 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:26:32 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:27:45 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:28:14 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:28:31 UTC] PHP Notice:  Undefined variable: _SESSION in /home/vision17/public_html/Eureka/logout.php on line 5
+[27-Jan-2017 05:28:31 UTC] PHP Notice:  Undefined variable: _SESSION in /home/vision17/public_html/Eureka/logout.php on line 6
+[27-Jan-2017 05:28:31 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/vision17/public_html/Eureka/logout.php on line 12
+[27-Jan-2017 05:28:38 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:31:22 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:31:23 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:31:25 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:31:26 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:31:27 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:31:27 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:31:28 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:33:20 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:34:20 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:34:55 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:35:14 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:35:17 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:35:19 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:35:26 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:37:03 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:37:05 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:37:06 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:37:08 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:37:36 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:37:38 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:37:40 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:37:42 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:37:53 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:38:37 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:38:39 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:38:40 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:38:41 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:38:46 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:40:08 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:40:11 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:40:19 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:41:04 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:41:06 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:41:08 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:41:09 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vision17/public_html/Eureka/database.php on line 3
+[27-Jan-2017 05:42:50 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vision17/public_html/Eureka/database.php on line 4
+[27-Jan-2017 05:45:08 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vision17/public_html/Eureka/database.php on line 4
+[27-Jan-2017 05:45:09 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vision17/public_html/Eureka/database.php on line 4
+[27-Jan-2017 05:45:09 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vision17/public_html/Eureka/database.php on line 4
+[27-Jan-2017 05:45:10 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vision17/public_html/Eureka/database.php on line 4
+[27-Jan-2017 05:45:11 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vision17/public_html/Eureka/database.php on line 4
+[27-Jan-2017 05:47:01 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vision17/public_html/Eureka/database.php on line 4
+[27-Jan-2017 05:47:59 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vision17/public_html/Eureka/database.php on line 4
+[27-Jan-2017 05:48:18 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vision17/public_html/Eureka/database.php on line 4
+[27-Jan-2017 05:53:14 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vision17/public_html/Eureka/database.php on line 4
+[27-Jan-2017 05:53:16 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vision17/public_html/Eureka/database.php on line 4
+[27-Jan-2017 05:53:53 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/vision17/public_html/Eureka/database.php on line 4
+[27-Jan-2017 06:43:36 UTC] PHP Notice:  Use of undefined constant database - assumed 'database' in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 06:43:36 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 06:43:36 UTC] PHP Warning:  include(databasephp): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 06:43:36 UTC] PHP Warning:  include(): Failed opening 'databasephp' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 06:43:46 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/forgotPassword.php on line 10
+[27-Jan-2017 06:43:46 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/forgotPassword.php on line 10
+[27-Jan-2017 08:19:27 UTC] PHP Notice:  Use of undefined constant database - assumed 'database' in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 08:19:27 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 08:19:27 UTC] PHP Warning:  include(databasephp): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 08:19:27 UTC] PHP Warning:  include(): Failed opening 'databasephp' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 08:20:04 UTC] PHP Notice:  Use of undefined constant database - assumed 'database' in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 08:20:04 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 08:20:04 UTC] PHP Warning:  include(databasephp): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 08:20:04 UTC] PHP Warning:  include(): Failed opening 'databasephp' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 08:24:09 UTC] PHP Notice:  Use of undefined constant database - assumed 'database' in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 08:24:09 UTC] PHP Notice:  Use of undefined constant php - assumed 'php' in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 08:24:09 UTC] PHP Warning:  include(databasephp): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 08:24:09 UTC] PHP Warning:  include(): Failed opening 'databasephp' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/Login.php on line 9
+[27-Jan-2017 08:24:09 UTC] PHP Fatal error:  Call to undefined function insert_into_table() in /home/vision17/public_html/Eureka/Login.php on line 23
+[27-Jan-2017 09:01:24 UTC] CSRF state token does not match one provided.
+[27-Jan-2017 09:01:25 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vision17/public_html/Eureka/User.php on line 12
+[27-Jan-2017 09:01:25 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vision17/public_html/Eureka/User.php on line 12
+[27-Jan-2017 09:07:31 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/vision17/public_html/Eureka/logout.php on line 2
+[27-Jan-2017 09:08:08 UTC] CSRF state token does not match one provided.
+[27-Jan-2017 10:55:00 UTC] CSRF state token does not match one provided.
+[27-Jan-2017 10:55:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/vision17/public_html/Eureka/logout.php on line 2
+[27-Jan-2017 10:56:24 UTC] CSRF state token does not match one provided.
+[27-Jan-2017 12:42:13 UTC] CSRF state token does not match one provided.
+[27-Jan-2017 12:42:14 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'redirect_uri_mismatch'' in /home/vision17/public_html/Eureka/src/auth/Google_OAuth2.php:112
+Stack trace:
+#0 /home/vision17/public_html/Eureka/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, '4/9KPCxwhHaKpRZ...')
+#1 /home/vision17/public_html/Eureka/google.php(6): Google_Client->authenticate('4/9KPCxwhHaKpRZ...')
+#2 /home/vision17/public_html/Eureka/index.php(7): include('/home/vision17/...')
+#3 {main}
+  thrown in /home/vision17/public_html/Eureka/src/auth/Google_OAuth2.php on line 112
+[27-Jan-2017 12:50:44 UTC] PHP Notice:  Undefined index: newsletter_input in /home/vision17/public_html/Eureka/mail.php on line 15
+[27-Jan-2017 12:56:19 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/vision17/public_html/Eureka/signout.php on line 2
+[27-Jan-2017 13:04:49 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/forgotPassword.php on line 10
+[27-Jan-2017 13:04:49 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/forgotPassword.php on line 10
+[27-Jan-2017 13:05:03 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/forgotPassword.php on line 10
+[27-Jan-2017 13:05:03 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/forgotPassword.php on line 10
+[27-Jan-2017 13:07:06 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/forgotPassword.php on line 10
+[27-Jan-2017 13:07:06 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/forgotPassword.php on line 10
+[27-Jan-2017 13:07:13 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/forgotPassword.php on line 10
+[27-Jan-2017 13:07:13 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/forgotPassword.php on line 10
+[28-Jan-2017 04:35:43 UTC] PHP Notice:  Undefined variable: _SESSION in /home/vision17/public_html/Eureka/comingsoon.php on line 2
+[28-Jan-2017 04:36:33 UTC] PHP Notice:  Undefined variable: _SESSION in /home/vision17/public_html/Eureka/comingsoon.php on line 3
+[28-Jan-2017 04:37:55 UTC] PHP Notice:  Undefined variable: _SESSION in /home/vision17/public_html/Eureka/comingsoon.php on line 3
+[28-Jan-2017 04:38:51 UTC] PHP Notice:  Undefined variable: _SESSION in /home/vision17/public_html/Eureka/comingsoon.php on line 3
+[28-Jan-2017 04:40:12 UTC] PHP Notice:  Undefined variable: _SESSION in /home/vision17/public_html/Eureka/comingsoon.php on line 3
+[28-Jan-2017 04:41:07 UTC] PHP Notice:  Undefined variable: _SESSION in /home/vision17/public_html/Eureka/comingsoon.php on line 3
+[28-Jan-2017 04:41:33 UTC] PHP Notice:  Undefined variable: _SESSION in /home/vision17/public_html/Eureka/comingsoon.php on line 3
+[28-Jan-2017 04:56:57 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting ',' or ';' in /home/vision17/public_html/Eureka/FUser.php on line 44
+[28-Jan-2017 04:56:59 UTC] PHP Parse error:  syntax error, unexpected '$_SESSION' (T_VARIABLE), expecting ',' or ';' in /home/vision17/public_html/Eureka/FUser.php on line 44
+[28-Jan-2017 04:57:17 UTC] PHP Notice:  Undefined variable: _SESSION in /home/vision17/public_html/Eureka/comingsoon.php on line 3
+[28-Jan-2017 05:13:40 UTC] PHP Notice:  Undefined variable: _SESSION in /home/vision17/public_html/Eureka/comingsoon.php on line 3
+[28-Jan-2017 05:21:01 UTC] PHP Notice:  Undefined variable: _SESSION in /home/vision17/public_html/Eureka/comingsoon.php on line 3
+[28-Jan-2017 06:03:47 UTC] PHP Warning:  require_once(fbConfig.php): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/fb.php on line 3
+[28-Jan-2017 06:03:47 UTC] PHP Fatal error:  require_once(): Failed opening required 'fbConfig.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/fb.php on line 3
+[28-Jan-2017 06:04:05 UTC] PHP Warning:  require_once(fbConfig.php): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/fb.php on line 3
+[28-Jan-2017 06:04:05 UTC] PHP Fatal error:  require_once(): Failed opening required 'fbConfig.php' (include_path='/home/vision17/public_html/Eureka/src:.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/fb.php on line 3
+[28-Jan-2017 06:04:13 UTC] PHP Warning:  require_once(fbConfig.php): failed to open stream: No such file or directory in /home/vision17/public_html/Eureka/fb.php on line 3
+[28-Jan-2017 06:04:13 UTC] PHP Fatal error:  require_once(): Failed opening required 'fbConfig.php' (include_path='/home/vision17/public_html/Eureka/src:.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/vision17/public_html/Eureka/fb.php on line 3
+[28-Jan-2017 06:06:51 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/vision17/public_html/Eureka/signout.php on line 2
+[28-Jan-2017 06:23:03 UTC] CSRF state token does not match one provided.
+[28-Jan-2017 06:29:08 UTC] CSRF state token does not match one provided.
+[28-Jan-2017 06:29:08 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vision17/public_html/Eureka/User.php on line 12
+[28-Jan-2017 06:29:08 UTC] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vision17/public_html/Eureka/User.php on line 12
+[28-Jan-2017 06:29:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/vision17/public_html/Eureka/logout.php on line 2
+[28-Jan-2017 06:30:44 UTC] CSRF state token does not match one provided.
+[28-Jan-2017 06:32:53 UTC] CSRF state token does not match one provided.
+[28-Jan-2017 07:08:26 UTC] CSRF state token does not match one provided.

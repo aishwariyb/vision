@@ -1,3 +1,29 @@
+<?php
+//Include FB config file && User class
+include "fb.php";
+?>
+<?php
+//Include GP config file && User class
+include "google.php";
+?>
+<?php
+	header('Location: comingsoon.php');
+?>
+
+<?php
+
+if(isset($_POST['signout'])){
+	if(isset($_SESSION['token']) && isset($_SESSION['userData'])){
+		include "logout.php";
+	}
+	if(isset($_SESSION['fbuserData'])){
+		include "fblogout.php";
+	}
+	if(isset($_SESSION['email'])){
+		include "signout.php";
+	}
+}
+?>
 <style>
 	.nav-tabs.nav-justified{width:100%;border-bottom:0}.nav-tabs.nav-justified>li{float:none}.nav-tabs.nav-justified>li>a{margin-bottom:5px;text-align:center}.nav-tabs.nav-justified>.dropdown .dropdown-menu{top:auto;left:auto}@media (min-width:768px){.nav-tabs.nav-justified>li{display:table-cell;width:1%}.nav-tabs.nav-justified>li>a{margin-bottom:0}}.nav-tabs.nav-justified>li>a{margin-right:0;border-radius:4px}.nav-tabs.nav-justified>.active>a,.nav-tabs.nav-justified>.active>a:focus,.nav-tabs.nav-justified>.active>a:hover{border:1px solid #ddd}@media (min-width:768px){.nav-tabs.nav-justified>li>a{border-bottom:1px solid #ddd;border-radius:4px 4px 0 0}.nav-tabs.nav-justified>.active>a,.nav-tabs.nav-justified>.active>a:focus,.nav-tabs.nav-justified>.active>a:hover{border-bottom-color:#fff}}.nav-pills>li{float:left}.nav-pills>li>a{border-radius:4px}.nav-pills>li+li{margin-left:2px}.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover{color:#fff;background-color:#337ab7}.nav-stacked>li{float:none}.nav-stacked>li+li{margin-top:2px;margin-left:0}.nav-justified{width:100%}.nav-justified>li{float:none}.nav-justified>li>a{margin-bottom:5px;text-align:center}.nav-justified>.dropdown .dropdown-menu{top:auto;left:auto}@media (min-width:768px){.nav-justified>li{display:table-cell;width:1%}.nav-justified>li>a{margin-bottom:0}}
 	</style>
@@ -8,6 +34,12 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+	
+	<form method="POST">
+	<input type="submit" name="signout" value="Logout" class="btn btn-info pull-right" >
+	</form>
+	<br>
+	<br>
 	<div class="bs-example bs-example-tabs " data-example-id="togglable-tabs" > 
     <ul class="nav nav-tabs nav-justified" id="myTabs" style="float: none;" role="tablist"> 
         <li role="presentation" class="active">

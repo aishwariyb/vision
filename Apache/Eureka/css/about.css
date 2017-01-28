@@ -1,0 +1,162 @@
+@import url(http://fonts.googleapis.com/css?family=Anaheim);
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+html,
+body{
+	
+}
+h1{
+	display: table;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-family: 'Anaheim', sans-serif;
+	font-size: 4em;
+	font-weight: 400;
+	text-shadow: 0 1px white, 0 2px black;
+}
+.container1{
+    min-height: 100%;
+    
+	margin: 4% auto;
+	width: 210px;
+	height: 140px;
+	position: relative;
+	perspective: 1000px;
+}
+#carousel{
+	
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+	animation: rotation 20s infinite linear;
+}
+#carousel:hover{
+	animation-play-state: paused;
+}
+#carousel figure{
+	display: block;
+	position: absolute;
+	width: 90%;
+	height: 50%px;
+	left: 10px;
+	top: 10px;
+	background: black;
+	overflow: hidden;
+	border: solid 5px blue;
+}
+#carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
+#carousel figure:nth-child(2) { transform: rotateY(60deg) translateZ(288px);}
+#carousel figure:nth-child(3) { transform: rotateY(120deg) translateZ(288px);}
+#carousel figure:nth-child(4) { transform: rotateY(180deg) translateZ(288px);}
+#carousel figure:nth-child(5) { transform: rotateY(240deg) translateZ(288px);}
+#carousel figure:nth-child(6) { transform: rotateY(300deg) translateZ(288px);}
+
+
+@keyframes rotation{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}
+
+div.imag1{
+    -webkit-filter: grayscale(1);
+    content:url(carousel/4_TEJESH_KUMAR_SAHU_EE.jpg)
+}
+div.imag2{
+    -webkit-filter: grayscale(1);
+    content:url(carousel/4_Kushagra%20Lonaria_EC.jpg)
+}
+div.imag3{
+    -webkit-filter: grayscale(1);
+    content:url(carousel/4_Neelima_Agarwal_CSE.jpg)
+}
+div.imag4{
+    -webkit-filter: grayscale(1);
+    content:url(carousel/4_neeraj_kulkarni_civil.jpg)
+}
+div.imag5{
+    -webkit-filter: grayscale(1);
+    content:url(carousel/4_Aishwariy_Baheti_CSE.jpg)
+}
+div.imag6{
+    -webkit-filter: grayscale(1);
+    content:url(carousel/4_Priyanto_Deb_EE.jpg)
+}
+div.imag7{
+    -webkit-filter: grayscale(1);
+    content:url("http://lorempixel.com/186/116/nature/7")
+}
+div.imag8{
+    -webkit-filter: grayscale(1);
+    content:url("http://lorempixel.com/186/116/nature/8")
+}
+div.imag9{
+    -webkit-filter: grayscale(1);
+    content:url("http://lorempixel.com/186/116/nature/9")
+}
+div.imag10{
+    -webkit-filter: grayscale(1);
+    content:url("http://lorempixel.com/186/116/nature/10")
+}
+div.imag1:hover{
+    
+	-webkit-filter: grayscale(0);
+  transform: scale(1,1);
+}
+div.imag2:hover{
+	-webkit-filter: grayscale(0);
+  transform: scale(1,1);
+}
+div.imag3:hover{
+	-webkit-filter: grayscale(0);
+  transform: scale(1,1);
+}
+div.imag4:hover{
+	-webkit-filter: grayscale(0);
+  transform: scale(1,1);
+}
+div.imag5:hover{
+	-webkit-filter: grayscale(0);
+  transform: scale(1,1);
+}
+div.imag6:hover{
+	-webkit-filter: grayscale(0);
+  transform: scale(1,1);
+}
+div.imag7:hover{
+	-webkit-filter: grayscale(0);
+  transform: scale(1,1);
+}
+div.imag8:hover{
+	-webkit-filter: grayscale(0);
+  transform: scale(1,1);
+}
+div.imag9:hover{
+	-webkit-filter: grayscale(0);
+  transform: scale(1,1);
+}
+div.imag10{
+    content:url("http://lorempixel.com/186/116/nature/10")
+}
+
+/* CLASSES FOR DISPLAYING NAME */
+div.display-name{
+    display: none;
+}
+
+div.display-name:hover{
+    display: block;
+}

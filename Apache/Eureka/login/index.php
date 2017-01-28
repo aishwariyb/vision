@@ -1,27 +1,26 @@
-<!--For storing email and sending subscription mail-->
-<?php
-if(isset($_POST['newsletter_submit'])){
-	include "database.php";
-	$sql="insert into newsletter(n_email) values ('".$_POST['newsletter_input']."')";
-	$result=$db->query($sql);
-	if($result){
-		include "mail_newsletter.php";
-	}
-}
-?>
-<!--Ends-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
-	<title>Vision</title><link rel="icon" type="image/png" href="http://visionmanit.in/img/favicon.png">
-	
+
+	<!-- start: Meta -->
+	<meta charset="utf-8">
+	<title>Vision</title> 
+	<meta name="description" content="GotYa Free Bootstrap Theme"/>
+	<meta name="keywords" content="Template, Theme, web, html5, css3, Bootstrap" />
+	<meta name="author" content="Łukasz Holeczek from creativeLabs"/>
+	<!-- end: Meta -->
 	
 	<!-- start: Mobile Specific -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<!-- end: Mobile Specific -->
 	
+	<!-- start: Facebook Open Graph -->
+	<meta property="og:title" content=""/>
+	<meta property="og:description" content=""/>
+	<meta property="og:type" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:image" content=""/>
+	<!-- end: Facebook Open Graph -->
 
     <!-- start: CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -89,7 +88,7 @@ if(isset($_POST['newsletter_submit'])){
 	background: #fff;
 }
 .inbar ul li p {
-	padding: 17px 17px 16px 17px;
+	padding: 17px 0px 16px 70px;
 	/*border-right: 1px solid #eee;*/
 	border-bottom: 1px solid #ddd;
 	margin: 0;
@@ -97,7 +96,6 @@ if(isset($_POST['newsletter_submit'])){
 	font-size: 16px;
 	text-shadow: 1px 1px 0 #fff;
 	box-shadow: inset 0 0 1px 1px #fff;
-    text-align:center;
 }
 .inbar ul li:hover p {
 	background: rgba(0,0,0,0.02); 
@@ -127,7 +125,10 @@ background: #ABABAB;
 				<!--start: Logo -->
 				<div class="logo span3">
 						
-					<a class="brand" href="#"><img src="img/logo.png" style="width: 170px;height: 70px;margin-top: 3px;"></a>	
+					<a class="brand" href="#"><img src="img/logo.png" style="width: 170px;height: 70px;margin-top: 3px;"></a>
+					
+					
+						
 				</div>
 				<!--end: Logo -->
 					
@@ -143,63 +144,72 @@ background: #ABABAB;
 			          		</a>
 			          		<div class="nav-collapse collapse">
 			            		<ul class="nav">
-			              			<li class="active"><a href="Home.php">Home</a></li>
-			              			<li><a href="About.php">About</a></li>
-									<li><a href="Gallery.php">Gallery</a></li>
-									<li><a href="Events.php">Events</a></li>
-			              			<li><a href="Contact.php">Contact Us</a></li>
-                                    
-			         
+			              			<li class="active"><a href="index.html">Home</a></li>
+			              			<li><a href="About.html">About</a></li>
+									<li><a href="Gallery.html">Gallery</a></li>
+									<li><a href="Events.html">Events</a></li>
+			              			<li><a href="Contact.html">Contact Us</a></li>
+			         <!--     			<li class="dropdown">
+			                			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+			                			<ul class="dropdown-menu">
+			                  				<li><a href="#">Action</a></li>
+			                  				<li><a href="#">Another action</a></li>
+			                  				<li><a href="#">Something else here</a></li>
+			                  				<li class="divider"></li>
+			                  				<li class="nav-header">Nav header</li>
+			                  				<li><a href="#">Separated link</a></li>
+			                  				<li><a href="#">One more separated link</a></li>
+			                			</ul>
+			              			</li> -->
 			            		</ul>
 			          		</div>
 			        	</div>
 			      	</div>
-
+					
 				</div>	
 				<!--end: Navigation -->
-					  			</div>
-            </div>
+					
+			</div>
 			<!--end: Row -->
 			
 		
 		<!--end: Container-->			
 			
-        
-    </header>
+        </div></header>
 	<!--end: Header-->
-	<div class="baap" style="margin-bottom:100px">
+	<div class="baap">
 		<!-- start: Slider -->
 		<div class="slider-wrapper">
 
 			<div id="da-slider" class="da-slider">
 				<div class="da-slide">
 					<h2>Noesis 2K16</h2>
-					<p>Annual Mega Fest of Vision. This year it had more than 1400 participants from several colleges across the city.</p>
-					<a href="Events.php" class="da-link">Read more</a>
+					<p>Annual Mega Fest of Vision. This Year had more than 1400 participants across the city.</p>
+					<a href="#" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/NOesis.png" alt="image01" /></div>
 				</div>
 				<div class="da-slide">
-					<h2>White Line Tracer <br> Workshop</h2>
-					<p>Annual Workshop conducted by Vision. </p>
-					<a href="Events.php" class="da-link">Read more</a>
+					<h2>White Line Tracer Workshop</h2>
+					<p>Annually Conducted Workshop by Vision. </p>
+					<a href="#" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/WLT.png" alt="image02" /></div>
 				</div>
 				<div class="da-slide">
 					<h2>Robo Fifa</h2>
-					<p>Annual Event conducted in Technosearch.</p>
-					<a href="Events.php" class="da-link">Read more</a>
+					<p>Annual Event Conducted in Technosearch Every year.</p>
+					<a href="#" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/RoboFifa.png" alt="image03" /></div>
 				</div>
 				<div class="da-slide">
 					<h2>Circuit Run</h2>
-					<p>Annual Event conducted in Technosearch.</p>
-					<a href="Events.php" class="da-link">Read more</a>
+					<p>Annual Event Conducted in Technosearch.</p>
+					<a href="#" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/circuit_run.png" alt="image04" /></div>
 				</div>
 				<div class="da-slide">
 					<h2>Code Kriegers</h2>
-					<p>Annual Event conducted in Technosearch.</p>
-					<a href="Events.php" class="da-link">Read more</a>
+					<p>Annual Event conducted in Technosearch Every Year.</p>
+					<a href="#" class="da-link">Read more</a>
 					<div class="da-img"><img src="img/parallax-slider/CK.png" alt="image05" /></div>
 				</div>
 				<nav class="da-arrows">
@@ -232,27 +242,25 @@ background: #ABABAB;
 			<h1>News and Events</h1>
 		</div>
 		<div class="inbar">
-			<ul >
-                <li> <p><a href="Eureka/">Eureka!!</a></p></li>
-				<li><p> Arduino Workshop</p></li>
-				<li> <p> Web Development Workshop</p></li>
-				<li><p>PLC Workshop</p></li>
+			<ul>
+				<li> <p>Lorem ipsum dolor</p></li>
+				<li><p> At vero eos et</p></li>
+				<li> <p> At vero eos et accusam</p></li>
+				<li><p>Lorem ipsum dolor sit amet</p></li>
 			</ul>
 			<div style="clear:both"></div>
 		</div>
 	</div>	
 <div class="span6">
     <div class="avatar view-team">
-        
-        <img src="img/upcoming_events/eureka.jpg" alt="eureka">
-        <a href="Eureka/"><div class="mask" style="width:100%;height:100%">
-        <div class="body-carousel-pe">
-            <h2>Eureka</h2>
-            <p>2K17</p>
+        <img src="eImg/2011/12.jpg" alt="circuit run">
+        <div class="mask body-collapsible-pe">
+        <div class="body carousel-pe">
+            <h2>Swarm Robotics</h2>
+            <p>2K11</p>
             
             </div>
         </div>
-            </a>
     </div>
                     </div>
 			<div class="span6" style="float:right">
@@ -264,10 +272,10 @@ background: #ABABAB;
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-twitter">
-											<a href="https://twitter.com/VisionNITB"></a>
+											<a href="http://twitter.com"></a>
 										</div>
 										<div class="social-info-back social-twitter-hover">
-											<a href="https://twitter.com/VisionNITB"></a>
+											<a href="http://twitter.com"></a>
 										</div>	
 									</div>
 								</div>
@@ -277,11 +285,25 @@ background: #ABABAB;
 							<div class="social-item">				
 								<div class="social-info-wrap">
 									<div class="social-info">
-										<div class="social-info-front social-insta">
-											<a href="https://www.instagram.com/visionmanit/"></a>
+										<div class="social-info-front social-twitter">
+											<a href="http://twitter.com"></a>
 										</div>
-										<div class="social-info-back social-insta-hover">
-											<a href="https://www.instagram.com/visionmanit/"></a>
+										<div class="social-info-back social-twitter-hover">
+											<a href="http://twitter.com"></a>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</li>
+                        <li>
+							<div class="social-item">				
+								<div class="social-info-wrap">
+									<div class="social-info">
+										<div class="social-info-front social-twitter">
+											<a href="http://twitter.com"></a>
+										</div>
+										<div class="social-info-back social-twitter-hover">
+											<a href="http://twitter.com"></a>
 										</div>	
 									</div>
 								</div>
@@ -293,48 +315,89 @@ background: #ABABAB;
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-facebook">
-											<a href="https://www.facebook.com/visionmanit/?fref=ts"></a>
+											<a href="http://facebook.com"></a>
 										</div>
 										<div class="social-info-back social-facebook-hover">
-											<a href="https://www.facebook.com/visionmanit/?fref=ts"></a>
+											<a href="http://facebook.com"></a>
 										</div>
 									</div>
 								</div>
 							</div>
 						</li>
 						<li>
+							<div class="social-item">				
+								<div class="social-info-wrap">
+									<div class="social-info">
+										<div class="social-info-front social-dribbble">
+											<a href="http://dribbble.com"></a>
+										</div>
+										<div class="social-info-back social-dribbble-hover">
+											<a href="http://dribbble.com"></a>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="social-item">				
+								<div class="social-info-wrap">
+									<div class="social-info">
+										<div class="social-info-front social-flickr">
+											<a href="http://flickr.com"></a>
+										</div>
+										<div class="social-info-back social-flickr-hover">
+											<a href="http://flickr.com"></a>
+										</div>	
+									</div>
+								</div>
+							</div>
+						</li>
+                        <li>
                             <div class="social-item">				
 								<div class="social-info-wrap">
 									<div class="social-info">
 										<div class="social-info-front social-youtube">
-											<a href="https://www.youtube.com/channel/UCM1dBAT20ulLHkofolWr3uA"></a>
+											<a href="http://twitter.com"></a>
 										</div>
 										<div class="social-info-back social-youtube-hover">
-											<a href="https://www.youtube.com/channel/UCM1dBAT20ulLHkofolWr3uA"></a>
+											<a href="http://twitter.com"></a>
 										</div>	
 									</div>
 								</div>
 							</div>
 
                         </li>
-                        					</ul>
+                        <li>
+                            <div class="social-item">				
+								<div class="social-info-wrap">
+									<div class="social-info">
+										<div class="social-info-front social-blogger">
+											<a href="http://twitter.com"></a>
+										</div>
+										<div class="social-info-back social-blogger-hover">
+											<a href="http://twitter.com"></a>
+										</div>	
+									</div>
+								</div>
+							</div>
+
+                        </li>
+					</ul>
 					<!-- end: Follow Us -->
 				
 					<!-- start: Newsletter -->
-				<!-- start: Newsletter -->
-					<form id="newsletter" method="POST">
+					<form id="newsletter">
 						<h3>Newsletter</h3>
 						<p>Please leave us your email</p>
 						<label for="newsletter_input">@:</label>
-						<input type="text" id="newsletter_input" name="newsletter_input" required>
-						<input type="submit" id="newsletter_submit" name="newsletter_submit" value="submit">
+						<input type="text" id="newsletter_input">
+						<input type="submit" id="newsletter_submit" value="submit">
 					</form>
-					<!-- end: Newsletter -->
 					<!-- end: Newsletter -->
                     </div>			
 							
 								
-            	
+            </div>		
 								
 								
 				
@@ -349,17 +412,12 @@ background: #ABABAB;
 				
 				
 				
-    </div>
+			
 			<!--end: Container-->
 		
 		</div>
 		<!-- end: Wrapper  -->			
-	<div class="footer-bottom" style="text-align:center;padding-bottom: 3rem;padding-top: 24px;padding-bottom: 10px;font-size: 16px ;font-family: raleway-medium,sans-serif;background: #14181E;">
-    <div class="row" >
-        <div > <span>© Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
-        <div id="go-top" style="display: block;"><a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a></div>
-      </div>
-    </div>
+	
 <!-- start: Java Script -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery-1.8.2.js"></script>
