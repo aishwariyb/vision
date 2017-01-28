@@ -218,7 +218,7 @@
             width: 40px;
             height: 40px;
             cursor: pointer;
-            background: url('img/sliderimg/a17.png') no-repeat;
+            background: url('img/Sliderimg/a17.png') no-repeat;
             overflow: hidden;
         }
         .jssora05l { background-position: -10px -40px; }
@@ -229,13 +229,13 @@
         .jssora05r.jssora05rdn { background-position: -310px -40px; }
         .jssora05l.jssora05lds { background-position: -10px -40px; opacity: .3; pointer-events: none; }
         .jssora05r.jssora05rds { background-position: -70px -40px; opacity: .3; pointer-events: none; }
-        /* jssor slider thumbnail navigator skin 01 css *//*.jssort01 .p            (normal).jssort01 .p:hover      (normal mouseover).jssort01 .p.pav        (active).jssort01 .p.pdn        (mousedown)*/.jssort01 .p {    position: absolute;    top: 0;    left: 0;    width: 72px;    height: 72px;}.jssort01 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort01 .w {    position: absolute;    top: 0px;    left: 0px;    width: 100%;    height: 100%;}.jssort01 .c {    position: absolute;    top: 0px;    left: 0px;    width: 68px;    height: 68px;    border: #000 2px solid;    box-sizing: content-box;    background: url('img/sliderimg/t01.png') -800px -800px no-repeat;    _background: none;}.jssort01 .pav .c {    top: 2px;    _top: 0px;    left: 2px;    _left: 0px;    width: 68px;    height: 68px;    border: #000 0px solid;    _border: #fff 2px solid;    background-position: 50% 50%;}.jssort01 .p:hover .c {    top: 0px;    left: 0px;    width: 70px;    height: 70px;    border: #fff 1px solid;    background-position: 50% 50%;}.jssort01 .p.pdn .c {    background-position: 50% 50%;    width: 68px;    height: 68px;    border: #000 2px solid;}* html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c {    /* ie quirks mode adjust */    width /**/: 72px;    height /**/: 72px;}
+        /* jssor slider thumbnail navigator skin 01 css *//*.jssort01 .p            (normal).jssort01 .p:hover      (normal mouseover).jssort01 .p.pav        (active).jssort01 .p.pdn        (mousedown)*/.jssort01 .p {    position: absolute;    top: 0;    left: 0;    width: 72px;    height: 72px;}.jssort01 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort01 .w {    position: absolute;    top: 0px;    left: 0px;    width: 100%;    height: 100%;}.jssort01 .c {    position: absolute;    top: 0px;    left: 0px;    width: 68px;    height: 68px;    border: #000 2px solid;    box-sizing: content-box;    background: url('img/Sliderimg/t01.png') -800px -800px no-repeat;    _background: none;}.jssort01 .pav .c {    top: 2px;    _top: 0px;    left: 2px;    _left: 0px;    width: 68px;    height: 68px;    border: #000 0px solid;    _border: #fff 2px solid;    background-position: 50% 50%;}.jssort01 .p:hover .c {    top: 0px;    left: 0px;    width: 70px;    height: 70px;    border: #fff 1px solid;    background-position: 50% 50%;}.jssort01 .p.pdn .c {    background-position: 50% 50%;    width: 68px;    height: 68px;    border: #000 2px solid;}* html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c {    /* ie quirks mode adjust */    width /**/: 72px;    height /**/: 72px;}
     </style>
     <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1200px;height:600px;overflow:hidden;visibility:hidden;background-color:#24262e;">
         <!-- Loading Screen -->
         <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('img/sliderimg/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/Sliderimg/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1200px;height:600px;overflow:hidden;">
             <div>
@@ -397,7 +397,7 @@
             width: 40px;
             height: 40px;
             cursor: pointer;
-            background: url('img/sliderimg/a17.png') no-repeat;
+            background: url('img/Sliderimg/a17.png') no-repeat;
             overflow: hidden;
         }
         .jssora05l { background-position: -10px -40px; }
@@ -408,13 +408,13 @@
         .jssora05r.jssora05rdn { background-position: -310px -40px; }
         .jssora05l.jssora05lds { background-position: -10px -40px; opacity: .3; pointer-events: none; }
         .jssora05r.jssora05rds { background-position: -70px -40px; opacity: .3; pointer-events: none; }
-        /* jssor slider thumbnail navigator skin 01 css *//*.jssort02 .p            (normal).jssort02 .p:hover      (normal mouseover).jssort02 .p.pav        (active).jssort02 .p.pdn        (mousedown)*/.jssort02 .p {    position: absolute;    top: 0;    left: 0;    width: 72px;    height: 72px;}.jssort02 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort02 .w {    position: absolute;    top: 0px;    left: 0px;    width: 100%;    height: 100%;}.jssort02 .c {    position: absolute;    top: 0px;    left: 0px;    width: 68px;    height: 68px;    border: #000 2px solid;    box-sizing: content-box;    background: url('img/sliderimg/t01.png') -800px -800px no-repeat;    _background: none;}.jssort02 .pav .c {    top: 2px;    _top: 0px;    left: 2px;    _left: 0px;    width: 68px;    height: 68px;    border: #000 0px solid;    _border: #fff 2px solid;    background-position: 50% 50%;}.jssort02 .p:hover .c {    top: 0px;    left: 0px;    width: 70px;    height: 70px;    border: #fff 1px solid;    background-position: 50% 50%;}.jssort02 .p.pdn .c {    background-position: 50% 50%;    width: 68px;    height: 68px;    border: #000 2px solid;}* html .jssort02 .c, * html .jssort02 .pdn .c, * html .jssort02 .pav .c {    /* ie quirks mode adjust */    width /**/: 72px;    height /**/: 72px;}
+        /* jssor slider thumbnail navigator skin 01 css *//*.jssort02 .p            (normal).jssort02 .p:hover      (normal mouseover).jssort02 .p.pav        (active).jssort02 .p.pdn        (mousedown)*/.jssort02 .p {    position: absolute;    top: 0;    left: 0;    width: 72px;    height: 72px;}.jssort02 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort02 .w {    position: absolute;    top: 0px;    left: 0px;    width: 100%;    height: 100%;}.jssort02 .c {    position: absolute;    top: 0px;    left: 0px;    width: 68px;    height: 68px;    border: #000 2px solid;    box-sizing: content-box;    background: url('img/Sliderimg/t01.png') -800px -800px no-repeat;    _background: none;}.jssort02 .pav .c {    top: 2px;    _top: 0px;    left: 2px;    _left: 0px;    width: 68px;    height: 68px;    border: #000 0px solid;    _border: #fff 2px solid;    background-position: 50% 50%;}.jssort02 .p:hover .c {    top: 0px;    left: 0px;    width: 70px;    height: 70px;    border: #fff 1px solid;    background-position: 50% 50%;}.jssort02 .p.pdn .c {    background-position: 50% 50%;    width: 68px;    height: 68px;    border: #000 2px solid;}* html .jssort02 .c, * html .jssort02 .pdn .c, * html .jssort02 .pav .c {    /* ie quirks mode adjust */    width /**/: 72px;    height /**/: 72px;}
     </style>
     <div id="jssor_2" style="position:relative;margin:0 auto;top:0px;left:0px;width:800px;height:456px;overflow:hidden;visibility:hidden;background-color:#24262e;">
         <!-- Loading Screen -->
         <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('img/sliderimg/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/Sliderimg/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:800px;height:356px;overflow:hidden;">
             <div>
@@ -567,7 +567,7 @@
             width: 40px;
             height: 40px;
             cursor: pointer;
-            background: url('img/sliderimg/a17.png') no-repeat;
+            background: url('img/Sliderimg/a17.png') no-repeat;
             overflow: hidden;
         }
         .jssora05l { background-position: -10px -40px; }
@@ -578,13 +578,13 @@
         .jssora05r.jssora05rdn { background-position: -310px -40px; }
         .jssora05l.jssora05lds { background-position: -10px -40px; opacity: .3; pointer-events: none; }
         .jssora05r.jssora05rds { background-position: -70px -40px; opacity: .3; pointer-events: none; }
-        /* jssor slider thumbnail navigator skin 01 css *//*.jssort03 .p            (normal).jssort03 .p:hover      (normal mouseover).jssort03 .p.pav        (active).jssort03 .p.pdn        (mousedown)*/.jssort03 .p {    position: absolute;    top: 0;    left: 0;    width: 72px;    height: 72px;}.jssort03 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort03 .w {    position: absolute;    top: 0px;    left: 0px;    width: 100%;    height: 100%;}.jssort03 .c {    position: absolute;    top: 0px;    left: 0px;    width: 68px;    height: 68px;    border: #000 2px solid;    box-sizing: content-box;    background: url('img/sliderimg/t01.png') -800px -800px no-repeat;    _background: none;}.jssort03 .pav .c {    top: 2px;    _top: 0px;    left: 2px;    _left: 0px;    width: 68px;    height: 68px;    border: #000 0px solid;    _border: #fff 2px solid;    background-position: 50% 50%;}.jssort03 .p:hover .c {    top: 0px;    left: 0px;    width: 70px;    height: 70px;    border: #fff 1px solid;    background-position: 50% 50%;}.jssort03 .p.pdn .c {    background-position: 50% 50%;    width: 68px;    height: 68px;    border: #000 2px solid;}* html .jssort03 .c, * html .jssort03 .pdn .c, * html .jssort03 .pav .c {    /* ie quirks mode adjust */    width /**/: 72px;    height /**/: 72px;}
+        /* jssor slider thumbnail navigator skin 01 css *//*.jssort03 .p            (normal).jssort03 .p:hover      (normal mouseover).jssort03 .p.pav        (active).jssort03 .p.pdn        (mousedown)*/.jssort03 .p {    position: absolute;    top: 0;    left: 0;    width: 72px;    height: 72px;}.jssort03 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort03 .w {    position: absolute;    top: 0px;    left: 0px;    width: 100%;    height: 100%;}.jssort03 .c {    position: absolute;    top: 0px;    left: 0px;    width: 68px;    height: 68px;    border: #000 2px solid;    box-sizing: content-box;    background: url('img/Sliderimg/t01.png') -800px -800px no-repeat;    _background: none;}.jssort03 .pav .c {    top: 2px;    _top: 0px;    left: 2px;    _left: 0px;    width: 68px;    height: 68px;    border: #000 0px solid;    _border: #fff 2px solid;    background-position: 50% 50%;}.jssort03 .p:hover .c {    top: 0px;    left: 0px;    width: 70px;    height: 70px;    border: #fff 1px solid;    background-position: 50% 50%;}.jssort03 .p.pdn .c {    background-position: 50% 50%;    width: 68px;    height: 68px;    border: #000 2px solid;}* html .jssort03 .c, * html .jssort03 .pdn .c, * html .jssort03 .pav .c {    /* ie quirks mode adjust */    width /**/: 72px;    height /**/: 72px;}
     </style>
     <div id="jssor_3" style="position:relative;margin:0 auto;top:0px;left:0px;width:800px;height:456px;overflow:hidden;visibility:hidden;background-color:#24262e;">
         <!-- Loading Screen -->
         <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('img/sliderimg/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/Sliderimg/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:800px;height:356px;overflow:hidden;">
             <div>
@@ -747,7 +747,7 @@
             width: 40px;
             height: 40px;
             cursor: pointer;
-            background: url('img/sliderimg/a17.png') no-repeat;
+            background: url('img/Sliderimg/a17.png') no-repeat;
             overflow: hidden;
         }
         .jssora05l { background-position: -10px -40px; }
@@ -758,13 +758,13 @@
         .jssora05r.jssora05rdn { background-position: -310px -40px; }
         .jssora05l.jssora05lds { background-position: -10px -40px; opacity: .3; pointer-events: none; }
         .jssora05r.jssora05rds { background-position: -70px -40px; opacity: .3; pointer-events: none; }
-        /* jssor slider thumbnail navigator skin 01 css *//*.jssort01 .p            (normal).jssort01 .p:hover      (normal mouseover).jssort01 .p.pav        (active).jssort01 .p.pdn        (mousedown)*/.jssort01 .p {    position: absolute;    top: 0;    left: 0;    width: 72px;    height: 72px;}.jssort01 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort01 .w {    position: absolute;    top: 0px;    left: 0px;    width: 100%;    height: 100%;}.jssort01 .c {    position: absolute;    top: 0px;    left: 0px;    width: 68px;    height: 68px;    border: #000 2px solid;    box-sizing: content-box;    background: url('img/sliderimg/t01.png') -800px -800px no-repeat;    _background: none;}.jssort01 .pav .c {    top: 2px;    _top: 0px;    left: 2px;    _left: 0px;    width: 68px;    height: 68px;    border: #000 0px solid;    _border: #fff 2px solid;    background-position: 50% 50%;}.jssort01 .p:hover .c {    top: 0px;    left: 0px;    width: 70px;    height: 70px;    border: #fff 1px solid;    background-position: 50% 50%;}.jssort01 .p.pdn .c {    background-position: 50% 50%;    width: 68px;    height: 68px;    border: #000 2px solid;}* html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c {    /* ie quirks mode adjust */    width /**/: 72px;    height /**/: 72px;}
+        /* jssor slider thumbnail navigator skin 01 css *//*.jssort01 .p            (normal).jssort01 .p:hover      (normal mouseover).jssort01 .p.pav        (active).jssort01 .p.pdn        (mousedown)*/.jssort01 .p {    position: absolute;    top: 0;    left: 0;    width: 72px;    height: 72px;}.jssort01 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort01 .w {    position: absolute;    top: 0px;    left: 0px;    width: 100%;    height: 100%;}.jssort01 .c {    position: absolute;    top: 0px;    left: 0px;    width: 68px;    height: 68px;    border: #000 2px solid;    box-sizing: content-box;    background: url('img/Sliderimg/t01.png') -800px -800px no-repeat;    _background: none;}.jssort01 .pav .c {    top: 2px;    _top: 0px;    left: 2px;    _left: 0px;    width: 68px;    height: 68px;    border: #000 0px solid;    _border: #fff 2px solid;    background-position: 50% 50%;}.jssort01 .p:hover .c {    top: 0px;    left: 0px;    width: 70px;    height: 70px;    border: #fff 1px solid;    background-position: 50% 50%;}.jssort01 .p.pdn .c {    background-position: 50% 50%;    width: 68px;    height: 68px;    border: #000 2px solid;}* html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c {    /* ie quirks mode adjust */    width /**/: 72px;    height /**/: 72px;}
     </style>
     <div id="jssor_4" style="position:relative;margin:0 auto;top:0px;left:0px;width:1200px;height:600px;overflow:hidden;visibility:hidden;background-color:#24262e;">
         <!-- Loading Screen -->
         <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('img/sliderimg/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/Sliderimg/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
         <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1200px;height:600px;overflow:hidden;">
             <div>
@@ -850,7 +850,7 @@
 	<div class="footer-bottom" style="text-align:center;padding-bottom: 3rem;padding-top: 24px;padding-bottom: 10px;font-size: 16px ;font-family: raleway-medium,sans-serif;background: #14181E;">
     <div class="row" >
         <div class="span3"><span>Sponsored by</span><br><img src="img/drrmztech.png"></div>
-        <div class="copyright"> <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
+        <div class="copyright"> <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision Web Team</span></div>
         
       </div>
     </div>

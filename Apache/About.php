@@ -409,37 +409,7 @@
             
             <div class="collapsible-body">
                 <div class="container">
-
-                    <div class="row"><div style=" margin-left:auto;margin-right:auto;">
-                        <div class="span2">
-                            <div class="team-members">
-                                <div class="team-avatar">
-                                    <img class="img-circle img-responsive" src="Member%20Photos/3_VANSH_KUKREJA_CSE.jpg" alt="Vansh Kukreja" height="150" width="150">
-                                </div>
-                                <div class="team-desc">
-                                    <h4>CSE Branch Coordinator</h4>
-                                    <h4>Vansh Kukreja</h4>
-                                    <h5>CSE</h5>
-                                    
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="span2">
-                            <div class="team-members">
-                                <div class="team-avatar">
-                                    <img class="img-circle img-responsive" src="Member%20Photos/3_avanish_ingle_cse.jpg" alt="Avanish Ingle" height="150" width="150">
-                                </div>
-                                <div class="team-desc">
-                                    <h4>Web Developer</h4>
-                                    <h4>Avanish Ingle</h4>
-                                    <h5>CSE</h5>
-
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="span2">
+                    <div class="span2">
                             <div class="team-members">
                                <div class="team-avatar">
                                     <img class="img-circle img-responsive" src="Member%20Photos/3_VEDANT_SINGH_EE.jpg" alt="Vedant Singh" height="150" width="150">
@@ -488,7 +458,38 @@
                                 </div>
                             </div>
                         </div>
-                       
+                    <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/3_avanish_ingle_cse.jpg" alt="Avanish Ingle" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>Web Developer</h4>
+                                    <h4>Avanish Ingle</h4>
+                                    <h5>CSE</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    
+
+                    <div class="row"><div style=" margin-left:auto;margin-right:auto;">
+                        <div class="span2">
+                            <div class="team-members">
+                                <div class="team-avatar">
+                                    <img class="img-circle img-responsive" src="Member%20Photos/3_VANSH_KUKREJA_CSE.jpg" alt="Vansh Kukreja" height="150" width="150">
+                                </div>
+                                <div class="team-desc">
+                                    <h4>CSE Branch Coordinator</h4>
+                                    <h4>Vansh Kukreja</h4>
+                                    <h5>CSE</h5>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                                               
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -1152,7 +1153,7 @@
         
         <li>
             
-            <div class="collapsible-header heading-collapsible" style="font-size:20px;">Web Developing Team</div>
+            <div class="collapsible-header heading-collapsible" style="font-size:20px;">Web Development Team</div>
             <div class="collapsible-body">
                 
                 <div class="container">
@@ -1183,28 +1184,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="span2">
-                            <div class="team-members">
-                                <div class="team-avatar">
-                                    <img class="img-circle img-responsive" src="Member%20Photos/4_NARESH_KUMAR_CSE.jpg" alt="Naresh Kumar" height="150" width="150">
-                                </div>
-                                <div class="team-desc">
-                                    <h4>Naresh Kumar</h4>
-                                    <h4>Final Year</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="span2">
-                            <div class="team-members">
-                                <div class="team-avatar">
-                                    <img class="img-circle img-responsive" src="Member%20Photos/4_DIKSHA_SHRIVASTAVA_CSE.jpg" alt="Diksha Srivastava" height="150" width="150">
-                                </div>
-                                <div class="team-desc">
-                                    <h4>Diksha Srivastava</h4>
-                                    <h4>Final Year</h4>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -1399,7 +1379,7 @@
     <div class="footer-bottom" style="text-align:center;padding-bottom: 3rem;padding-top: 24px;padding-bottom: 10px;font-size: 16px ;font-family: raleway-medium,sans-serif;background: #14181E;">
     <div class="row" >
         <div class="span3"><span>Sponsored by</span><br><img src="img/drrmztech.png"></div>
-        <div class="copyright"> <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
+        <div class="copyright"> <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision Web Team</span></div>
         
       </div>
     </div>

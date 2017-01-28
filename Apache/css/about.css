@@ -72,80 +72,70 @@ h1{
 }
 
 div.imag1{
-    -webkit-filter: grayscale(1);
+    
     content:url(carousel/4_TEJESH_KUMAR_SAHU_EE.jpg)
 }
 div.imag2{
-    -webkit-filter: grayscale(1);
+    
     content:url(carousel/4_Kushagra%20Lonaria_EC.jpg)
 }
 div.imag3{
-    -webkit-filter: grayscale(1);
     content:url(carousel/4_Neelima_Agarwal_CSE.jpg)
 }
 div.imag4{
-    -webkit-filter: grayscale(1);
     content:url(carousel/4_neeraj_kulkarni_civil.jpg)
 }
 div.imag5{
-    -webkit-filter: grayscale(1);
     content:url(carousel/4_Aishwariy_Baheti_CSE.jpg)
 }
 div.imag6{
-    -webkit-filter: grayscale(1);
     content:url(carousel/4_Priyanto_Deb_EE.jpg)
 }
 div.imag7{
-    -webkit-filter: grayscale(1);
     content:url("http://lorempixel.com/186/116/nature/7")
 }
 div.imag8{
-    -webkit-filter: grayscale(1);
     content:url("http://lorempixel.com/186/116/nature/8")
 }
 div.imag9{
-    -webkit-filter: grayscale(1);
     content:url("http://lorempixel.com/186/116/nature/9")
 }
 div.imag10{
-    -webkit-filter: grayscale(1);
     content:url("http://lorempixel.com/186/116/nature/10")
 }
 div.imag1:hover{
     
-	-webkit-filter: grayscale(0);
-  transform: scale(1,1);
+	transform: scale(1,1);
 }
 div.imag2:hover{
-	-webkit-filter: grayscale(0);
-  transform: scale(1,1);
+	transform: scale(1,1);
 }
 div.imag3:hover{
-	-webkit-filter: grayscale(0);
+	
   transform: scale(1,1);
 }
 div.imag4:hover{
-	-webkit-filter: grayscale(0);
+	
   transform: scale(1,1);
 }
 div.imag5:hover{
-	-webkit-filter: grayscale(0);
+	
   transform: scale(1,1);
 }
 div.imag6:hover{
-	-webkit-filter: grayscale(0);
+	
   transform: scale(1,1);
 }
 div.imag7:hover{
-	-webkit-filter: grayscale(0);
+	
   transform: scale(1,1);
 }
 div.imag8:hover{
-	-webkit-filter: grayscale(0);
+	
   transform: scale(1,1);
 }
 div.imag9:hover{
-	-webkit-filter: grayscale(0);
+	
   transform: scale(1,1);
 }
 div.imag10{
