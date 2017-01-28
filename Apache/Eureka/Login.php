@@ -284,8 +284,10 @@ body{
 											</div>
 										</div>
 									</div>
-									<div class="row" style="margin-left:3%;margin-right:3%;"><div class="pull-left"><?php echo $output;?></div><div class="pull-right"><?php echo $fboutput?></div></div>
-								</form>
+																		<div class="row" style="margin-left:3%;margin-right:3%;"><div style="display:flex;justify-content: center;
+    align-items: center;"><?php echo $output;?></div><br><div style="display:flex;justify-content: center;
+    align-items: center;"><?php echo $fboutput?></div></div>
+                                </form>
 								<form id="register-form" action="Login.php" method="post" role="form" style="display: none;">
 									<div class="form-group">
 										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Full Name" required>

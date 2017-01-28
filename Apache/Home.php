@@ -43,7 +43,7 @@ if(isset($_POST['newsletter_submit'])){
  
 
 .holder {
-	width: 332px;
+	/*width: 332px;*/
 	margin: 20px;
 	float: left;
 	overflow: hidden;
@@ -232,8 +232,8 @@ background: #ABABAB;
 						<!-- start: Icon Box Start -->
 						
 					<link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
-
-	<div class="holder" style="float:left;">
+<div class="span6">
+	<div class="holder" style="float:left;width:90%">
 		<div class="topbar blue">
 			<h1>News and Events</h1>
 		</div>
@@ -242,11 +242,12 @@ background: #ABABAB;
                 <li> <p><a href="Eureka/">Eureka!!</a></p></li>
 				<li><p> Arduino Workshop</p></li>
 				<li> <p> Web Development Workshop</p></li>
-				<li><p>PLC Workshop</p></li>
+				<li><p>Python Applications Workshop</p></li>
 			</ul>
 			<div style="clear:both"></div>
 		</div>
-	</div>	
+	</div>
+                    </div>
 <div class="span6">
     <div class="avatar view-team">
         
@@ -261,7 +262,7 @@ background: #ABABAB;
             </a>
     </div>
                     </div>
-			<div class="span6" style="float:right">
+			<div class="span4" style="float:right">
                     <!-- start: Follow Us -->
 					<h2 style="text-align:center">Follow Us!</h2>
 					<ul class="social-grid">
@@ -332,7 +333,7 @@ background: #ABABAB;
 						<h3>Newsletter</h3>
 						<p>Please leave us your email</p>
 						<label for="newsletter_input">@:</label>
-						<input type="text" id="newsletter_input" name="newsletter_input" required style="height:37px;">
+						<input type="text" id="newsletter_input" name="newsletter_input" required >
 						<input type="submit" id="newsletter_submit" name="newsletter_submit" value="submit">
 					</form>
 					<!-- end: Newsletter -->
@@ -363,7 +364,7 @@ background: #ABABAB;
 	<div class="footer-bottom" style="text-align:center;padding-bottom: 3rem;padding-top: 24px;padding-bottom: 10px;font-size: 16px ;font-family: raleway-medium,sans-serif;background: #14181E;">
     <div class="row" >
         <div class="span3"><span>Sponsored by</span><br><img src="img/drrmztech.png"></div>
-        <div class="copyright"> <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
+        <div class="copyright"> <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision Web Team</span></div>
         
       </div>
     </div>

@@ -147,3 +147,12 @@ Stack trace:
 [28-Jan-2017 06:30:44 UTC] CSRF state token does not match one provided.
 [28-Jan-2017 06:32:53 UTC] CSRF state token does not match one provided.
 [28-Jan-2017 07:08:26 UTC] CSRF state token does not match one provided.
+[28-Jan-2017 08:24:11 UTC] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/oauth2/v2/userinfo: (500) Backend Error' in /home/vision17/public_html/Apache/Apache/Eureka/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/vision17/public_html/Apache/Apache/Eureka/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/vision17/public_html/Apache/Apache/Eureka/src/service/Google_ServiceResource.php(177): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/vision17/public_html/Apache/Apache/Eureka/src/contrib/Google_Oauth2Service.php(37): Google_ServiceResource->__call('get', Array)
+#3 /home/vision17/public_html/Apache/Apache/Eureka/google.php(18): Google_UserinfoServiceResource->get()
+#4 /home/vision17/public_html/Apache/Apache/Eureka/index.php(13): include('/home/vision17/...')
+#5 {main}
+  thrown in /home/vision17/public_html/Apache/Apache/Eureka/src/io/Google_REST.php on line 66

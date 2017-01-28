@@ -231,7 +231,7 @@
     <div class="row" >
 
         <div class="span3"><span>Sponsored by</span><br><img src="img/drrmztech.png"></div>
-        <div class="copyright"> <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
+        <div class="copyright"> <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision Web Team</span></div>
     </div>
     <!-- end: Footer Menu -->
 
