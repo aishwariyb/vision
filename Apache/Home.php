@@ -1,8 +1,3 @@
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
 <!--For storing email and sending subscription mail-->
 <?php
 if(isset($_POST['newsletter_submit'])){
@@ -12,15 +7,13 @@ if(isset($_POST['newsletter_submit'])){
 	if($result){
 		include "mail_newsletter.php";
 	}
-	else
-	{
-	echo '<script>';
-	echo 'alert("Mail ID Already exists in our data base! Thanks!!")';
-	echo '</script>';
-	}
 }
 ?>
 <!--Ends-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
 	
 	<title>Vision</title><link rel="icon" type="image/png" href="http://visionmanit.in/img/favicon.png">
 	
@@ -50,7 +43,7 @@ if(isset($_POST['newsletter_submit'])){
  
 
 .holder {
-	width: 300px;
+	width: 332px;
 	margin: 20px;
 	float: left;
 	overflow: hidden;
@@ -174,11 +167,17 @@ background: #ABABAB;
         
     </header>
 	<!--end: Header-->
-	<div class="baap" style="margin-bottom:100px">
+	<div class="baap" style="margin-bottom:140px">
 		<!-- start: Slider -->
 		<div class="slider-wrapper">
 
 			<div id="da-slider" class="da-slider">
+                <div class="da-slide">
+					<h2>Eureka&#33;</h2>
+					<p>A tribute to the crazy ones.....</p>
+					<a href="Eureka/" class="da-link">Read more</a>
+					<div class="da-img"><img src="img/parallax-slider/eureka1.png" alt="eureka logo" /></div>
+				</div>
 				<div class="da-slide">
 					<h2>Noesis 2K16</h2>
 					<p>Annual Mega Fest of Vision. This year it had more than 1400 participants from several colleges across the city.</p>
@@ -333,7 +332,7 @@ background: #ABABAB;
 						<h3>Newsletter</h3>
 						<p>Please leave us your email</p>
 						<label for="newsletter_input">@:</label>
-						<input type="text" id="newsletter_input" name="newsletter_input" required>
+						<input type="text" id="newsletter_input" name="newsletter_input" required style="height:37px;">
 						<input type="submit" id="newsletter_submit" name="newsletter_submit" value="submit">
 					</form>
 					<!-- end: Newsletter -->
@@ -363,8 +362,9 @@ background: #ABABAB;
 		<!-- end: Wrapper  -->			
 	<div class="footer-bottom" style="text-align:center;padding-bottom: 3rem;padding-top: 24px;padding-bottom: 10px;font-size: 16px ;font-family: raleway-medium,sans-serif;background: #14181E;">
     <div class="row" >
-        <div > <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
-        <div id="go-top" style="display: block;"><a class="smoothscroll" title="Back to Top" href="#top"><i class="icon ion-android-arrow-up"></i></a></div>
+        <div class="span3"><span>Sponsored by</span><br><img src="img/drrmztech.png"></div>
+        <div class="copyright"> <span>&copy; Copyright Vision.</span><br><span>Designed and Maintained by Vision CSE</span></div>
+        
       </div>
     </div>
 <!-- start: Java Script -->
