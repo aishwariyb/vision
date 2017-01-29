@@ -38,6 +38,30 @@
                 margin: 0 0 10px;
                 color: #fff;
             }
+            
+            @media screen and (min-width:480px){
+                
+                .member10{
+                    margin-left: 10%!important;
+                    margin-right: auto!important;
+                }
+                
+                .member15{
+                    margin-left: 15%!important;
+                    margin-right: auto!important;
+                }
+                
+                .member24{
+                    margin-left: 24%!important;
+                    margin-right: auto!important;
+                }
+                
+                .member33{
+                    margin-left: 33%!important;
+                    margin-right: auto!important;
+                }
+            }
+            
         </style>
 
 
@@ -198,7 +222,7 @@
 
                     <div class="heading-collapsible" style="font-size:18px; padding:15px;">Computer Science &amp; Engineering</div>
 
-                    <div class="row"><div style="margin-left:auto;margin-right:auto;">
+                    <div class="row"><div class="member10">
 
                         <div class="span2">
                             <div class="team-members">
@@ -255,6 +279,9 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        
+                        <div class="member15">
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -305,7 +332,7 @@
                     <div class="heading-collapsible" style="font-size:18px; padding:15px;">Electrical Engineering </div>
                     <!-- start: Row -->     
 
-                    <div class="row"><div style="margin-left:auto;margin-right:auto;">
+                    <div class="row"><div class="member15">
 
                         <div class="span2">
                             <div class="team-members">
@@ -361,7 +388,7 @@
 
                     <div class="heading-collapsible" style="font-size:18px; padding:15px;">Civil Engineering</div>
 
-                    <div class="row"><div style="margin-left:auto;margin-right:auto;">
+                    <div class="row"><div class="member24">
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -409,100 +436,105 @@
             
             <div class="collapsible-body">
                 <div class="container">
-                    <div class="span2">
-                            <div class="team-members">
-                               <div class="team-avatar">
-                                    <img class="img-circle img-responsive" src="Member%20Photos/3_VEDANT_SINGH_EE.jpg" alt="Vedant Singh" height="150" width="150">
-                                </div>
-                                <div class="team-desc">
-                                    <h4>Co-coordinator</h4>
-                                    <h4>Vedant Singh</h4>
-                                    <h5>EE</h5>
-                                </div>
+                    <br><br>
+                    <div class="row member15">
+                           <div class="span2">
+                                <div class="team-members">
+                                   <div class="team-avatar">
+                                        <img class="img-circle img-responsive" src="Member%20Photos/3_VEDANT_SINGH_EE.jpg" alt="Vedant Singh" height="150" width="150">
+                                    </div>
+                                    <div class="team-desc">
+                                        <h4>Co-coordinator</h4>
+                                        <h4>Vedant Singh</h4>
+                                        <h5>EE</h5>
+                                    </div>
+                               </div>
                            </div>
-                       </div>
-                       <div class="span2">
-                            <div class="team-members">
-                                <div class="team-avatar">
-                                    <img class="img-circle img-responsive" src="Member%20Photos/3_Apoorv%20Lokhande_EE.JPG" alt="Apoorv Lokhande" height="150" width="150">
-                                </div>
-                                <div class="team-desc">
-                                    <h4>Asst. Technical Head</h4>
-                                    <h4>Apoorv Lokhande</h4>
-                                    <h5>EE</h5>
+                           <div class="span2">
+                                <div class="team-members">
+                                    <div class="team-avatar">
+                                        <img class="img-circle img-responsive" src="Member%20Photos/3_Apoorv%20Lokhande_EE.JPG" alt="Apoorv Lokhande" height="150" width="150">
+                                    </div>
+                                    <div class="team-desc">
+                                        <h4>Asst. Technical Head</h4>
+                                        <h4>Apoorv Lokhande</h4>
+                                        <h5>EE</h5>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="span2">
-                            <div class="team-members">
-                                <div class="team-avatar">
-                                    <img class="img-circle img-responsive" src="Member%20Photos/3_ABHISHEK_RANJAN_SINGH_EE.jpg" alt="Abhishek Ranjan Singh" height="150" width="150">
+                            <div class="span2">
+                                <div class="team-members">
+                                    <div class="team-avatar">
+                                        <img class="img-circle img-responsive" src="Member%20Photos/3_ABHISHEK_RANJAN_SINGH_EE.jpg" alt="Abhishek Ranjan Singh" height="150" width="150">
+                                    </div>
+                                    <div class="team-desc">
+                                        <h4 style="padding-right:20px">Asst. Robovision Head</h4>
+                                        <h4>Abhishek Ranjan</h4>
+                                        <h5>EE</h5>
+                                    </div>
                                 </div>
-                                <div class="team-desc">
-                                    <h4 style="padding-right:20px">Asst. Robovision Head</h4>
-                                    <h4>Abhishek Ranjan</h4>
-                                    <h5>EE</h5>
+                            </div>
+                            <div class="span2">
+                                <div class="team-members">
+                                    <div class="team-avatar">
+                                        <img class="img-circle img-responsive" src="Member%20Photos/3_ABHISHEK_PARASHAR_EE.jpg" alt="Abhishek Parashar" height="150" width="150">
+                                    </div>
+                                    <div class="team-desc">
+                                        <h4>Asst. Management Head</h4>
+                                        <h4>Abhishek Parashar</h4>
+                                        <h5>EE</h5>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="span2">
-                            <div class="team-members">
-                                <div class="team-avatar">
-                                    <img class="img-circle img-responsive" src="Member%20Photos/3_ABHISHEK_PARASHAR_EE.jpg" alt="Abhishek Parashar" height="150" width="150">
-                                </div>
-                                <div class="team-desc">
-                                    <h4>Asst. Management Head</h4>
-                                    <h4>Abhishek Parashar</h4>
-                                    <h5>EE</h5>
-                                </div>
-                            </div>
-                        </div>
-                    <div class="span2">
-                            <div class="team-members">
-                                <div class="team-avatar">
-                                    <img class="img-circle img-responsive" src="Member%20Photos/3_avanish_ingle_cse.jpg" alt="Avanish Ingle" height="150" width="150">
-                                </div>
-                                <div class="team-desc">
-                                    <h4>Web Developer</h4>
-                                    <h4>Avanish Ingle</h4>
-                                    <h5>CSE</h5>
+                           
 
-                                </div>
-                            </div>
-                        </div>
-                    
+               
+                        <div class="row"><div class="member24">
+                            <div class="span2">
+                                <div class="team-members">
+                                    <div class="team-avatar">
+                                        <img class="img-circle img-responsive" src="Member%20Photos/3_VANSH_KUKREJA_CSE.jpg" alt="Vansh Kukreja" height="150" width="150">
+                                    </div>
+                                    <div class="team-desc">
+                                        <h4>CSE Branch Coordinator</h4>
+                                        <h4>Vansh Kukreja</h4>
+                                        <h5>CSE</h5>
 
-                    <div class="row"><div style=" margin-left:auto;margin-right:auto;">
-                        <div class="span2">
-                            <div class="team-members">
-                                <div class="team-avatar">
-                                    <img class="img-circle img-responsive" src="Member%20Photos/3_VANSH_KUKREJA_CSE.jpg" alt="Vansh Kukreja" height="150" width="150">
-                                </div>
-                                <div class="team-desc">
-                                    <h4>CSE Branch Coordinator</h4>
-                                    <h4>Vansh Kukreja</h4>
-                                    <h5>CSE</h5>
-                                    
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
-                        
-                                               
-                        <div class="span2">
-                            <div class="team-members">
-                                <div class="team-avatar">
-                                    <img class="img-circle img-responsive" src="Member%20Photos/male.png" alt="Abhijeet Gupta" height="150" width="150">
-                                </div>
-                                <div class="team-desc">
-                                    <h4>ECE Branch Coordinator</h4>
-                                    <h4>Abhijeet Gupta</h4>
-                                    <h5>ECE</h5>
+
+
+                            <div class="span2">
+                                <div class="team-members">
+                                    <div class="team-avatar">
+                                        <img class="img-circle img-responsive" src="Member%20Photos/male.png" alt="Abhijeet Gupta" height="150" width="150">
+                                    </div>
+                                    <div class="team-desc">
+                                        <h4>ECE Branch Coordinator</h4>
+                                        <h4>Abhijeet Gupta</h4>
+                                        <h5>ECE</h5>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        </div>
+                            
+                             <div class="span2">
+                                <div class="team-members">
+                                    <div class="team-avatar">
+                                        <img class="img-circle img-responsive" src="Member%20Photos/3_avanish_ingle_cse.jpg" alt="Avanish Ingle" height="150" width="150">
+                                    </div>
+                                    <div class="team-desc">
+                                        <h4>Web Developer</h4>
+                                        <h4>Avanish Ingle</h4>
+                                        <h5>CSE</h5>
+
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
                     </div><!-- //end row -->
                 </div>
                 <!-- end:container-->
@@ -520,7 +552,7 @@
                     
                     <div class="heading-collapsible" style="font-size:18px; padding:15px;">Civil Engineering </div>
 
-                    <div class="row"><div style="margin-left:auto;margin-right:auto;">
+                    <div class="row"><div class="member24">
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -560,7 +592,7 @@
 
                     <div class="heading-collapsible" style="font-size:18px; padding:15px;">Computer Science &amp; Engineering </div>
 
-                    <div class="row"><div style=" margin-left:auto;margin-right:auto;">
+                    <div class="row"><div class="member10">
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -695,7 +727,7 @@
 
                     <div class="heading-collapsible" style="font-size:18px; padding:15px;">Electronics &amp; Communication Engineering </div>
 
-                    <div class="row"><div style="margin-left:auto;margin-right:auto;">    
+                    <div class="row"><div class="member24">    
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -735,7 +767,7 @@
 
                     <div class="heading-collapsible" style="font-size:18px; padding:15px;">Chemical Engineering</div>
 
-                    <div class="row"><div style=" margin-left:auto;margin-right:auto;">
+                    <div class="row"><div class="member33">
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -781,7 +813,7 @@
                     <div class="heading-collapsible" style="font-size:18px; padding:15px;">Civil Engineering </div>
        
 
-                    <div class="row"><div style=" margin-left:auto;margin-right:auto;">
+                    <div class="row"><div class="member15">
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -900,6 +932,9 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        
+                        <div class="member33">
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -997,6 +1032,8 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        <div class="member24">
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -1105,6 +1142,8 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        <div class="member24">
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -1159,7 +1198,7 @@
                 <div class="container">
                     <br>
                     
-                    <div class="row"><div style="margin-left:auto;margin-right:auto;">
+                    <div class="row"><div class="member24">
 
                         <div class="span2">
                             <div class="team-members">
@@ -1202,7 +1241,7 @@
                     
                     <hr style="width:300px; margin :20px auto;">  
                     
-                    <div class="row"><div style=" margin-left:auto;margin-right:auto;">
+                    <div class="row"><div class="member10">
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
@@ -1338,6 +1377,8 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        <div class="member33">
                         <div class="span2">
                             <div class="team-members">
                                 <div class="team-avatar">
